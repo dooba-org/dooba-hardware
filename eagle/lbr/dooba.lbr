@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -232,6 +232,43 @@
 <text x="-3.175" y="1.27" size="1.27" layer="25" ratio="30">&gt;Name</text>
 <text x="-3.175" y="-1.27" size="1.27" layer="27" ratio="30">&gt;Value</text>
 </package>
+<package name="SSOP28">
+<smd name="1" x="-4.225" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="2" x="-3.575" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="3" x="-2.925" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="4" x="-2.275" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="5" x="-1.625" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="6" x="-0.975" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="7" x="-0.325" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="8" x="0.325" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="9" x="0.975" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="10" x="1.625" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="11" x="2.275" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="12" x="2.925" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="13" x="3.575" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="14" x="4.225" y="-3.575" dx="0.45" dy="1.75" layer="1"/>
+<smd name="15" x="4.225" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<smd name="16" x="3.575" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<smd name="17" x="2.925" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<smd name="18" x="2.275" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<smd name="19" x="1.625" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<smd name="20" x="0.975" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<smd name="21" x="0.325" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<smd name="22" x="-0.325" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<smd name="23" x="-0.975" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<smd name="24" x="-1.625" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<smd name="25" x="-2.275" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<smd name="26" x="-2.925" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<smd name="27" x="-3.575" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<smd name="28" x="-4.225" y="3.575" dx="0.45" dy="1.75" layer="1" rot="R180"/>
+<wire x1="-5.1" y1="2.275" x2="5.1" y2="2.275" width="0.127" layer="21"/>
+<wire x1="5.1" y1="2.275" x2="5.1" y2="-2.275" width="0.127" layer="21"/>
+<wire x1="5.1" y1="-2.275" x2="-5.1" y2="-2.275" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-2.275" x2="-5.1" y2="2.275" width="0.127" layer="21"/>
+<circle x="-3.9" y="-0.975" radius="0.45961875" width="0.254" layer="21"/>
+<text x="-3.25" y="0.65" size="1.27" layer="25">&gt;Name</text>
+<text x="-3.25" y="-1.95" size="1.27" layer="27">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="STM32F030">
@@ -405,6 +442,42 @@
 <pin name="SCK" x="25.4" y="17.78" length="middle" rot="R180"/>
 <text x="-10.16" y="2.54" size="3.81" layer="95">&gt;Name</text>
 <text x="-10.16" y="-7.62" size="3.81" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="ENC28J60">
+<wire x1="-30.48" y1="30.48" x2="30.48" y2="30.48" width="0.254" layer="94"/>
+<wire x1="30.48" y1="30.48" x2="30.48" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-30.48" x2="-30.48" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-30.48" x2="-30.48" y2="30.48" width="0.254" layer="94"/>
+<pin name="!INT" x="-35.56" y="0" length="middle"/>
+<pin name="CLKOUT" x="-35.56" y="5.08" length="middle"/>
+<pin name="GND" x="-35.56" y="10.16" length="middle"/>
+<pin name="NC" x="-35.56" y="-5.08" length="middle"/>
+<pin name="SO" x="-35.56" y="-10.16" length="middle"/>
+<pin name="VCAP" x="-35.56" y="15.24" length="middle"/>
+<pin name="SI" x="-35.56" y="-15.24" length="middle"/>
+<pin name="GNDRX" x="0" y="-35.56" length="middle" rot="R90"/>
+<pin name="!RESET" x="-5.08" y="-35.56" length="middle" rot="R90"/>
+<pin name="TPIN-" x="5.08" y="-35.56" length="middle" rot="R90"/>
+<pin name="TPIN+" x="10.16" y="-35.56" length="middle" rot="R90"/>
+<pin name="!CS" x="-10.16" y="-35.56" length="middle" rot="R90"/>
+<pin name="SCK" x="-15.24" y="-35.56" length="middle" rot="R90"/>
+<pin name="RBIAS" x="15.24" y="-35.56" length="middle" rot="R90"/>
+<pin name="GNDTX" x="35.56" y="0" length="middle" rot="R180"/>
+<pin name="VCCRX" x="35.56" y="5.08" length="middle" rot="R180"/>
+<pin name="VCCPLL" x="35.56" y="10.16" length="middle" rot="R180"/>
+<pin name="GNDPLL" x="35.56" y="15.24" length="middle" rot="R180"/>
+<pin name="TPOUT+" x="35.56" y="-5.08" length="middle" rot="R180"/>
+<pin name="TPOUT-" x="35.56" y="-10.16" length="middle" rot="R180"/>
+<pin name="VCCTX" x="35.56" y="-15.24" length="middle" rot="R180"/>
+<pin name="VCCOSC" x="0" y="35.56" length="middle" rot="R270"/>
+<pin name="LEDB" x="-5.08" y="35.56" length="middle" rot="R270"/>
+<pin name="LEDA" x="-10.16" y="35.56" length="middle" rot="R270"/>
+<pin name="VCC" x="-15.24" y="35.56" length="middle" rot="R270"/>
+<pin name="OSC2" x="5.08" y="35.56" length="middle" rot="R270"/>
+<pin name="OSC1" x="10.16" y="35.56" length="middle" rot="R270"/>
+<pin name="GNDOSC" x="15.24" y="35.56" length="middle" rot="R270"/>
+<text x="-17.78" y="7.62" size="5.08" layer="95">&gt;Name</text>
+<text x="-17.78" y="-10.16" size="5.08" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -591,6 +664,48 @@
 <connect gate="U1" pin="VCC_100" pad="100"/>
 <connect gate="U1" pin="VCC_28" pad="28"/>
 <connect gate="U1" pin="VCC_50" pad="50"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ENC28J60" prefix="U">
+<gates>
+<gate name="U1" symbol="ENC28J60" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SSOP28">
+<connects>
+<connect gate="U1" pin="!CS" pad="9"/>
+<connect gate="U1" pin="!INT" pad="4"/>
+<connect gate="U1" pin="!RESET" pad="10"/>
+<connect gate="U1" pin="CLKOUT" pad="3"/>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="GNDOSC" pad="22"/>
+<connect gate="U1" pin="GNDPLL" pad="21"/>
+<connect gate="U1" pin="GNDRX" pad="11"/>
+<connect gate="U1" pin="GNDTX" pad="18"/>
+<connect gate="U1" pin="LEDA" pad="27"/>
+<connect gate="U1" pin="LEDB" pad="26"/>
+<connect gate="U1" pin="NC" pad="5"/>
+<connect gate="U1" pin="OSC1" pad="23"/>
+<connect gate="U1" pin="OSC2" pad="24"/>
+<connect gate="U1" pin="RBIAS" pad="14"/>
+<connect gate="U1" pin="SCK" pad="8"/>
+<connect gate="U1" pin="SI" pad="7"/>
+<connect gate="U1" pin="SO" pad="6"/>
+<connect gate="U1" pin="TPIN+" pad="13"/>
+<connect gate="U1" pin="TPIN-" pad="12"/>
+<connect gate="U1" pin="TPOUT+" pad="17"/>
+<connect gate="U1" pin="TPOUT-" pad="16"/>
+<connect gate="U1" pin="VCAP" pad="1"/>
+<connect gate="U1" pin="VCC" pad="28"/>
+<connect gate="U1" pin="VCCOSC" pad="25"/>
+<connect gate="U1" pin="VCCPLL" pad="20"/>
+<connect gate="U1" pin="VCCRX" pad="19"/>
+<connect gate="U1" pin="VCCTX" pad="15"/>
 </connects>
 <technologies>
 <technology name=""/>
