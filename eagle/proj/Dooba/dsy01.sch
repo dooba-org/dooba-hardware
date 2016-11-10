@@ -900,7 +900,7 @@
 <text x="-12.7" y="7.62" size="5.08" layer="95" ratio="30">&gt;Name</text>
 <text x="-12.7" y="-12.7" size="5.08" layer="96" ratio="30">&gt;Value</text>
 </symbol>
-<symbol name="MIC550X">
+<symbol name="AP2112">
 <wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
@@ -1335,9 +1335,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MIC550X" prefix="U">
+<deviceset name="AP2112" prefix="U">
 <gates>
-<gate name="U1" symbol="MIC550X" x="0" y="0"/>
+<gate name="U1" symbol="AP2112" x="0" y="0"/>
 </gates>
 <devices>
 <device name="SOT23" package="SOT23-5">
@@ -1659,7 +1659,7 @@
 <part name="C45" library="dooba" deviceset="CAP" device="0805" value="27pF"/>
 <part name="C46" library="dooba" deviceset="CAP" device="0805" value="27pF"/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
-<part name="U8" library="dooba" deviceset="MIC550X" device="SOT23"/>
+<part name="U8" library="dooba" deviceset="AP2112" device="SOT23"/>
 <part name="C47" library="dooba" deviceset="CAP" device="0805" value="1uF"/>
 <part name="C48" library="dooba" deviceset="CAP" device="0805" value="1uF"/>
 <part name="P+22" library="supply1" deviceset="VCC" device=""/>
@@ -1732,6 +1732,9 @@
 <part name="D6" library="dooba" deviceset="LED" device="0805"/>
 <part name="R6" library="dooba" deviceset="RES" device="0805" value="330"/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
+<part name="D7" library="dooba" deviceset="LED" device="0805"/>
+<part name="R7" library="dooba" deviceset="RES" device="0805" value="330"/>
+<part name="GND61" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1940,6 +1943,9 @@ DIO[0-7] =&gt; PA[0-7]</text>
 <instance part="D6" gate="D1" x="381" y="424.18"/>
 <instance part="R6" gate="R1" x="381" y="416.56"/>
 <instance part="GND49" gate="1" x="396.24" y="424.18" rot="R90"/>
+<instance part="D7" gate="D1" x="1534.16" y="1120.14" rot="R90"/>
+<instance part="R7" gate="R1" x="1541.78" y="1120.14" rot="R90"/>
+<instance part="GND61" gate="1" x="1534.16" y="1135.38" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2473,6 +2479,11 @@ DIO[0-7] =&gt; PA[0-7]</text>
 <pinref part="U1" gate="U1" pin="PF10"/>
 <wire x1="429.26" y1="401.32" x2="431.8" y2="401.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="D7" gate="D1" pin="2"/>
+<pinref part="GND61" gate="1" pin="GND"/>
+<wire x1="1534.16" y1="1130.3" x2="1534.16" y2="1132.84" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -2684,6 +2695,8 @@ DIO[0-7] =&gt; PA[0-7]</text>
 <pinref part="U8" gate="U1" pin="VOUT"/>
 <wire x1="1549.4" y1="1130.3" x2="1551.94" y2="1130.3" width="0.1524" layer="91"/>
 <junction x="1549.4" y="1130.3"/>
+<pinref part="R7" gate="R1" pin="2"/>
+<wire x1="1549.4" y1="1130.3" x2="1541.78" y2="1130.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U9" gate="U1" pin="VCCA"/>
@@ -4476,6 +4489,13 @@ DIO[0-7] =&gt; PA[0-7]</text>
 <wire x1="431.8" y1="406.4" x2="421.64" y2="406.4" width="0.1524" layer="91"/>
 <wire x1="421.64" y1="406.4" x2="411.48" y2="416.56" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="416.56" x2="391.16" y2="416.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$112" class="0">
+<segment>
+<pinref part="R7" gate="R1" pin="1"/>
+<pinref part="D7" gate="D1" pin="1"/>
+<wire x1="1541.78" y1="1109.98" x2="1534.16" y2="1109.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
