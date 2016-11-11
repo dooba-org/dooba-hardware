@@ -1735,6 +1735,8 @@
 <part name="D7" library="dooba" deviceset="LED" device="0805"/>
 <part name="R7" library="dooba" deviceset="RES" device="0805" value="330"/>
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
+<part name="P12" library="dooba" deviceset="PIN_2" device="" value="SWD(GND-RST)"/>
+<part name="GND62" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1946,6 +1948,8 @@ DIO[0-7] =&gt; PA[0-7]</text>
 <instance part="D7" gate="D1" x="1534.16" y="1120.14" rot="R90"/>
 <instance part="R7" gate="R1" x="1541.78" y="1120.14" rot="R90"/>
 <instance part="GND61" gate="1" x="1534.16" y="1135.38" rot="R180"/>
+<instance part="P12" gate="P1" x="1615.44" y="1112.52"/>
+<instance part="GND62" gate="1" x="1602.74" y="1112.52" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -2483,6 +2487,11 @@ DIO[0-7] =&gt; PA[0-7]</text>
 <pinref part="D7" gate="D1" pin="2"/>
 <pinref part="GND61" gate="1" pin="GND"/>
 <wire x1="1534.16" y1="1130.3" x2="1534.16" y2="1132.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND62" gate="1" pin="GND"/>
+<pinref part="P12" gate="P1" pin="1"/>
+<wire x1="1605.28" y1="1112.52" x2="1607.82" y2="1112.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -4207,7 +4216,8 @@ DIO[0-7] =&gt; PA[0-7]</text>
 <segment>
 <pinref part="P5" gate="P1" pin="3"/>
 <wire x1="1607.82" y1="1125.22" x2="1602.74" y2="1125.22" width="0.1524" layer="91"/>
-<wire x1="1602.74" y1="1125.22" x2="1579.88" y2="1102.36" width="0.1524" layer="91"/>
+<wire x1="1602.74" y1="1125.22" x2="1587.5" y2="1109.98" width="0.1524" layer="91"/>
+<wire x1="1587.5" y1="1109.98" x2="1579.88" y2="1102.36" width="0.1524" layer="91"/>
 <wire x1="1579.88" y1="1102.36" x2="426.72" y2="1102.36" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="1102.36" x2="218.44" y2="894.08" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="894.08" x2="218.44" y2="787.4" width="0.1524" layer="91"/>
@@ -4247,6 +4257,9 @@ DIO[0-7] =&gt; PA[0-7]</text>
 <wire x1="1303.02" y1="848.36" x2="1239.52" y2="784.86" width="0.1524" layer="91"/>
 <wire x1="1239.52" y1="784.86" x2="960.12" y2="784.86" width="0.1524" layer="91"/>
 <junction x="960.12" y="784.86"/>
+<pinref part="P12" gate="P1" pin="2"/>
+<wire x1="1607.82" y1="1109.98" x2="1587.5" y2="1109.98" width="0.1524" layer="91"/>
+<junction x="1587.5" y="1109.98"/>
 </segment>
 </net>
 <net name="N$36" class="0">
