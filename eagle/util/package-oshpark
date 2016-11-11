@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# Package Gerber files for all boards
+# for processing by OSHPark
+
+# Acquire Script Root
+script_root=`dirname ${BASH_SOURCE[0]}`
+
+# Enter Work Directory
+init_dir=`pwd`
+cd ${script_root}
+cd ../proj
+
+# Loop through Projects
+for proj in *
+do
+	# Inform
+	echo "[-] Processing Project [ ${proj} ]"
+
+	# Enter Project Directory
+	cd ${proj}
+
+	# Run through Boards
+	for board in *.brd
+	do
+		# Fix Board Name
+		board=`echo ${board} | sed s/'\.brd'//g`
+
+		# Inform
+		echo "[+] Packaging Board [ ${proj} / ${board}.zip ]"
+
+		# Move GML to GKO
+		mv ${board}.GML ${board}.GKO
+
+		# Package
+		rm -f ${board}.zip
+		zip ${board}.zip ${board}.GTL ${board}.GTO ${board}.GTS ${board}.GBL ${board}.GBO ${board}.GBS ${board}.TXT ${board}.GKO
+	done
+
+	# Return to parent Directory
+	cd ..
+done
+
+# Move GML to GKO
+echo $root
+
+# Restore Directory
+cd ${init_dir}
