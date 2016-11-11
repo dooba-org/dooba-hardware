@@ -33,8 +33,8 @@ do
 		mv ${board}.GML ${board}.GKO
 
 		# Package
-		rm -f ${board}.zip
-		zip ${board}.zip ${board}.GTL ${board}.GTO ${board}.GTS ${board}.GBL ${board}.GBO ${board}.GBS ${board}.TXT ${board}.GKO
+		rm -f ${board}-oshpark.zip
+		zip ${board}-oshpark.zip ${board}.GTL ${board}.GTO ${board}.GTS ${board}.GBL ${board}.GBO ${board}.GBS ${board}.TXT ${board}.GKO
 	done
 
 	# Return to parent Directory

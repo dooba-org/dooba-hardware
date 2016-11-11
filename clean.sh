@@ -10,3 +10,4 @@ rm -rfv eagle/proj/*/*.GKO
 rm -rfv eagle/proj/*/*.TXT
 rm -rfv eagle/proj/*/*.dri
 rm -rfv eagle/proj/*/*.gpi
+rm -rfv eagle/proj/*/*.zip
