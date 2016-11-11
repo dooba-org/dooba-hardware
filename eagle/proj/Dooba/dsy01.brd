@@ -17999,6 +17999,8 @@ Dooba System Board
 Power Supply: 4-6V 600mA
 Nov 2016 &lt;eresse@eresse.net&gt;</text>
 <text x="42.164" y="21.59" size="0.8128" layer="21" font="vector" ratio="20" rot="R180">AP2112</text>
+<rectangle x1="33.528" y1="25.146" x2="33.782" y2="25.908" layer="21"/>
+<rectangle x1="33.274" y1="21.336" x2="34.798" y2="21.59" layer="21"/>
 </plain>
 <libraries>
 <library name="dooba">
