@@ -1319,8 +1319,8 @@
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="U13" library="pahoo" deviceset="ENC28J60/SS" device=""/>
 <part name="X3" library="dooba" deviceset="XTAL" device="SMD-5X32" value="25MHz"/>
-<part name="C19" library="dooba" deviceset="CAP" device="0805" value="15pF"/>
-<part name="C20" library="dooba" deviceset="CAP" device="0805" value="15pF"/>
+<part name="C19" library="dooba" deviceset="CAP" device="0805" value="27pF"/>
+<part name="C20" library="dooba" deviceset="CAP" device="0805" value="27pF"/>
 <part name="J8" library="pahoo" deviceset="ARJC02-111008B" device=""/>
 <part name="C21" library="dooba" deviceset="CAP" device="0805" value="100nF"/>
 <part name="R3" library="dooba" deviceset="RES" device="0805" value="49.9R"/>
@@ -1332,8 +1332,8 @@
 <part name="R11" library="dooba" deviceset="RES" device="0805" value="18R"/>
 <part name="R12" library="dooba" deviceset="RES" device="0805" value="2.32k"/>
 <part name="R13" library="dooba" deviceset="RES" device="0805" value="10k"/>
-<part name="R14" library="dooba" deviceset="RES" device="0805" value="220R"/>
-<part name="R15" library="dooba" deviceset="RES" device="0805" value="220R"/>
+<part name="R14" library="dooba" deviceset="RES" device="0805" value="330R"/>
+<part name="R15" library="dooba" deviceset="RES" device="0805" value="330R"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>

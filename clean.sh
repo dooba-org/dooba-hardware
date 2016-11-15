@@ -11,3 +11,4 @@ rm -rfv eagle/proj/*/*.TXT
 rm -rfv eagle/proj/*/*.dri
 rm -rfv eagle/proj/*/*.gpi
 rm -rfv eagle/proj/*/*.zip
+rm -rfv eagle/proj/*/*.scr
