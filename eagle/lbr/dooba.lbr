@@ -1959,6 +1959,39 @@
 <text x="-3.04" y="1.54" size="1.27" layer="25">&gt;Name</text>
 <text x="-3.04" y="-2.31" size="1.27" layer="27">&gt;Value</text>
 </package>
+<package name="ADAFRUIT_OLED_13">
+<pad name="DATA" x="-8.89" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="CLK" x="-6.35" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="DC" x="-3.81" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="RST" x="-1.27" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="CS" x="1.27" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="3V3" x="3.81" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="VIN" x="6.35" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="GND" x="8.89" y="0" drill="0.8" diameter="1.4224"/>
+<wire x1="17.526" y1="-26.416" x2="17.526" y2="-1.38791875" width="0.127" layer="21"/>
+<wire x1="17.526" y1="-1.38791875" x2="13.09008125" y2="3.048" width="0.127" layer="21" curve="90"/>
+<wire x1="13.09008125" y1="3.048" x2="-13.09008125" y2="3.048" width="0.127" layer="21"/>
+<wire x1="-13.09008125" y1="3.048" x2="-17.526" y2="-1.38791875" width="0.127" layer="21" curve="90"/>
+<wire x1="-17.526" y1="-1.38791875" x2="-17.526" y2="-26.416" width="0.127" layer="21"/>
+<circle x="-14.478" y="0" radius="1.27" width="0.127" layer="21"/>
+<circle x="14.478" y="0" radius="1.27" width="0.127" layer="21"/>
+<wire x1="-17.526" y1="-26.416" x2="17.526" y2="-26.416" width="0.127" layer="21"/>
+<circle x="-14.478" y="-29.464" radius="1.27" width="0.127" layer="21"/>
+<circle x="14.478" y="-29.464" radius="1.27" width="0.127" layer="21"/>
+<wire x1="-17.526" y1="-26.416" x2="-17.526" y2="-28.194" width="0.127" layer="21"/>
+<wire x1="-17.526" y1="-28.194" x2="-13.97" y2="-31.75" width="0.127" layer="21" curve="90"/>
+<wire x1="-13.97" y1="-31.75" x2="-12.7" y2="-31.75" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-31.75" x2="-11.43" y2="-30.48" width="0.127" layer="21" curve="90"/>
+<wire x1="-11.43" y1="-30.48" x2="-11.43" y2="-26.67" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-26.67" x2="11.43" y2="-26.67" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-26.67" x2="11.43" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-30.48" x2="12.7" y2="-31.75" width="0.127" layer="21" curve="90"/>
+<wire x1="12.7" y1="-31.75" x2="14.10878125" y2="-31.75" width="0.127" layer="21"/>
+<wire x1="14.10878125" y1="-31.75" x2="17.526" y2="-28.33278125" width="0.127" layer="21" curve="90"/>
+<wire x1="17.526" y1="-28.33278125" x2="17.526" y2="-26.416" width="0.127" layer="21"/>
+<text x="-13.97" y="-7.62" size="1.778" layer="25">&gt;Name</text>
+<text x="-13.97" y="-10.16" size="1.778" layer="27">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="STM32F030X-LQFP32">
@@ -3129,16 +3162,16 @@
 <text x="-25.4" y="2.54" size="6.4516" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="LM4811">
-<pin name="VOUT1" x="-22.86" y="10.16" length="middle"/>
-<pin name="VIN1" x="-22.86" y="5.08" length="middle"/>
-<pin name="BYPASS" x="-22.86" y="0" length="middle"/>
-<pin name="CLOCK" x="-22.86" y="-5.08" length="middle"/>
-<pin name="GND" x="-22.86" y="-10.16" length="middle"/>
-<pin name="UP/DN" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="SHUTDOWN" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="VIN2" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="VOUT1" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="VIN1" x="-22.86" y="10.16" length="middle"/>
+<pin name="BYPASS" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="CLOCK" x="-22.86" y="-10.16" length="middle"/>
+<pin name="GND" x="0" y="-17.78" length="middle" rot="R90"/>
+<pin name="UP/DN" x="-22.86" y="-5.08" length="middle"/>
+<pin name="SHUTDOWN" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="VIN2" x="-22.86" y="5.08" length="middle"/>
 <pin name="VOUT2" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="VCC" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="VCC" x="0" y="17.78" length="middle" rot="R270"/>
 <wire x1="-17.78" y1="12.7" x2="17.78" y2="12.7" width="0.254" layer="94"/>
 <wire x1="17.78" y1="12.7" x2="17.78" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-12.7" x2="-17.78" y2="-12.7" width="0.254" layer="94"/>
@@ -3202,8 +3235,8 @@
 </symbol>
 <symbol name="SJ1-3523N">
 <pin name="SLEEVE" x="12.7" y="12.7" length="middle" rot="R180"/>
-<pin name="RING" x="12.7" y="7.62" length="middle" rot="R180"/>
-<pin name="TIP" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="RING" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="TIP" x="12.7" y="-5.08" length="middle" rot="R180"/>
 <wire x1="7.62" y1="12.7" x2="-20.32" y2="12.7" width="0.254" layer="94"/>
 <wire x1="-20.32" y1="12.7" x2="-20.32" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-20.32" y1="5.08" x2="-22.86" y2="5.08" width="0.254" layer="94"/>
@@ -3211,12 +3244,12 @@
 <wire x1="-22.86" y1="-5.08" x2="-17.78" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-5.08" x2="-17.78" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="5.08" x2="-20.32" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="7.62" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="5.08" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="2.54" x2="-15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
 <text x="-22.86" y="25.4" size="6.4516" layer="95" font="vector" ratio="20">&gt;Name</text>
 <text x="-22.86" y="15.24" size="6.4516" layer="96" font="vector" ratio="20">&gt;Value</text>
 </symbol>
@@ -3273,8 +3306,8 @@
 <wire x1="43.18" y1="43.18" x2="43.18" y2="-43.18" width="0.254" layer="94"/>
 <wire x1="43.18" y1="-43.18" x2="-43.18" y2="-43.18" width="0.254" layer="94"/>
 <wire x1="-43.18" y1="-43.18" x2="-43.18" y2="43.18" width="0.254" layer="94"/>
-<text x="-17.78" y="22.86" size="6.4516" layer="95">&gt;Name</text>
-<text x="-17.78" y="7.62" size="6.4516" layer="96">&gt;Value</text>
+<text x="-33.02" y="-10.16" size="3.81" layer="95">&gt;Name</text>
+<text x="-33.02" y="-15.24" size="3.81" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="CS4334">
 <pin name="SDATA" x="-20.32" y="7.62" length="middle"/>
@@ -3282,15 +3315,31 @@
 <pin name="LRCK" x="-20.32" y="-2.54" length="middle"/>
 <pin name="MCLK" x="-20.32" y="-7.62" length="middle"/>
 <pin name="AOUTR" x="20.32" y="-7.62" length="middle" rot="R180"/>
-<pin name="AGND" x="20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="VA" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="AGND" x="0" y="-17.78" length="middle" rot="R90"/>
+<pin name="VA" x="0" y="17.78" length="middle" rot="R270"/>
 <pin name="AOUTL" x="20.32" y="7.62" length="middle" rot="R180"/>
 <wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
 <wire x1="15.24" y1="12.7" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-12.7" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
-<text x="-12.7" y="20.32" size="2.54" layer="95">&gt;Name</text>
-<text x="-12.7" y="15.24" size="2.54" layer="96">&gt;Value</text>
+<text x="0" y="2.54" size="2.54" layer="95">&gt;Name</text>
+<text x="0" y="-2.54" size="2.54" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="ADAFRUIT_OLED_13">
+<pin name="CS" x="-7.62" y="2.54" length="middle"/>
+<pin name="RST" x="-7.62" y="-2.54" length="middle"/>
+<pin name="DC" x="-7.62" y="-7.62" length="middle"/>
+<pin name="3V3" x="-7.62" y="7.62" length="middle"/>
+<pin name="CLK" x="-7.62" y="-12.7" length="middle"/>
+<pin name="VIN" x="-7.62" y="12.7" length="middle"/>
+<pin name="DATA" x="-7.62" y="-17.78" length="middle"/>
+<pin name="GND" x="-7.62" y="17.78" length="middle"/>
+<wire x1="-2.54" y1="22.86" x2="-2.54" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-22.86" x2="7.62" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-22.86" x2="7.62" y2="22.86" width="0.254" layer="94"/>
+<wire x1="7.62" y1="22.86" x2="-2.54" y2="22.86" width="0.254" layer="94"/>
+<text x="-2.54" y="27.94" size="1.778" layer="95">&gt;Name</text>
+<text x="-2.54" y="25.4" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4620,6 +4669,28 @@
 <connect gate="U1" pin="MCLK" pad="P$4"/>
 <connect gate="U1" pin="SDATA" pad="P$1"/>
 <connect gate="U1" pin="VA" pad="P$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADAFRUIT_OLED_13" prefix="J">
+<gates>
+<gate name="J1" symbol="ADAFRUIT_OLED_13" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ADAFRUIT_OLED_13">
+<connects>
+<connect gate="J1" pin="3V3" pad="3V3"/>
+<connect gate="J1" pin="CLK" pad="CLK"/>
+<connect gate="J1" pin="CS" pad="CS"/>
+<connect gate="J1" pin="DATA" pad="DATA"/>
+<connect gate="J1" pin="DC" pad="DC"/>
+<connect gate="J1" pin="GND" pad="GND"/>
+<connect gate="J1" pin="RST" pad="RST"/>
+<connect gate="J1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
 <technology name=""/>
