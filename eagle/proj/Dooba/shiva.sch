@@ -2010,11 +2010,11 @@ Provides 5.0V to Audio blocks:
 <wire x1="975.36" y1="673.1" x2="975.36" y2="751.84" width="0.1524" layer="97"/>
 <text x="977.9" y="744.22" size="1.778" layer="97">LM4811 Headphone Amplifier
 Provides Volume Control</text>
-<wire x1="1376.68" y1="916.94" x2="1376.68" y2="843.28" width="0.1524" layer="97"/>
-<wire x1="1376.68" y1="843.28" x2="1435.1" y2="843.28" width="0.1524" layer="97"/>
-<wire x1="1435.1" y1="843.28" x2="1435.1" y2="916.94" width="0.1524" layer="97"/>
-<wire x1="1435.1" y1="916.94" x2="1376.68" y2="916.94" width="0.1524" layer="97"/>
-<text x="1379.22" y="909.32" size="1.778" layer="97">128x64 Monochrome OLED
+<wire x1="1325.88" y1="916.94" x2="1325.88" y2="843.28" width="0.1524" layer="97"/>
+<wire x1="1325.88" y1="843.28" x2="1384.3" y2="843.28" width="0.1524" layer="97"/>
+<wire x1="1384.3" y1="843.28" x2="1384.3" y2="916.94" width="0.1524" layer="97"/>
+<wire x1="1384.3" y1="916.94" x2="1325.88" y2="916.94" width="0.1524" layer="97"/>
+<text x="1328.42" y="909.32" size="1.778" layer="97">128x64 Monochrome OLED
 Provides UI</text>
 <wire x1="975.36" y1="665.48" x2="1130.3" y2="665.48" width="0.1524" layer="97"/>
 <wire x1="1130.3" y1="665.48" x2="1130.3" y2="454.66" width="0.1524" layer="97"/>
@@ -2210,8 +2210,8 @@ Provides Button Interface</text>
 <instance part="GND93" gate="1" x="1079.5" y="698.5" rot="R90"/>
 <instance part="J3" gate="J1" x="1104.9" y="713.74" rot="R180"/>
 <instance part="GND90" gate="1" x="1087.12" y="701.04" rot="R270"/>
-<instance part="J4" gate="J1" x="1404.62" y="871.22"/>
-<instance part="GND91" gate="1" x="1391.92" y="889" rot="R270"/>
+<instance part="J4" gate="J1" x="1353.82" y="871.22"/>
+<instance part="GND91" gate="1" x="1341.12" y="889" rot="R270"/>
 <instance part="R20" gate="R1" x="861.06" y="655.32" rot="R270"/>
 <instance part="R21" gate="R1" x="871.22" y="655.32" rot="R270"/>
 <instance part="GND94" gate="1" x="861.06" y="670.56" rot="R180"/>
@@ -2749,7 +2749,7 @@ Provides Button Interface</text>
 </segment>
 <segment>
 <pinref part="J4" gate="J1" pin="GND"/>
-<wire x1="1397" y1="889" x2="1394.46" y2="889" width="0.1524" layer="91"/>
+<wire x1="1346.2" y1="889" x2="1343.66" y2="889" width="0.1524" layer="91"/>
 <pinref part="GND91" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -2956,8 +2956,8 @@ Provides Button Interface</text>
 </segment>
 <segment>
 <pinref part="J4" gate="J1" pin="VIN"/>
-<wire x1="1397" y1="883.92" x2="1358.9" y2="883.92" width="0.1524" layer="91"/>
-<label x="1361.44" y="883.92" size="1.778" layer="95"/>
+<wire x1="1346.2" y1="883.92" x2="1308.1" y2="883.92" width="0.1524" layer="91"/>
+<label x="1310.64" y="883.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -3846,8 +3846,8 @@ Provides Button Interface</text>
 <net name="I2C_SCL" class="0">
 <segment>
 <pinref part="J4" gate="J1" pin="CLK"/>
-<wire x1="1397" y1="858.52" x2="1358.9" y2="858.52" width="0.1524" layer="91"/>
-<label x="1361.44" y="858.52" size="1.778" layer="95"/>
+<wire x1="1346.2" y1="858.52" x2="1308.1" y2="858.52" width="0.1524" layer="91"/>
+<label x="1310.64" y="858.52" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="PB6"/>
@@ -3875,8 +3875,8 @@ Provides Button Interface</text>
 <net name="OLED_RST" class="0">
 <segment>
 <pinref part="J4" gate="J1" pin="RST"/>
-<wire x1="1397" y1="868.68" x2="1358.9" y2="868.68" width="0.1524" layer="91"/>
-<label x="1361.44" y="868.68" size="1.778" layer="95"/>
+<wire x1="1346.2" y1="868.68" x2="1308.1" y2="868.68" width="0.1524" layer="91"/>
+<label x="1310.64" y="868.68" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="795.02" y1="508" x2="906.78" y2="508" width="0.1524" layer="91"/>
@@ -3898,8 +3898,8 @@ Provides Button Interface</text>
 </segment>
 <segment>
 <pinref part="J4" gate="J1" pin="DATA"/>
-<wire x1="1397" y1="853.44" x2="1358.9" y2="853.44" width="0.1524" layer="91"/>
-<label x="1361.44" y="853.44" size="1.778" layer="95"/>
+<wire x1="1346.2" y1="853.44" x2="1308.1" y2="853.44" width="0.1524" layer="91"/>
+<label x="1310.64" y="853.44" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U9" gate="U1" pin="SDA"/>
