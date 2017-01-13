@@ -1924,6 +1924,12 @@
 <part name="GND103" library="supply1" deviceset="GND" device=""/>
 <part name="GND104" library="supply1" deviceset="GND" device=""/>
 <part name="GND105" library="supply1" deviceset="GND" device=""/>
+<part name="R30" library="dooba" deviceset="RES" device="0805" value="1k"/>
+<part name="R31" library="dooba" deviceset="RES" device="0805" value="1k"/>
+<part name="D4" library="dooba" deviceset="LED" device="0805" value="MicroSD"/>
+<part name="D5" library="dooba" deviceset="LED" device="0805" value="Activity"/>
+<part name="GND106" library="supply1" deviceset="GND" device=""/>
+<part name="GND107" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1947,9 +1953,9 @@ Provides input to Boost Circuit</text>
 <wire x1="436.88" y1="749.3" x2="612.14" y2="749.3" width="0.1524" layer="97"/>
 <text x="441.96" y="741.68" size="1.778" layer="97">USB UART Circuit
 Provides USB Serial Interface</text>
-<wire x1="881.38" y1="675.64" x2="881.38" y2="477.52" width="0.1524" layer="97"/>
-<wire x1="881.38" y1="477.52" x2="706.12" y2="477.52" width="0.1524" layer="97"/>
-<wire x1="706.12" y1="477.52" x2="706.12" y2="675.64" width="0.1524" layer="97"/>
+<wire x1="881.38" y1="675.64" x2="881.38" y2="474.98" width="0.1524" layer="97"/>
+<wire x1="881.38" y1="474.98" x2="706.12" y2="474.98" width="0.1524" layer="97"/>
+<wire x1="706.12" y1="474.98" x2="706.12" y2="675.64" width="0.1524" layer="97"/>
 <wire x1="706.12" y1="675.64" x2="881.38" y2="675.64" width="0.1524" layer="97"/>
 <wire x1="1168.4" y1="853.44" x2="1168.4" y2="754.38" width="0.1524" layer="97"/>
 <wire x1="1168.4" y1="754.38" x2="1270" y2="754.38" width="0.1524" layer="97"/>
@@ -2235,6 +2241,12 @@ Provides Button Interface</text>
 <instance part="GND103" gate="1" x="1092.2" y="462.28" rot="R270"/>
 <instance part="GND104" gate="1" x="985.52" y="622.3" rot="R270"/>
 <instance part="GND105" gate="1" x="985.52" y="617.22" rot="R270"/>
+<instance part="R30" gate="R1" x="833.12" y="492.76"/>
+<instance part="R31" gate="R1" x="833.12" y="482.6"/>
+<instance part="D4" gate="D1" x="855.98" y="492.76"/>
+<instance part="D5" gate="D1" x="855.98" y="482.6"/>
+<instance part="GND106" gate="1" x="871.22" y="492.76" rot="R90"/>
+<instance part="GND107" gate="1" x="871.22" y="482.6" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -2802,6 +2814,16 @@ Provides Button Interface</text>
 <pinref part="U13" gate="U1" pin="A1"/>
 <pinref part="GND105" gate="1" pin="GND"/>
 <wire x1="990.6" y1="617.22" x2="988.06" y2="617.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D4" gate="D1" pin="2"/>
+<pinref part="GND106" gate="1" pin="GND"/>
+<wire x1="866.14" y1="492.76" x2="868.68" y2="492.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D5" gate="D1" pin="2"/>
+<pinref part="GND107" gate="1" pin="GND"/>
+<wire x1="866.14" y1="482.6" x2="868.68" y2="482.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MICROSD_MOSI" class="0">
@@ -3973,6 +3995,36 @@ Provides Button Interface</text>
 <pinref part="R29" gate="R1" pin="2"/>
 <wire x1="1031.24" y1="632.46" x2="1031.24" y2="591.82" width="0.1524" layer="91"/>
 <junction x="1031.24" y="591.82"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="R30" gate="R1" pin="2"/>
+<pinref part="D4" gate="D1" pin="1"/>
+<wire x1="843.28" y1="492.76" x2="845.82" y2="492.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="R31" gate="R1" pin="2"/>
+<pinref part="D5" gate="D1" pin="1"/>
+<wire x1="843.28" y1="482.6" x2="845.82" y2="482.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="U1" gate="U1" pin="PB1"/>
+<pinref part="R30" gate="R1" pin="1"/>
+<wire x1="820.42" y1="533.4" x2="820.42" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="820.42" y1="492.76" x2="822.96" y2="492.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="U1" gate="U1" pin="PB0"/>
+<pinref part="R31" gate="R1" pin="1"/>
+<wire x1="815.34" y1="533.4" x2="815.34" y2="482.6" width="0.1524" layer="91"/>
+<wire x1="815.34" y1="482.6" x2="822.96" y2="482.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
