@@ -1,0 +1,73 @@
+#!/usr/bin/env ruby
+
+# Produce BOM output
+
+# Acquire Script Root
+SCRIPT_ROOT = File.dirname __FILE__
+SCRIPT_NAME = File.basename __FILE__
+
+# Usage
+def usage
+	puts "Usage: #{SCRIPT_NAME} <PROJ> <BOARD>"
+	exit 1
+end
+
+# Check Arguments
+usage unless ARGV.length == 2
+
+# Acquire Args
+PROJ = ARGV[0]
+BOARD = ARGV[1]
+
+# Read Board
+begin
+	d = File.readlines "#{SCRIPT_ROOT}/../proj/#{PROJ}/#{BOARD}.csv"
+	d.shift
+rescue Exception => e
+	puts 'Failed to read CSV file - verify Project and Board'
+	exit 1
+end
+
+# Pull Info
+parts = d
+	.collect { |l| l.chomp }
+	.collect { |l| l.split(';').collect { |lp| lp.gsub '"', '' }.reject { |e| e == '' } }
+
+# Check Dupes
+part_names = parts.collect { |p| p[0] }
+part_names.each_with_index { |p, i| raise "ERROR - Duplicate name found" if part_names.index(p) != i || part_names.rindex(p) != i }
+
+# Structure Info
+parts = parts
+	.inject [] { |a, e| a + [e[0], { value: e[1], package: e[2], footprint: e[3] }]  }
+	
+
+# Hash it
+parts = Hash[*parts]
+
+# Collect Passives (Resistors, Capacitors, Crystals, LEDs, ...)
+passives = {
+	res: parts.select { |k, v| v[:package].downcase.start_with? 'res' },
+	cap: parts.select { |k, v| v[:package].downcase.start_with? 'cap' },
+	xtl: parts.select { |k, v| v[:package].downcase.start_with? 'xtal' },
+	led: parts.select { |k, v| v[:package].downcase.start_with? 'led' }
+}
+
+# Pull out Individuals (Package + Value)
+ind = Hash[*(parts.collect { |n, p| [p[:package], p[:value]] }.uniq.inject [] { |a, i| a + [i, parts.select { |k, v| v[:package] == i[0] && v[:value] == i[1] }] })]
+
+# Combine Tactile Switches, LEDs, Pin Headers
+[ :tactsw, :pin_, :led ].collect { |e| ind.keys.select { |k| k[0].downcase.start_with? e.to_s }.collect { |k| k[0].downcase } }.flatten.uniq.each do |s|
+	sub = ind.select { |k, v| k[0].downcase.start_with? s }
+	ind = ind.reject { |k, v| k[0].downcase.start_with? s }
+	unless sub.empty?
+		e = sub.first
+		d = e[1].first
+		ek = [e[0][0], e[0][0]]
+		ind[ek] = {}
+		sub.each { |k, v| ind[ek][v.first[0]] = { value: v.first[0], package: d[1][:package], footprint: d[1][:footprint] } }
+	end
+end
+
+# Spit out Individuals
+ind.each { |k, v| puts " - [ #{k[0]} / #{k[1]} ] => #{v.size}" }

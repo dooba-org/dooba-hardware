@@ -52,7 +52,7 @@ do
 	cd ..
 done
 
-# Move GML to GKO
+# Inform
 echo $root
 
 # Restore Directory
