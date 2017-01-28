@@ -33,15 +33,15 @@ do
 		echo "[+] Packaging Board [ ${proj} / ${board}.zip ]"
 
 		# Check Files
-		if [ -e ${board}.GML ] && [ -e ${board}.GTL ] && [ -e ${board}.GTO ] && [ -e ${board}.GTS ] && [ -e ${board}.GBL ] && [ -e ${board}.GBO ] && [ -e ${board}.GBS ] && [ -e ${board}.TXT ]
+		if [ -e ${board}.GML ] && [ -e ${board}.GTL ] && [ -e ${board}.GTO ] && [ -e ${board}.GTS ] && [ -e ${board}.GBL ] && [ -e ${board}.GBO ] && [ -e ${board}.GBS ] && [ -e ${board}.TXT ] && [ -e ${board}.GBP ] && [ -e ${board}.GTP ]
 		then
 			# Package DirtyPCBs
-			zip ${board}-dirtypcbs.zip ${board}.GTL ${board}.GTO ${board}.GTS ${board}.GBL ${board}.GBO ${board}.GBS ${board}.TXT ${board}.GML
+			zip ${board}-dirtypcbs.zip ${board}.GTL ${board}.GTO ${board}.GTS ${board}.GBL ${board}.GBO ${board}.GBS ${board}.TXT ${board}.GML ${board}.GBP ${board}.GTP
 
 			# Package OSHPark
 			rm -f ${board}-oshpark.zip
 			cp ${board}.GML ${board}.GKO
-			zip ${board}-oshpark.zip ${board}.GTL ${board}.GTO ${board}.GTS ${board}.GBL ${board}.GBO ${board}.GBS ${board}.TXT ${board}.GKO
+			zip ${board}-oshpark.zip ${board}.GTL ${board}.GTO ${board}.GTS ${board}.GBL ${board}.GBO ${board}.GBS ${board}.TXT ${board}.GKO ${board}.GBP ${board}.GTP
 		else
 			# Warn
 			echo "[!] Board [ ${proj} / ${board} ] is not ready for packaging - Gerber files not found"
