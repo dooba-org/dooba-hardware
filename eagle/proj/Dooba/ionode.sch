@@ -1152,30 +1152,6 @@
 <sheets>
 <sheet>
 <plain>
-<wire x1="182.88" y1="180.34" x2="182.88" y2="55.88" width="0.1524" layer="97"/>
-<wire x1="182.88" y1="55.88" x2="7.62" y2="55.88" width="0.1524" layer="97"/>
-<wire x1="7.62" y1="55.88" x2="7.62" y2="180.34" width="0.1524" layer="97"/>
-<wire x1="7.62" y1="180.34" x2="182.88" y2="180.34" width="0.1524" layer="97"/>
-<text x="12.7" y="172.72" size="1.778" layer="97">USB UART Circuit
-Provides USB Serial Interface</text>
-<wire x1="152.4" y1="190.5" x2="152.4" y2="246.38" width="0.1524" layer="97"/>
-<wire x1="152.4" y1="246.38" x2="78.74" y2="246.38" width="0.1524" layer="97"/>
-<wire x1="78.74" y1="246.38" x2="78.74" y2="190.5" width="0.1524" layer="97"/>
-<wire x1="78.74" y1="190.5" x2="152.4" y2="190.5" width="0.1524" layer="97"/>
-<text x="149.86" y="198.12" size="1.778" layer="97" rot="R180">USB-Serial Level Switcher
-Bridges FT232R UART (5V) with STM32F0 UART (3.3V)</text>
-<wire x1="294.64" y1="256.54" x2="368.3" y2="256.54" width="0.1524" layer="97"/>
-<wire x1="368.3" y1="256.54" x2="368.3" y2="200.66" width="0.1524" layer="97"/>
-<wire x1="368.3" y1="200.66" x2="294.64" y2="200.66" width="0.1524" layer="97"/>
-<wire x1="294.64" y1="200.66" x2="294.64" y2="256.54" width="0.1524" layer="97"/>
-<text x="297.18" y="243.84" size="1.778" layer="97">Core Regulator
-Provides 3.3V to Core Logic blocks:
- - STM32F030
- - STA013</text>
-<wire x1="287.02" y1="175.26" x2="287.02" y2="12.7" width="0.1524" layer="97"/>
-<wire x1="287.02" y1="12.7" x2="502.92" y2="12.7" width="0.1524" layer="97"/>
-<wire x1="502.92" y1="12.7" x2="502.92" y2="175.26" width="0.1524" layer="97"/>
-<wire x1="502.92" y1="175.26" x2="287.02" y2="175.26" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="J2" gate="J1" x="30.48" y="121.92" rot="MR0"/>
@@ -2079,10 +2055,4 @@ Provides 3.3V to Core Logic blocks:
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
