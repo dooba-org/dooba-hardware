@@ -1989,9 +1989,9 @@
 <label x="276.86" y="294.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="N1" gate="N1" pin="PB0"/>
-<wire x1="35.56" y1="213.36" x2="-10.16" y2="213.36" width="0.1524" layer="91"/>
-<label x="-7.62" y="213.36" size="1.778" layer="95"/>
+<pinref part="N1" gate="N1" pin="PB3"/>
+<wire x1="35.56" y1="198.12" x2="-10.16" y2="198.12" width="0.1524" layer="91"/>
+<label x="-7.62" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MICROSD_SCK" class="0">
@@ -2001,9 +2001,9 @@
 <label x="276.86" y="304.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="N1" gate="N1" pin="PB1"/>
-<wire x1="35.56" y1="208.28" x2="-10.16" y2="208.28" width="0.1524" layer="91"/>
-<label x="-7.62" y="208.28" size="1.778" layer="95"/>
+<pinref part="N1" gate="N1" pin="PB2"/>
+<wire x1="35.56" y1="203.2" x2="-10.16" y2="203.2" width="0.1524" layer="91"/>
+<label x="-7.62" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MICROSD_MOSI" class="0">
@@ -2013,9 +2013,9 @@
 <label x="276.86" y="314.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="N1" gate="N1" pin="PB2"/>
-<wire x1="35.56" y1="203.2" x2="-10.16" y2="203.2" width="0.1524" layer="91"/>
-<label x="-7.62" y="203.2" size="1.778" layer="95"/>
+<pinref part="N1" gate="N1" pin="PB1"/>
+<wire x1="35.56" y1="208.28" x2="-10.16" y2="208.28" width="0.1524" layer="91"/>
+<label x="-7.62" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MICROSD_CS" class="0">
@@ -2025,9 +2025,9 @@
 <label x="276.86" y="320.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="N1" gate="N1" pin="PB3"/>
-<wire x1="35.56" y1="198.12" x2="-10.16" y2="198.12" width="0.1524" layer="91"/>
-<label x="-7.62" y="198.12" size="1.778" layer="95"/>
+<pinref part="N1" gate="N1" pin="PB0"/>
+<wire x1="35.56" y1="213.36" x2="-10.16" y2="213.36" width="0.1524" layer="91"/>
+<label x="-7.62" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OLED_RST" class="0">
