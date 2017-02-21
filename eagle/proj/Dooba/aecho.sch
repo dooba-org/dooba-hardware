@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -747,7 +747,7 @@
 <connect gate="U1" pin="SCKT" pad="44"/>
 <connect gate="U1" pin="SCL" pad="32"/>
 <connect gate="U1" pin="SDA" pad="31"/>
-<connect gate="U1" pin="SDI" pad="33"/>
+<connect gate="U1" pin="SDI" pad="34"/>
 <connect gate="U1" pin="SDO" pad="42"/>
 <connect gate="U1" pin="VDD_1" pad="29"/>
 <connect gate="U1" pin="VDD_2" pad="6"/>

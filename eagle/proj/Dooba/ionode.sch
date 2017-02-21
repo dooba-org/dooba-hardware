@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -1306,12 +1306,22 @@
 <segment>
 <pinref part="GND51" gate="1" pin="GND"/>
 <pinref part="U5" gate="U1" pin="GND"/>
-<wire x1="116.84" y1="236.22" x2="116.84" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="236.22" x2="116.84" y2="234.95" width="0.1524" layer="91"/>
+<pinref part="U5" gate="U1" pin="!OE"/>
+<wire x1="116.84" y1="234.95" x2="116.84" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="127" y1="233.68" x2="127" y2="234.95" width="0.1524" layer="91"/>
+<wire x1="127" y1="234.95" x2="116.84" y2="234.95" width="0.1524" layer="91"/>
+<junction x="116.84" y="234.95"/>
 </segment>
 <segment>
 <pinref part="U6" gate="U1" pin="GND"/>
 <pinref part="GND52" gate="1" pin="GND"/>
-<wire x1="109.22" y1="208.28" x2="109.22" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="208.28" x2="109.22" y2="207.01" width="0.1524" layer="91"/>
+<pinref part="U6" gate="U1" pin="!OE"/>
+<wire x1="109.22" y1="207.01" x2="109.22" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="208.28" x2="99.06" y2="207.01" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="207.01" x2="109.22" y2="207.01" width="0.1524" layer="91"/>
+<junction x="109.22" y="207.01"/>
 </segment>
 <segment>
 <pinref part="GND53" gate="1" pin="GND"/>
@@ -1495,13 +1505,7 @@
 <segment>
 <pinref part="U5" gate="U1" pin="VCC"/>
 <wire x1="127" y1="208.28" x2="127" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="U5" gate="U1" pin="!OE"/>
-<wire x1="127" y1="236.22" x2="127" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="127" y1="236.22" x2="132.08" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="236.22" x2="132.08" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="205.74" x2="127" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="205.74" x2="172.72" y2="205.74" width="0.1524" layer="91"/>
-<junction x="132.08" y="205.74"/>
+<wire x1="127" y1="205.74" x2="172.72" y2="205.74" width="0.1524" layer="91"/>
 <label x="170.18" y="205.74" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
@@ -2040,13 +2044,7 @@
 <segment>
 <pinref part="U6" gate="U1" pin="VCC"/>
 <wire x1="99.06" y1="233.68" x2="99.06" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="236.22" x2="93.98" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="U6" gate="U1" pin="!OE"/>
-<wire x1="99.06" y1="208.28" x2="99.06" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="236.22" x2="93.98" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="205.74" x2="99.06" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="236.22" x2="58.42" y2="236.22" width="0.1524" layer="91"/>
-<junction x="93.98" y="236.22"/>
+<wire x1="99.06" y1="236.22" x2="58.42" y2="236.22" width="0.1524" layer="91"/>
 <label x="76.2" y="236.22" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
