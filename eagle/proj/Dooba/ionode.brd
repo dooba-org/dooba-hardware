@@ -184,7 +184,7 @@
 </polygon>
 <wire x1="27.813" y1="36.068" x2="27.051" y2="36.068" width="0.254" layer="21"/>
 <text x="60.616196875" y="30.6968" size="0.8128" layer="21" font="vector" ratio="18" rot="R90">FT232</text>
-<text x="36.195" y="37.338" size="0.8128" layer="21" font="vector" ratio="18" rot="R270">8MHz</text>
+<text x="36.0807" y="38.0492" size="0.8128" layer="21" font="vector" ratio="18" rot="R270">10MHz</text>
 <polygon width="0.254" layer="22">
 <vertex x="23.876" y="40.64"/>
 <vertex x="23.876" y="25.4"/>
