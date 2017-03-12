@@ -8,23 +8,22 @@ SCRIPT_NAME = File.basename __FILE__
 
 # Usage
 def usage
-	puts "Usage: #{SCRIPT_NAME} <PROJ> <BOARD>"
+	puts "Usage: #{SCRIPT_NAME} <BOARD>"
 	exit 1
 end
 
 # Check Arguments
-usage unless ARGV.length == 2
+usage unless ARGV.length == 1
 
 # Acquire Args
-PROJ = ARGV[0]
-BOARD = ARGV[1]
+BOARD = ARGV[0]
 
 # Read Board
 begin
-	d = File.readlines "#{SCRIPT_ROOT}/../proj/#{PROJ}/#{BOARD}.csv"
+	d = File.readlines "#{SCRIPT_ROOT}/../proj/#{BOARD}.csv"
 	d.shift
 rescue Exception => e
-	puts 'Failed to read CSV file - verify Project and Board'
+	puts 'Failed to read CSV file - verify Board & generate CSV using Eagle\'s BOM ULP'
 	exit 1
 end
 
