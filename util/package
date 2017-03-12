@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# DoobaHardware
+# by Eresse <eresse@dooba.io>
+
 # Package Gerber files for all boards
 # Produces Packages for:
 #

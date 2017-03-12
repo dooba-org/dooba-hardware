@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
+# DoobaHardware
+# by Eresse <eresse@dooba.io>
+
 # Produce BOM output
 
 # Acquire Script Root
