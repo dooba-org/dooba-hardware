@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -79,6 +79,7 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="Refs" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -310,6 +311,38 @@
 <vertex x="0.635" y="-1.27"/>
 </polygon>
 </package>
+<package name="0402">
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<wire x1="-1.4732" y1="0.4826" x2="1.1176" y2="0.4826" width="0.0508" layer="117"/>
+<wire x1="1.1176" y1="0.4826" x2="1.4732" y2="0.4826" width="0.0508" layer="117"/>
+<wire x1="1.4732" y1="0.4826" x2="1.4732" y2="-0.4826" width="0.0508" layer="117"/>
+<wire x1="1.4732" y1="-0.4826" x2="1.1176" y2="-0.4826" width="0.0508" layer="117"/>
+<wire x1="1.1176" y1="-0.4826" x2="-1.4732" y2="-0.4826" width="0.0508" layer="117"/>
+<wire x1="-1.4732" y1="-0.4826" x2="-1.4732" y2="0.4826" width="0.0508" layer="117"/>
+<text x="-0.4953" y="-0.3048" size="0.6096" layer="117" ratio="15">&gt;Name</text>
+<wire x1="1.1176" y1="0.4826" x2="1.1176" y2="-0.4826" width="0.0508" layer="117"/>
+</package>
+<package name="SMD_JMP">
+<smd name="1" x="-0.619" y="0" dx="0.8" dy="1.4" layer="1"/>
+<smd name="2" x="0.619" y="0" dx="0.8" dy="1.4" layer="1"/>
+<text x="-0.881" y="0.327" size="0.254" layer="25">&gt;Name</text>
+<text x="-0.881" y="-0.581" size="0.254" layer="27">&gt;Value</text>
+<wire x1="-1.27" y1="0.889" x2="1.27" y2="0.889" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0.889" x2="1.27" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-0.889" x2="-1.27" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.889" x2="-1.27" y2="0.889" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RES">
@@ -415,6 +448,16 @@
 <wire x1="-2.54" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-7.62" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
+<symbol name="JMP">
+<pin name="P$1" x="-10.16" y="-2.54" length="middle"/>
+<pin name="P$2" x="-10.16" y="2.54" length="middle"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="10.16" size="1.27" layer="95" ratio="15">&gt;Name</text>
+<text x="-5.08" y="7.62" size="1.27" layer="96" ratio="15">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CAP" prefix="C">
@@ -449,6 +492,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="0402" package="0402">
+<connects>
+<connect gate="C1" pin="1" pad="1"/>
+<connect gate="C1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RES" prefix="R">
@@ -457,6 +509,15 @@
 </gates>
 <devices>
 <device name="0805" package="0805">
+<connects>
+<connect gate="R1" pin="1" pad="1"/>
+<connect gate="R1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402" package="0402">
 <connects>
 <connect gate="R1" pin="1" pad="1"/>
 <connect gate="R1" pin="2" pad="2"/>
@@ -564,6 +625,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="0402" package="0402">
+<connects>
+<connect gate="D1" pin="1" pad="1"/>
+<connect gate="D1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="PIN_3" prefix="P">
@@ -576,6 +646,22 @@
 <connect gate="P1" pin="1" pad="1"/>
 <connect gate="P1" pin="2" pad="2"/>
 <connect gate="P1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JMP" prefix="J">
+<gates>
+<gate name="J1" symbol="JMP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SMD_JMP">
+<connects>
+<connect gate="J1" pin="P$1" pad="1"/>
+<connect gate="J1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -664,6 +750,8 @@
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="BATT(VCC-GND)1" library="dooba" deviceset="PIN_2" device="" value="VBAT-GND"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="J1" library="dooba" deviceset="JMP" device="SMD" value="100mA"/>
+<part name="GND2" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -719,6 +807,8 @@ Provides input to Boost Circuit</text>
 <instance part="GND6" gate="1" x="147.32" y="157.48" rot="R90"/>
 <instance part="BATT(VCC-GND)1" gate="P1" x="139.7" y="139.7" rot="MR90"/>
 <instance part="GND1" gate="1" x="137.16" y="127"/>
+<instance part="J1" gate="J1" x="43.18" y="144.78" rot="R180"/>
+<instance part="GND2" gate="1" x="58.42" y="142.24" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -812,6 +902,11 @@ Provides input to Boost Circuit</text>
 <pinref part="BATT(VCC-GND)1" gate="P1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="137.16" y1="132.08" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="J1" pin="P$2"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="55.88" y1="142.24" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -969,6 +1064,9 @@ Provides input to Boost Circuit</text>
 <pinref part="R6" gate="R1" pin="2"/>
 <wire x1="73.66" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="147.32" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="J1" gate="J1" pin="P$1"/>
+<wire x1="53.34" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
+<junction x="60.96" y="147.32"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
