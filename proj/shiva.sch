@@ -1883,26 +1883,26 @@
 </net>
 <net name="MP3_RST" class="0">
 <segment>
-<wire x1="76.2" y1="309.88" x2="134.62" y2="309.88" width="0.1524" layer="91"/>
-<label x="119.38" y="309.88" size="1.778" layer="95"/>
-<pinref part="N1" gate="N1" pin="PC7"/>
-</segment>
-<segment>
 <pinref part="U2" gate="U1" pin="MP3_RST"/>
 <wire x1="231.14" y1="347.98" x2="299.72" y2="347.98" width="0.1524" layer="91"/>
 <label x="281.94" y="347.98" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="MP3_DREQ" class="0">
 <segment>
 <wire x1="76.2" y1="304.8" x2="134.62" y2="304.8" width="0.1524" layer="91"/>
-<label x="119.38" y="304.8" size="1.778" layer="95"/>
+<label x="116.84" y="304.8" size="1.778" layer="95"/>
 <pinref part="N1" gate="N1" pin="PC6"/>
 </segment>
+</net>
+<net name="MP3_DREQ" class="0">
 <segment>
 <pinref part="U2" gate="U1" pin="MP3_DREQ"/>
 <wire x1="231.14" y1="353.06" x2="299.72" y2="353.06" width="0.1524" layer="91"/>
 <label x="281.94" y="353.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="76.2" y1="309.88" x2="134.62" y2="309.88" width="0.1524" layer="91"/>
+<label x="116.84" y="309.88" size="1.778" layer="95"/>
+<pinref part="N1" gate="N1" pin="PC7"/>
 </segment>
 </net>
 <net name="AMP_SHDN" class="0">
@@ -1912,9 +1912,9 @@
 <label x="134.62" y="358.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="76.2" y1="269.24" x2="134.62" y2="269.24" width="0.1524" layer="91"/>
-<label x="119.38" y="269.24" size="1.778" layer="95"/>
-<pinref part="N1" gate="N1" pin="PD7"/>
+<wire x1="76.2" y1="259.08" x2="134.62" y2="259.08" width="0.1524" layer="91"/>
+<label x="119.38" y="259.08" size="1.778" layer="95"/>
+<pinref part="N1" gate="N1" pin="PD5"/>
 </segment>
 </net>
 <net name="AMP_CLK" class="0">
@@ -1936,9 +1936,9 @@
 <label x="134.62" y="347.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="76.2" y1="259.08" x2="134.62" y2="259.08" width="0.1524" layer="91"/>
-<label x="119.38" y="259.08" size="1.778" layer="95"/>
-<pinref part="N1" gate="N1" pin="PD5"/>
+<wire x1="76.2" y1="269.24" x2="134.62" y2="269.24" width="0.1524" layer="91"/>
+<label x="119.38" y="269.24" size="1.778" layer="95"/>
+<pinref part="N1" gate="N1" pin="PD7"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -2122,6 +2122,11 @@
 <pinref part="U2" gate="U1" pin="MP3_BIT_EN"/>
 <wire x1="231.14" y1="342.9" x2="299.72" y2="342.9" width="0.1524" layer="91"/>
 <label x="281.94" y="342.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="N1" gate="N1" pin="PC5"/>
+<wire x1="76.2" y1="299.72" x2="134.62" y2="299.72" width="0.1524" layer="91"/>
+<label x="116.84" y="299.72" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

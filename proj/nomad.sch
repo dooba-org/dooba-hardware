@@ -206,16 +206,16 @@
 <text x="-1.89" y="2.76" size="0.8128" layer="25" ratio="20">&gt;Name</text>
 <text x="-1.89" y="-3.35" size="0.8128" layer="27" ratio="20">&gt;Value</text>
 <smd name="PAD" x="0" y="0" dx="2.4" dy="1.65" layer="1"/>
-<smd name="1" x="-1" y="-1.5" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="2" x="-0.5" y="-1.5" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="3" x="0" y="-1.5" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="4" x="0.5" y="-1.5" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="5" x="1" y="-1.5" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="1" y="1.5" dx="0.85" dy="0.3" layer="1" rot="R270"/>
-<smd name="7" x="0.5" y="1.5" dx="0.85" dy="0.3" layer="1" rot="R270"/>
-<smd name="8" x="0" y="1.5" dx="0.85" dy="0.3" layer="1" rot="R270"/>
-<smd name="9" x="-0.5" y="1.5" dx="0.85" dy="0.3" layer="1" rot="R270"/>
-<smd name="10" x="-1" y="1.5" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="1" x="-1" y="-1.6" dx="0.85" dy="0.26" layer="1" rot="R90"/>
+<smd name="2" x="-0.5" y="-1.6" dx="0.85" dy="0.26" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-1.6" dx="0.85" dy="0.26" layer="1" rot="R90"/>
+<smd name="4" x="0.5" y="-1.6" dx="0.85" dy="0.26" layer="1" rot="R90"/>
+<smd name="5" x="1" y="-1.6" dx="0.85" dy="0.26" layer="1" rot="R90"/>
+<smd name="6" x="1" y="1.6" dx="0.85" dy="0.26" layer="1" rot="R270"/>
+<smd name="7" x="0.5" y="1.6" dx="0.85" dy="0.26" layer="1" rot="R270"/>
+<smd name="8" x="0" y="1.6" dx="0.85" dy="0.26" layer="1" rot="R270"/>
+<smd name="9" x="-0.5" y="1.6" dx="0.85" dy="0.26" layer="1" rot="R270"/>
+<smd name="10" x="-1" y="1.6" dx="0.85" dy="0.26" layer="1" rot="R270"/>
 <smd name="PAD0" x="-1.4986" y="0.25" dx="0.6" dy="0.28" layer="1"/>
 <smd name="PAD1" x="-1.4986" y="-0.25" dx="0.6" dy="0.28" layer="1"/>
 <smd name="PAD2" x="1.4986" y="0.25" dx="0.6" dy="0.28" layer="1"/>
@@ -714,16 +714,16 @@
 </class>
 </classes>
 <parts>
-<part name="U2" library="dooba" deviceset="TPS61200" device="S-PVSON-N10"/>
+<part name="U1" library="dooba" deviceset="TPS61200" device="S-PVSON-N10"/>
 <part name="L1" library="dooba" deviceset="IND" device="SMD-3232" value="4.7uH"/>
-<part name="R2" library="dooba" deviceset="RES" device="0805" value="2M"/>
+<part name="R1" library="dooba" deviceset="RES" device="0805" value="2M"/>
 <part name="R3" library="dooba" deviceset="RES" device="0805" value="200k"/>
-<part name="R4" library="dooba" deviceset="RES" device="0805" value="2M"/>
-<part name="R5" library="dooba" deviceset="RES" device="0805" value="200k"/>
-<part name="C17" library="dooba" deviceset="CAP" device="1206" value="22uF"/>
-<part name="C18" library="dooba" deviceset="CAP" device="0805" value="100nF"/>
-<part name="C19" library="dooba" deviceset="CAP" device="0805" value="100nF"/>
-<part name="C20" library="dooba" deviceset="CAP" device="0805" value="10uF"/>
+<part name="R2" library="dooba" deviceset="RES" device="0805" value="2M"/>
+<part name="R4" library="dooba" deviceset="RES" device="0805" value="200k"/>
+<part name="C5" library="dooba" deviceset="CAP" device="1206" value="22uF"/>
+<part name="C3" library="dooba" deviceset="CAP" device="0805" value="100nF"/>
+<part name="C4" library="dooba" deviceset="CAP" device="0805" value="100nF"/>
+<part name="C2" library="dooba" deviceset="CAP" device="0805" value="10uF"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
@@ -734,19 +734,19 @@
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
-<part name="U3" library="dooba" deviceset="MAX1811" device="SO8"/>
+<part name="U2" library="dooba" deviceset="MAX1811" device="SO8"/>
+<part name="R5" library="dooba" deviceset="RES" device="0805" value="10k"/>
 <part name="R6" library="dooba" deviceset="RES" device="0805" value="10k"/>
-<part name="R7" library="dooba" deviceset="RES" device="0805" value="10k"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="dooba" deviceset="LED" device="0805" value="CHARGE"/>
-<part name="R8" library="dooba" deviceset="RES" device="0805" value="1k"/>
+<part name="R7" library="dooba" deviceset="RES" device="0805" value="1k"/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="P7" library="dooba" deviceset="PIN_3" device="" value="5.5V-VUSB-GND"/>
 <part name="GND108" library="supply1" deviceset="GND" device=""/>
 <part name="P8" library="dooba" deviceset="PIN_3" device="" value="5.5V-BOOST_IN-GND"/>
 <part name="GND109" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="dooba" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C1" library="dooba" deviceset="CAP" device="0805" value="10uF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="BATT(VCC-GND)1" library="dooba" deviceset="PIN_2" device="" value="VBAT-GND"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -771,16 +771,16 @@ Charges Single-Cell LiPo from USB
 Provides input to Boost Circuit</text>
 </plain>
 <instances>
-<instance part="U2" gate="U1" x="86.36" y="60.96"/>
+<instance part="U1" gate="U1" x="86.36" y="60.96"/>
 <instance part="L1" gate="L1" x="50.8" y="50.8"/>
-<instance part="R2" gate="R1" x="119.38" y="48.26"/>
+<instance part="R1" gate="R1" x="119.38" y="48.26"/>
 <instance part="R3" gate="R1" x="119.38" y="38.1"/>
-<instance part="R4" gate="R1" x="81.28" y="86.36" rot="R180"/>
-<instance part="R5" gate="R1" x="119.38" y="86.36"/>
-<instance part="C17" gate="C1" x="58.42" y="73.66" rot="R270"/>
-<instance part="C18" gate="C1" x="83.82" y="99.06" rot="R180"/>
-<instance part="C19" gate="C1" x="119.38" y="58.42"/>
-<instance part="C20" gate="C1" x="68.58" y="45.72" rot="R90"/>
+<instance part="R2" gate="R1" x="81.28" y="86.36" rot="R180"/>
+<instance part="R4" gate="R1" x="119.38" y="86.36"/>
+<instance part="C5" gate="C1" x="58.42" y="73.66" rot="R270"/>
+<instance part="C3" gate="C1" x="83.82" y="99.06" rot="R180"/>
+<instance part="C4" gate="C1" x="119.38" y="58.42"/>
+<instance part="C2" gate="C1" x="68.58" y="45.72" rot="R90"/>
 <instance part="GND26" gate="1" x="101.6" y="99.06" rot="R90"/>
 <instance part="GND27" gate="1" x="58.42" y="88.9" rot="R180"/>
 <instance part="GND28" gate="1" x="68.58" y="30.48"/>
@@ -791,19 +791,19 @@ Provides input to Boost Circuit</text>
 <instance part="GND32" gate="1" x="86.36" y="45.72"/>
 <instance part="GND33" gate="1" x="66.04" y="58.42" rot="R270"/>
 <instance part="GND34" gate="1" x="106.68" y="63.5" rot="R90"/>
-<instance part="U3" gate="U1" x="91.44" y="144.78"/>
-<instance part="R6" gate="R1" x="60.96" y="162.56" rot="R270"/>
-<instance part="R7" gate="R1" x="71.12" y="162.56" rot="R270"/>
+<instance part="U2" gate="U1" x="91.44" y="144.78"/>
+<instance part="R5" gate="R1" x="60.96" y="162.56" rot="R270"/>
+<instance part="R6" gate="R1" x="71.12" y="162.56" rot="R270"/>
 <instance part="GND35" gate="1" x="114.3" y="142.24" rot="R90"/>
 <instance part="GND36" gate="1" x="68.58" y="142.24" rot="R270"/>
 <instance part="D1" gate="D1" x="104.14" y="127"/>
-<instance part="R8" gate="R1" x="81.28" y="127"/>
+<instance part="R7" gate="R1" x="81.28" y="127"/>
 <instance part="GND50" gate="1" x="101.6" y="81.28" rot="R90"/>
 <instance part="P7" gate="P1" x="27.94" y="33.02" rot="MR0"/>
 <instance part="GND108" gate="1" x="40.64" y="27.94" rot="R90"/>
 <instance part="P8" gate="P1" x="27.94" y="45.72" rot="MR0"/>
 <instance part="GND109" gate="1" x="43.18" y="40.64" rot="R90"/>
-<instance part="C2" gate="C1" x="132.08" y="157.48"/>
+<instance part="C1" gate="C1" x="132.08" y="157.48"/>
 <instance part="GND6" gate="1" x="147.32" y="157.48" rot="R90"/>
 <instance part="BATT(VCC-GND)1" gate="P1" x="139.7" y="139.7" rot="MR90"/>
 <instance part="GND1" gate="1" x="137.16" y="127"/>
@@ -820,22 +820,22 @@ Provides input to Boost Circuit</text>
 <wire x1="129.54" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R5" gate="R1" pin="2"/>
+<pinref part="R4" gate="R1" pin="2"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 <wire x1="132.08" y1="86.36" x2="129.54" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C18" gate="C1" pin="1"/>
+<pinref part="C3" gate="C1" pin="1"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 <wire x1="93.98" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C20" gate="C1" pin="1"/>
+<pinref part="C2" gate="C1" pin="1"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 <wire x1="68.58" y1="33.02" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C17" gate="C1" pin="1"/>
+<pinref part="C5" gate="C1" pin="1"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 <wire x1="58.42" y1="86.36" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
 </segment>
@@ -846,37 +846,37 @@ Provides input to Boost Circuit</text>
 </segment>
 <segment>
 <pinref part="GND33" gate="1" pin="GND"/>
-<pinref part="U2" gate="U1" pin="PGND"/>
+<pinref part="U1" gate="U1" pin="PGND"/>
 <wire x1="68.58" y1="58.42" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="U1" pin="GND"/>
+<pinref part="U1" gate="U1" pin="GND"/>
 <pinref part="GND34" gate="1" pin="GND"/>
 <wire x1="101.6" y1="63.5" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="U1" pin="PAD"/>
+<pinref part="U1" gate="U1" pin="PAD"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="86.36" y1="50.8" x2="86.36" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND36" gate="1" pin="GND"/>
-<pinref part="U3" gate="U1" pin="GND@3"/>
+<pinref part="U2" gate="U1" pin="GND@3"/>
 <wire x1="71.12" y1="142.24" x2="73.66" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="U1" pin="GND@6"/>
+<pinref part="U2" gate="U1" pin="GND@6"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 <wire x1="109.22" y1="142.24" x2="111.76" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="U1" pin="PAD3"/>
-<pinref part="U2" gate="U1" pin="PAD2"/>
+<pinref part="U1" gate="U1" pin="PAD3"/>
+<pinref part="U1" gate="U1" pin="PAD2"/>
 <wire x1="88.9" y1="81.28" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U2" gate="U1" pin="PAD1"/>
+<pinref part="U1" gate="U1" pin="PAD1"/>
 <wire x1="91.44" y1="81.28" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 <junction x="91.44" y="81.28"/>
-<pinref part="U2" gate="U1" pin="PAD0"/>
+<pinref part="U1" gate="U1" pin="PAD0"/>
 <wire x1="93.98" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
 <junction x="93.98" y="81.28"/>
 <pinref part="GND50" gate="1" pin="GND"/>
@@ -894,7 +894,7 @@ Provides input to Boost Circuit</text>
 <wire x1="35.56" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C2" gate="C1" pin="2"/>
+<pinref part="C1" gate="C1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="144.78" y1="157.48" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
 </segment>
@@ -911,10 +911,10 @@ Provides input to Boost Circuit</text>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="U2" gate="U1" pin="UVLO"/>
-<pinref part="C19" gate="C1" pin="1"/>
+<pinref part="U1" gate="U1" pin="UVLO"/>
+<pinref part="C4" gate="C1" pin="1"/>
 <wire x1="101.6" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R2" gate="R1" pin="1"/>
+<pinref part="R1" gate="R1" pin="1"/>
 <wire x1="109.22" y1="58.42" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
 <junction x="109.22" y="58.42"/>
 <pinref part="R3" gate="R1" pin="1"/>
@@ -924,31 +924,31 @@ Provides input to Boost Circuit</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="U2" gate="U1" pin="FB"/>
+<pinref part="U1" gate="U1" pin="FB"/>
 <wire x1="101.6" y1="66.04" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="66.04" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R4" gate="R1" pin="1"/>
+<pinref part="R2" gate="R1" pin="1"/>
 <wire x1="104.14" y1="86.36" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R5" gate="R1" pin="1"/>
+<pinref part="R4" gate="R1" pin="1"/>
 <wire x1="104.14" y1="86.36" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
 <junction x="104.14" y="86.36"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="U2" gate="U1" pin="VAUX"/>
+<pinref part="U1" gate="U1" pin="VAUX"/>
 <wire x1="71.12" y1="66.04" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C18" gate="C1" pin="2"/>
+<pinref part="C3" gate="C1" pin="2"/>
 <wire x1="73.66" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="99.06" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5.5V" class="0">
 <segment>
-<pinref part="C17" gate="C1" pin="2"/>
-<pinref part="U2" gate="U1" pin="VOUT"/>
+<pinref part="C5" gate="C1" pin="2"/>
+<pinref part="U1" gate="U1" pin="VOUT"/>
 <wire x1="71.12" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="R4" gate="R1" pin="2"/>
+<pinref part="R2" gate="R1" pin="2"/>
 <wire x1="71.12" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="86.36" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
 <junction x="63.5" y="63.5"/>
@@ -972,7 +972,7 @@ Provides input to Boost Circuit</text>
 <segment>
 <pinref part="L1" gate="L1" pin="1"/>
 <wire x1="40.64" y1="48.26" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U2" gate="U1" pin="L"/>
+<pinref part="U1" gate="U1" pin="L"/>
 <wire x1="40.64" y1="60.96" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -981,28 +981,28 @@ Provides input to Boost Circuit</text>
 <pinref part="L1" gate="L1" pin="2"/>
 <wire x1="60.96" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="48.26" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C20" gate="C1" pin="2"/>
+<pinref part="C2" gate="C1" pin="2"/>
 <wire x1="63.5" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U2" gate="U1" pin="VIN"/>
+<pinref part="U1" gate="U1" pin="VIN"/>
 <wire x1="71.12" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <junction x="68.58" y="55.88"/>
-<pinref part="U2" gate="U1" pin="EN"/>
+<pinref part="U1" gate="U1" pin="EN"/>
 <wire x1="101.6" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="55.88" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="27.94" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
 <junction x="63.5" y="48.26"/>
-<pinref part="U2" gate="U1" pin="PS"/>
+<pinref part="U1" gate="U1" pin="PS"/>
 <wire x1="63.5" y1="43.18" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="60.96" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="60.96" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 <junction x="104.14" y="55.88"/>
 <wire x1="35.56" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="93.98" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R2" gate="R1" pin="2"/>
+<pinref part="R1" gate="R1" pin="2"/>
 <wire x1="147.32" y1="58.42" x2="147.32" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="48.26" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C19" gate="C1" pin="2"/>
+<pinref part="C4" gate="C1" pin="2"/>
 <wire x1="147.32" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
 <junction x="147.32" y="58.42"/>
 <wire x1="63.5" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
@@ -1018,7 +1018,7 @@ Provides input to Boost Circuit</text>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="U3" gate="U1" pin="!CHG"/>
+<pinref part="U2" gate="U1" pin="!CHG"/>
 <wire x1="109.22" y1="152.4" x2="119.38" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="152.4" x2="119.38" y2="127" width="0.1524" layer="91"/>
 <pinref part="D1" gate="D1" pin="2"/>
@@ -1027,16 +1027,16 @@ Provides input to Boost Circuit</text>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="R8" gate="R1" pin="2"/>
+<pinref part="R7" gate="R1" pin="2"/>
 <pinref part="D1" gate="D1" pin="1"/>
 <wire x1="91.44" y1="127" x2="93.98" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
 <segment>
-<pinref part="U3" gate="U1" pin="IN"/>
+<pinref part="U2" gate="U1" pin="IN"/>
 <wire x1="71.12" y1="137.16" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R8" gate="R1" pin="1"/>
+<pinref part="R7" gate="R1" pin="1"/>
 <wire x1="71.12" y1="127" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="127" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
@@ -1053,15 +1053,15 @@ Provides input to Boost Circuit</text>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="R7" gate="R1" pin="2"/>
-<pinref part="U3" gate="U1" pin="SELV"/>
+<pinref part="R6" gate="R1" pin="2"/>
+<pinref part="U2" gate="U1" pin="SELV"/>
 <wire x1="71.12" y1="152.4" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="U3" gate="U1" pin="SELI"/>
-<pinref part="R6" gate="R1" pin="2"/>
+<pinref part="U2" gate="U1" pin="SELI"/>
+<pinref part="R5" gate="R1" pin="2"/>
 <wire x1="73.66" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="147.32" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J1" pin="P$1"/>
@@ -1071,25 +1071,25 @@ Provides input to Boost Circuit</text>
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="U3" gate="U1" pin="BATT"/>
+<pinref part="U2" gate="U1" pin="BATT"/>
 <wire x1="121.92" y1="124.46" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="137.16" x2="109.22" y2="137.16" width="0.1524" layer="91"/>
 <junction x="121.92" y="137.16"/>
 <wire x1="121.92" y1="147.32" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U3" gate="U1" pin="EN"/>
+<pinref part="U2" gate="U1" pin="EN"/>
 <wire x1="109.22" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
 <junction x="121.92" y="147.32"/>
 <wire x1="121.92" y1="172.72" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="157.48" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="172.72" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R7" gate="R1" pin="1"/>
+<pinref part="R6" gate="R1" pin="1"/>
 <junction x="71.12" y="172.72"/>
 <wire x1="60.96" y1="172.72" x2="71.12" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R6" gate="R1" pin="1"/>
+<pinref part="R5" gate="R1" pin="1"/>
 <pinref part="BATT(VCC-GND)" gate="P1" pin="1"/>
 <wire x1="121.92" y1="172.72" x2="132.08" y2="172.72" width="0.1524" layer="91"/>
 <junction x="121.92" y="172.72"/>
-<pinref part="C2" gate="C1" pin="1"/>
+<pinref part="C1" gate="C1" pin="1"/>
 <junction x="121.92" y="157.48"/>
 <wire x1="167.64" y1="124.46" x2="139.7" y2="124.46" width="0.1524" layer="91"/>
 <label x="154.94" y="124.46" size="1.778" layer="95"/>
