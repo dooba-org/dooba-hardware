@@ -149,34 +149,34 @@
 <wire x1="3.7" y1="3.7" x2="-3.7" y2="3.7" width="0.127" layer="21"/>
 <wire x1="-3.7" y1="3.7" x2="-3.7" y2="-3.7" width="0.127" layer="21"/>
 <smd name="PAD" x="0" y="0" dx="3.7" dy="3.7" layer="1"/>
-<smd name="1" x="-2.725" y="1.95" dx="0.28" dy="0.65" layer="1" rot="R270"/>
-<smd name="2" x="-2.725" y="1.3" dx="0.28" dy="0.65" layer="1" rot="R270"/>
-<smd name="3" x="-2.725" y="0.65" dx="0.28" dy="0.65" layer="1" rot="R270"/>
-<smd name="4" x="-2.725" y="0" dx="0.28" dy="0.65" layer="1" rot="R270"/>
-<smd name="5" x="-2.725" y="-0.65" dx="0.28" dy="0.65" layer="1" rot="R270"/>
-<smd name="6" x="-2.725" y="-1.3" dx="0.28" dy="0.65" layer="1" rot="R270"/>
-<smd name="7" x="-2.725" y="-1.95" dx="0.28" dy="0.65" layer="1" rot="R270"/>
-<smd name="8" x="-1.95" y="-2.725" dx="0.28" dy="0.65" layer="1"/>
-<smd name="9" x="-1.3" y="-2.725" dx="0.28" dy="0.65" layer="1"/>
-<smd name="10" x="-0.65" y="-2.725" dx="0.28" dy="0.65" layer="1"/>
-<smd name="11" x="0" y="-2.725" dx="0.28" dy="0.65" layer="1"/>
-<smd name="12" x="0.65" y="-2.725" dx="0.28" dy="0.65" layer="1"/>
-<smd name="13" x="1.3" y="-2.725" dx="0.28" dy="0.65" layer="1"/>
-<smd name="14" x="1.95" y="-2.725" dx="0.28" dy="0.65" layer="1"/>
-<smd name="15" x="2.725" y="-1.95" dx="0.28" dy="0.65" layer="1" rot="R90"/>
-<smd name="16" x="2.725" y="-1.3" dx="0.28" dy="0.65" layer="1" rot="R90"/>
-<smd name="17" x="2.725" y="-0.65" dx="0.28" dy="0.65" layer="1" rot="R90"/>
-<smd name="18" x="2.725" y="0" dx="0.28" dy="0.65" layer="1" rot="R90"/>
-<smd name="19" x="2.725" y="0.65" dx="0.28" dy="0.65" layer="1" rot="R90"/>
-<smd name="20" x="2.725" y="1.3" dx="0.28" dy="0.65" layer="1" rot="R90"/>
-<smd name="21" x="2.725" y="1.95" dx="0.28" dy="0.65" layer="1" rot="R90"/>
-<smd name="22" x="1.95" y="2.725" dx="0.28" dy="0.65" layer="1" rot="R180"/>
-<smd name="23" x="1.3" y="2.725" dx="0.28" dy="0.65" layer="1" rot="R180"/>
-<smd name="24" x="0.65" y="2.725" dx="0.28" dy="0.65" layer="1" rot="R180"/>
-<smd name="25" x="0" y="2.725" dx="0.28" dy="0.65" layer="1" rot="R180"/>
-<smd name="26" x="-0.65" y="2.725" dx="0.28" dy="0.65" layer="1" rot="R180"/>
-<smd name="27" x="-1.3" y="2.725" dx="0.28" dy="0.65" layer="1" rot="R180"/>
-<smd name="28" x="-1.95" y="2.725" dx="0.28" dy="0.65" layer="1" rot="R180"/>
+<smd name="1" x="-2.8" y="1.95" dx="0.26" dy="0.85" layer="1" rot="R270"/>
+<smd name="2" x="-2.8" y="1.3" dx="0.26" dy="0.85" layer="1" rot="R270"/>
+<smd name="3" x="-2.8" y="0.65" dx="0.26" dy="0.85" layer="1" rot="R270"/>
+<smd name="4" x="-2.8" y="0" dx="0.26" dy="0.85" layer="1" rot="R270"/>
+<smd name="5" x="-2.8" y="-0.65" dx="0.26" dy="0.85" layer="1" rot="R270"/>
+<smd name="6" x="-2.8" y="-1.3" dx="0.26" dy="0.85" layer="1" rot="R270"/>
+<smd name="7" x="-2.8" y="-1.95" dx="0.26" dy="0.85" layer="1" rot="R270"/>
+<smd name="8" x="-1.95" y="-2.8" dx="0.26" dy="0.85" layer="1"/>
+<smd name="9" x="-1.3" y="-2.8" dx="0.26" dy="0.85" layer="1"/>
+<smd name="10" x="-0.65" y="-2.8" dx="0.26" dy="0.85" layer="1"/>
+<smd name="11" x="0" y="-2.8" dx="0.26" dy="0.85" layer="1"/>
+<smd name="12" x="0.65" y="-2.8" dx="0.26" dy="0.85" layer="1"/>
+<smd name="13" x="1.3" y="-2.8" dx="0.26" dy="0.85" layer="1"/>
+<smd name="14" x="1.95" y="-2.8" dx="0.26" dy="0.85" layer="1"/>
+<smd name="15" x="2.8" y="-1.95" dx="0.26" dy="0.85" layer="1" rot="R90"/>
+<smd name="16" x="2.8" y="-1.3" dx="0.26" dy="0.85" layer="1" rot="R90"/>
+<smd name="17" x="2.8" y="-0.65" dx="0.26" dy="0.85" layer="1" rot="R90"/>
+<smd name="18" x="2.8" y="0" dx="0.26" dy="0.85" layer="1" rot="R90"/>
+<smd name="19" x="2.8" y="0.65" dx="0.26" dy="0.85" layer="1" rot="R90"/>
+<smd name="20" x="2.8" y="1.3" dx="0.26" dy="0.85" layer="1" rot="R90"/>
+<smd name="21" x="2.8" y="1.95" dx="0.26" dy="0.85" layer="1" rot="R90"/>
+<smd name="22" x="1.95" y="2.8" dx="0.26" dy="0.85" layer="1" rot="R180"/>
+<smd name="23" x="1.3" y="2.8" dx="0.26" dy="0.85" layer="1" rot="R180"/>
+<smd name="24" x="0.65" y="2.8" dx="0.26" dy="0.85" layer="1" rot="R180"/>
+<smd name="25" x="0" y="2.8" dx="0.26" dy="0.85" layer="1" rot="R180"/>
+<smd name="26" x="-0.65" y="2.8" dx="0.26" dy="0.85" layer="1" rot="R180"/>
+<smd name="27" x="-1.3" y="2.8" dx="0.26" dy="0.85" layer="1" rot="R180"/>
+<smd name="28" x="-1.95" y="2.8" dx="0.26" dy="0.85" layer="1" rot="R180"/>
 <polygon width="0.127" layer="21">
 <vertex x="-3.7" y="3.7"/>
 <vertex x="-1.94" y="3.7"/>

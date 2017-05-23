@@ -10799,38 +10799,38 @@
 <wire x1="3" y1="3" x2="3" y2="-3" width="0.127" layer="21"/>
 <wire x1="3" y1="-3" x2="-3" y2="-3" width="0.127" layer="21"/>
 <wire x1="-3" y1="-3" x2="-3" y2="3" width="0.127" layer="21"/>
-<smd name="P$1" x="-2.25" y="1.75" dx="0.45" dy="0.26" layer="1" rot="R180"/>
-<smd name="P$2" x="-2.25" y="1.25" dx="0.45" dy="0.26" layer="1"/>
-<smd name="P$3" x="-2.25" y="0.75" dx="0.45" dy="0.26" layer="1"/>
-<smd name="P$4" x="-2.25" y="0.25" dx="0.45" dy="0.26" layer="1"/>
-<smd name="P$5" x="-2.25" y="-0.25" dx="0.45" dy="0.26" layer="1"/>
-<smd name="P$6" x="-2.25" y="-0.75" dx="0.45" dy="0.26" layer="1"/>
-<smd name="P$7" x="-2.25" y="-1.25" dx="0.45" dy="0.26" layer="1"/>
-<smd name="P$8" x="-2.25" y="-1.75" dx="0.45" dy="0.26" layer="1"/>
-<smd name="P$9" x="-1.75" y="-2.25" dx="0.45" dy="0.26" layer="1" rot="R270"/>
-<smd name="P$10" x="-1.25" y="-2.25" dx="0.45" dy="0.26" layer="1" rot="R90"/>
-<smd name="P$11" x="-0.75" y="-2.25" dx="0.45" dy="0.26" layer="1" rot="R90"/>
-<smd name="P$12" x="-0.25" y="-2.25" dx="0.45" dy="0.26" layer="1" rot="R90"/>
-<smd name="P$13" x="0.25" y="-2.25" dx="0.45" dy="0.26" layer="1" rot="R90"/>
-<smd name="P$14" x="0.75" y="-2.25" dx="0.45" dy="0.26" layer="1" rot="R90"/>
-<smd name="P$15" x="1.25" y="-2.25" dx="0.45" dy="0.26" layer="1" rot="R90"/>
-<smd name="P$16" x="1.75" y="-2.25" dx="0.45" dy="0.26" layer="1" rot="R90"/>
-<smd name="P$17" x="2.25" y="-1.75" dx="0.45" dy="0.26" layer="1"/>
-<smd name="P$18" x="2.25" y="-1.25" dx="0.45" dy="0.26" layer="1" rot="R180"/>
-<smd name="P$19" x="2.25" y="-0.75" dx="0.45" dy="0.26" layer="1" rot="R180"/>
-<smd name="P$20" x="2.25" y="-0.25" dx="0.45" dy="0.26" layer="1" rot="R180"/>
-<smd name="P$21" x="2.25" y="0.25" dx="0.45" dy="0.26" layer="1" rot="R180"/>
-<smd name="P$22" x="2.25" y="0.75" dx="0.45" dy="0.26" layer="1" rot="R180"/>
-<smd name="P$23" x="2.25" y="1.25" dx="0.45" dy="0.26" layer="1" rot="R180"/>
-<smd name="P$24" x="2.25" y="1.75" dx="0.45" dy="0.26" layer="1" rot="R180"/>
-<smd name="P$25" x="1.75" y="2.25" dx="0.45" dy="0.26" layer="1" rot="R90"/>
-<smd name="P$26" x="1.25" y="2.25" dx="0.45" dy="0.26" layer="1" rot="R270"/>
-<smd name="P$27" x="0.75" y="2.25" dx="0.45" dy="0.26" layer="1" rot="R270"/>
-<smd name="P$28" x="0.25" y="2.25" dx="0.45" dy="0.26" layer="1" rot="R270"/>
-<smd name="P$29" x="-0.25" y="2.25" dx="0.45" dy="0.26" layer="1" rot="R270"/>
-<smd name="P$30" x="-0.75" y="2.25" dx="0.45" dy="0.26" layer="1" rot="R270"/>
-<smd name="P$31" x="-1.25" y="2.25" dx="0.45" dy="0.26" layer="1" rot="R270"/>
-<smd name="P$32" x="-1.75" y="2.25" dx="0.45" dy="0.26" layer="1" rot="R270"/>
+<smd name="P$1" x="-2.45" y="1.75" dx="0.85" dy="0.26" layer="1" rot="R180"/>
+<smd name="P$2" x="-2.45" y="1.25" dx="0.85" dy="0.26" layer="1"/>
+<smd name="P$3" x="-2.45" y="0.75" dx="0.85" dy="0.26" layer="1"/>
+<smd name="P$4" x="-2.45" y="0.25" dx="0.85" dy="0.26" layer="1"/>
+<smd name="P$5" x="-2.45" y="-0.25" dx="0.85" dy="0.26" layer="1"/>
+<smd name="P$6" x="-2.45" y="-0.75" dx="0.85" dy="0.26" layer="1"/>
+<smd name="P$7" x="-2.45" y="-1.25" dx="0.85" dy="0.26" layer="1"/>
+<smd name="P$8" x="-2.45" y="-1.75" dx="0.85" dy="0.26" layer="1"/>
+<smd name="P$9" x="-1.75" y="-2.45" dx="0.85" dy="0.26" layer="1" rot="R270"/>
+<smd name="P$10" x="-1.25" y="-2.45" dx="0.85" dy="0.26" layer="1" rot="R90"/>
+<smd name="P$11" x="-0.75" y="-2.45" dx="0.85" dy="0.26" layer="1" rot="R90"/>
+<smd name="P$12" x="-0.25" y="-2.45" dx="0.85" dy="0.26" layer="1" rot="R90"/>
+<smd name="P$13" x="0.25" y="-2.45" dx="0.85" dy="0.26" layer="1" rot="R90"/>
+<smd name="P$14" x="0.75" y="-2.45" dx="0.85" dy="0.26" layer="1" rot="R90"/>
+<smd name="P$15" x="1.25" y="-2.45" dx="0.85" dy="0.26" layer="1" rot="R90"/>
+<smd name="P$16" x="1.75" y="-2.45" dx="0.85" dy="0.26" layer="1" rot="R90"/>
+<smd name="P$17" x="2.45" y="-1.75" dx="0.85" dy="0.26" layer="1"/>
+<smd name="P$18" x="2.45" y="-1.25" dx="0.85" dy="0.26" layer="1" rot="R180"/>
+<smd name="P$19" x="2.45" y="-0.75" dx="0.85" dy="0.26" layer="1" rot="R180"/>
+<smd name="P$20" x="2.45" y="-0.25" dx="0.85" dy="0.26" layer="1" rot="R180"/>
+<smd name="P$21" x="2.45" y="0.25" dx="0.85" dy="0.26" layer="1" rot="R180"/>
+<smd name="P$22" x="2.45" y="0.75" dx="0.85" dy="0.26" layer="1" rot="R180"/>
+<smd name="P$23" x="2.45" y="1.25" dx="0.85" dy="0.26" layer="1" rot="R180"/>
+<smd name="P$24" x="2.45" y="1.75" dx="0.85" dy="0.26" layer="1" rot="R180"/>
+<smd name="P$25" x="1.75" y="2.45" dx="0.85" dy="0.26" layer="1" rot="R90"/>
+<smd name="P$26" x="1.25" y="2.45" dx="0.85" dy="0.26" layer="1" rot="R270"/>
+<smd name="P$27" x="0.75" y="2.45" dx="0.85" dy="0.26" layer="1" rot="R270"/>
+<smd name="P$28" x="0.25" y="2.45" dx="0.85" dy="0.26" layer="1" rot="R270"/>
+<smd name="P$29" x="-0.25" y="2.45" dx="0.85" dy="0.26" layer="1" rot="R270"/>
+<smd name="P$30" x="-0.75" y="2.45" dx="0.85" dy="0.26" layer="1" rot="R270"/>
+<smd name="P$31" x="-1.25" y="2.45" dx="0.85" dy="0.26" layer="1" rot="R270"/>
+<smd name="P$32" x="-1.75" y="2.45" dx="0.85" dy="0.26" layer="1" rot="R270"/>
 <polygon width="0.127" layer="21">
 <vertex x="-3" y="2.25"/>
 <vertex x="-2.25" y="3"/>
@@ -11198,16 +11198,16 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <via x="42.037" y="29.21" extent="1-16" drill="0.2032"/>
 <wire x1="38.279" y1="33.02" x2="37.719" y2="33.02" width="0.254" layer="1"/>
 <via x="37.719" y="33.02" extent="1-16" drill="0.2032"/>
-<wire x1="54.392" y1="34.27" x2="53.741" y2="34.27" width="0.254" layer="1"/>
+<wire x1="54.192" y1="34.27" x2="53.741" y2="34.27" width="0.254" layer="1"/>
 <wire x1="53.741" y1="34.27" x2="53.721" y2="34.29" width="0.254" layer="1"/>
-<wire x1="54.892" y1="35.27" x2="54.892" y2="35.659" width="0.254" layer="1"/>
+<wire x1="54.892" y1="35.47" x2="54.892" y2="35.659" width="0.254" layer="1"/>
 <wire x1="54.892" y1="35.659" x2="54.864" y2="35.687" width="0.254" layer="1"/>
 <wire x1="54.864" y1="35.687" x2="54.229" y2="35.687" width="0.254" layer="1"/>
-<wire x1="56.892" y1="35.27" x2="56.892" y2="35.81" width="0.254" layer="1"/>
+<wire x1="56.892" y1="35.47" x2="56.892" y2="35.81" width="0.254" layer="1"/>
 <wire x1="56.892" y1="35.81" x2="56.896" y2="35.814" width="0.254" layer="1"/>
 <via x="56.896" y="35.814" extent="1-16" drill="0.2032"/>
-<wire x1="58.392" y1="35.27" x2="58.392" y2="35.786" width="0.254" layer="1"/>
-<wire x1="56.392" y1="30.77" x2="56.392" y2="30.103" width="0.254" layer="1"/>
+<wire x1="58.392" y1="35.47" x2="58.392" y2="35.786" width="0.254" layer="1"/>
+<wire x1="56.392" y1="30.57" x2="56.392" y2="30.103" width="0.254" layer="1"/>
 <wire x1="56.392" y1="30.103" x2="56.388" y2="30.099" width="0.254" layer="1"/>
 <via x="55.499" y="31.877" extent="1-16" drill="0.2032"/>
 <via x="57.785" y="31.877" extent="1-16" drill="0.2032"/>
@@ -11309,18 +11309,23 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <wire x1="58.801" y1="35.941" x2="59.182" y2="35.56" width="0.254" layer="1"/>
 <wire x1="41.529" y1="33.02" x2="40.259" y2="33.02" width="0.254" layer="1"/>
 <wire x1="40.259" y1="33.02" x2="39.497" y2="32.258" width="0.254" layer="1"/>
+<wire x1="53.213" y1="34.798" x2="53.213" y2="34.417" width="0.254" layer="1"/>
+<wire x1="53.213" y1="34.417" x2="53.36" y2="34.27" width="0.254" layer="1"/>
+<wire x1="53.36" y1="34.27" x2="54.192" y2="34.27" width="0.254" layer="1"/>
+<wire x1="56.392" y1="30.103" x2="56.392" y2="29.19" width="0.254" layer="1"/>
+<wire x1="56.392" y1="29.19" x2="56.626" y2="28.956" width="0.254" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="U2" pad="P$16"/>
 <contactref element="C7" pad="2"/>
-<wire x1="58.892" y1="34.77" x2="59.535" y2="34.77" width="0.1016" layer="1"/>
+<wire x1="59.092" y1="34.77" x2="59.535" y2="34.77" width="0.1016" layer="1"/>
 <wire x1="59.535" y1="34.77" x2="60.437" y2="35.672" width="0.1016" layer="1"/>
 <wire x1="60.437" y1="35.672" x2="60.833" y2="35.672" width="0.1016" layer="1"/>
 </signal>
 <signal name="N$22">
 <contactref element="U2" pad="P$22"/>
 <contactref element="D2" pad="2"/>
-<wire x1="55.892" y1="35.27" x2="55.892" y2="36.056" width="0.1016" layer="1"/>
+<wire x1="55.892" y1="35.47" x2="55.892" y2="36.056" width="0.1016" layer="1"/>
 <wire x1="55.892" y1="36.056" x2="55.753" y2="36.195" width="0.1016" layer="1"/>
 <wire x1="55.753" y1="36.195" x2="52.974" y2="36.195" width="0.1016" layer="1"/>
 <wire x1="52.974" y1="36.195" x2="52.466" y2="35.687" width="0.1016" layer="1"/>
@@ -11328,7 +11333,7 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <signal name="N$23">
 <contactref element="U2" pad="P$21"/>
 <contactref element="D3" pad="2"/>
-<wire x1="56.392" y1="35.27" x2="56.392" y2="35.937" width="0.1016" layer="1"/>
+<wire x1="56.392" y1="35.47" x2="56.392" y2="35.937" width="0.1016" layer="1"/>
 <wire x1="56.392" y1="35.937" x2="55.7172" y2="36.6118" width="0.1016" layer="1"/>
 <wire x1="55.7172" y1="36.6118" x2="55.7172" y2="36.957" width="0.1016" layer="1"/>
 </signal>
@@ -11346,7 +11351,7 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <signal name="N$26">
 <contactref element="J2" pad="2"/>
 <contactref element="U2" pad="P$15"/>
-<wire x1="58.892" y1="34.27" x2="59.924" y2="34.27" width="0.1016" layer="1"/>
+<wire x1="59.092" y1="34.27" x2="59.924" y2="34.27" width="0.1016" layer="1"/>
 <wire x1="59.924" y1="34.27" x2="59.944" y2="34.29" width="0.1016" layer="1"/>
 <via x="59.944" y="34.29" extent="1-16" drill="0.2032"/>
 <wire x1="59.944" y1="34.29" x2="59.944" y2="34.163" width="0.1016" layer="16"/>
@@ -11359,14 +11364,14 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <signal name="N$27">
 <contactref element="J2" pad="3"/>
 <contactref element="U2" pad="P$14"/>
-<wire x1="58.892" y1="33.77" x2="60.972" y2="33.77" width="0.1016" layer="1"/>
+<wire x1="59.092" y1="33.77" x2="60.972" y2="33.77" width="0.1016" layer="1"/>
 <wire x1="60.972" y1="33.77" x2="61.722" y2="33.02" width="0.1016" layer="1"/>
 <wire x1="61.722" y1="33.02" x2="62.857" y2="33.02" width="0.1016" layer="1"/>
 </signal>
 <signal name="FT232R_TX">
 <contactref element="U2" pad="P$30"/>
 <contactref element="U3" pad="2"/>
-<wire x1="54.392" y1="32.27" x2="53.455" y2="32.27" width="0.1016" layer="1"/>
+<wire x1="54.192" y1="32.27" x2="53.455" y2="32.27" width="0.1016" layer="1"/>
 <wire x1="53.455" y1="32.27" x2="52.832" y2="32.893" width="0.1016" layer="1"/>
 <wire x1="52.832" y1="32.893" x2="52.623" y2="32.893" width="0.1016" layer="1"/>
 <wire x1="52.623" y1="32.893" x2="52.369" y2="33.147" width="0.1016" layer="1"/>
@@ -11374,7 +11379,7 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <signal name="FT232R_RX">
 <contactref element="U2" pad="P$2"/>
 <contactref element="U4" pad="4"/>
-<wire x1="55.392" y1="30.77" x2="55.392" y2="28.214" width="0.1016" layer="1"/>
+<wire x1="55.392" y1="30.57" x2="55.392" y2="28.214" width="0.1016" layer="1"/>
 <wire x1="55.392" y1="28.214" x2="55.118" y2="27.94" width="0.1016" layer="1"/>
 <wire x1="55.118" y1="27.94" x2="53.578" y2="27.94" width="0.1016" layer="1"/>
 <wire x1="53.578" y1="27.94" x2="52.369" y2="29.149" width="0.1016" layer="1"/>
@@ -11799,11 +11804,11 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <wire x1="64.151" y1="39.243" x2="63.008" y2="38.1" width="0.254" layer="1"/>
 <wire x1="63.008" y1="38.1" x2="59.182" y2="38.1" width="0.254" layer="1"/>
 <wire x1="59.182" y1="38.1" x2="58.801" y2="38.481" width="0.254" layer="1"/>
-<wire x1="57.392" y1="35.27" x2="57.392" y2="36.183" width="0.254" layer="1"/>
+<wire x1="57.392" y1="35.47" x2="57.392" y2="36.183" width="0.254" layer="1"/>
 <wire x1="57.392" y1="36.183" x2="57.658" y2="36.449" width="0.254" layer="1"/>
-<wire x1="57.892" y1="35.27" x2="57.892" y2="36.215" width="0.254" layer="1"/>
+<wire x1="57.892" y1="35.47" x2="57.892" y2="36.215" width="0.254" layer="1"/>
 <wire x1="57.892" y1="36.215" x2="57.658" y2="36.449" width="0.254" layer="1"/>
-<wire x1="54.892" y1="30.77" x2="54.892" y2="29.222" width="0.254" layer="1"/>
+<wire x1="54.892" y1="30.57" x2="54.892" y2="29.222" width="0.254" layer="1"/>
 <wire x1="54.892" y1="29.222" x2="54.626" y2="28.956" width="0.254" layer="1"/>
 <wire x1="52.369" y1="31.049" x2="52.369" y2="30.689" width="0.254" layer="1"/>
 <wire x1="52.369" y1="30.689" x2="54.102" y2="28.956" width="0.254" layer="1"/>
