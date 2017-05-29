@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.6" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -11394,13 +11394,13 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <element name="R1" library="dooba" package="0805" value="10k" x="59.436" y="49.53"/>
 <element name="R2" library="dooba" package="0805" value="10k" x="63.246" y="49.53"/>
 <element name="S1" library="dooba" package="JS102011" value="PWR" x="66.04" y="29.21"/>
-<element name="SW1" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="67.31" y="40.64" rot="R225"/>
-<element name="SW2" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="73.66" y="34.29" rot="R225"/>
-<element name="SW3" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="73.66" y="40.64" rot="R225"/>
-<element name="SW4" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="80.01" y="34.29" rot="R225"/>
-<element name="SW5" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="80.01" y="40.64" rot="R225"/>
-<element name="SW6" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="73.66" y="46.99" rot="R225"/>
-<element name="SW7" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="80.01" y="46.99" rot="R45"/>
+<element name="SW1" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="67.31" y="39.878" rot="R225"/>
+<element name="SW2" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="73.66" y="35.56" rot="R225"/>
+<element name="SW3" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="73.66" y="39.878" rot="R225"/>
+<element name="SW4" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="80.01" y="35.56" rot="R225"/>
+<element name="SW5" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="73.66" y="44.196" rot="R225"/>
+<element name="SW6" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="80.01" y="44.196" rot="R45"/>
+<element name="SW7" library="dooba" package="CK_KXT3" value="TACTSW_2CK_KXT3" x="80.01" y="39.878" rot="R225"/>
 <element name="U1" library="dooba" package="20-VQFN" value="MCP23008QFN" x="66.578815625" y="46.4511875" rot="R45"/>
 <element name="U2" library="dooba" package="DOOBA_AECHO_NOAOUT" value="DOOBA_AECHO_NOAOUT" x="78.74" y="40.64" rot="MR0"/>
 <element name="U3" library="dooba" package="DOOBA_NOMAD" value="DOOBA_NOMAD" x="67.31" y="73.66" rot="MR0"/>
@@ -11412,61 +11412,59 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <contactref element="U1" pad="9"/>
 <contactref element="SW1" pad="P$1"/>
 <wire x1="68.240515625" y1="45.496590625" x2="69.342" y2="44.39510625" width="0.254" layer="1"/>
-<wire x1="69.342" y1="44.39510625" x2="69.342" y2="42.672" width="0.254" layer="1"/>
-<wire x1="69.342" y1="42.672" x2="68.459046875" y2="41.789046875" width="0.254" layer="1"/>
+<wire x1="69.342" y1="44.39510625" x2="69.342" y2="41.91" width="0.254" layer="1"/>
+<wire x1="69.342" y1="41.91" x2="68.459046875" y2="41.027046875" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U1" pad="10"/>
 <contactref element="SW2" pad="P$1"/>
-<wire x1="68.59406875" y1="45.85014375" x2="75.946" y2="38.4982125" width="0.254" layer="1"/>
-<wire x1="75.946" y1="38.4982125" x2="75.946" y2="36.576" width="0.254" layer="1"/>
-<wire x1="75.946" y1="36.576" x2="74.809046875" y2="35.439046875" width="0.254" layer="1"/>
+<wire x1="68.59406875" y1="45.85014375" x2="74.809046875" y2="39.635165625" width="0.254" layer="1"/>
+<wire x1="74.809046875" y1="39.635165625" x2="74.809046875" y2="36.709046875" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U1" pad="11"/>
 <contactref element="SW3" pad="P$1"/>
-<wire x1="68.59406875" y1="47.052228125" x2="69.801840625" y2="48.26" width="0.254" layer="1"/>
-<wire x1="69.801840625" y1="48.26" x2="71.374" y2="48.26" width="0.254" layer="1"/>
-<wire x1="71.374" y1="48.26" x2="75.692" y2="43.942" width="0.254" layer="1"/>
-<wire x1="75.692" y1="43.942" x2="75.692" y2="42.672" width="0.254" layer="1"/>
-<wire x1="75.692" y1="42.672" x2="74.809046875" y2="41.789046875" width="0.254" layer="1"/>
+<wire x1="68.59406875" y1="47.052228125" x2="69.293840625" y2="47.752" width="0.254" layer="1"/>
+<wire x1="69.293840625" y1="47.752" x2="70.358" y2="47.752" width="0.254" layer="1"/>
+<wire x1="75.438" y1="41.656" x2="74.809046875" y2="41.027046875" width="0.254" layer="1"/>
+<wire x1="70.358" y1="47.752" x2="75.438" y2="42.672" width="0.254" layer="1"/>
+<wire x1="75.438" y1="42.672" x2="75.438" y2="41.656" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U1" pad="12"/>
 <contactref element="SW4" pad="P$1"/>
-<wire x1="68.240515625" y1="47.40578125" x2="69.602734375" y2="48.768" width="0.254" layer="1"/>
-<wire x1="69.602734375" y1="48.768" x2="71.628" y2="48.768" width="0.254" layer="1"/>
-<wire x1="71.628" y1="48.768" x2="82.042" y2="38.354" width="0.254" layer="1"/>
-<wire x1="82.042" y1="38.354" x2="82.042" y2="36.322" width="0.254" layer="1"/>
-<wire x1="82.042" y1="36.322" x2="81.159046875" y2="35.439046875" width="0.254" layer="1"/>
+<wire x1="68.240515625" y1="47.40578125" x2="69.094734375" y2="48.26" width="0.254" layer="1"/>
+<wire x1="69.094734375" y1="48.26" x2="70.612" y2="48.26" width="0.254" layer="1"/>
+<wire x1="70.612" y1="48.26" x2="81.026" y2="37.846" width="0.254" layer="1"/>
+<wire x1="81.026" y1="37.846" x2="81.026" y2="37.338" width="0.254" layer="1"/>
+<wire x1="81.026" y1="37.338" x2="81.159046875" y2="37.204953125" width="0.254" layer="1"/>
+<wire x1="81.159046875" y1="37.204953125" x2="81.159046875" y2="36.709046875" width="0.254" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U1" pad="13"/>
 <contactref element="SW5" pad="P$1"/>
-<wire x1="67.8869625" y1="47.759334375" x2="69.403628125" y2="49.276" width="0.254" layer="1"/>
-<wire x1="69.403628125" y1="49.276" x2="71.882" y2="49.276" width="0.254" layer="1"/>
-<wire x1="71.882" y1="49.276" x2="78.232" y2="42.926" width="0.254" layer="1"/>
-<wire x1="78.232" y1="42.926" x2="80.01" y2="42.926" width="0.254" layer="1"/>
-<wire x1="80.01" y1="42.926" x2="81.146953125" y2="41.789046875" width="0.254" layer="1"/>
-<wire x1="81.146953125" y1="41.789046875" x2="81.159046875" y2="41.789046875" width="0.254" layer="1"/>
+<wire x1="67.8869625" y1="47.759334375" x2="68.895628125" y2="48.768" width="0.254" layer="1"/>
+<wire x1="68.895628125" y1="48.768" x2="70.866" y2="48.768" width="0.254" layer="1"/>
+<wire x1="70.866" y1="48.768" x2="73.66" y2="45.974" width="0.254" layer="1"/>
+<wire x1="73.66" y1="45.974" x2="74.168" y2="45.974" width="0.254" layer="1"/>
+<wire x1="74.168" y1="45.974" x2="74.796953125" y2="45.345046875" width="0.254" layer="1"/>
+<wire x1="74.796953125" y1="45.345046875" x2="74.809046875" y2="45.345046875" width="0.254" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="U1" pad="14"/>
 <contactref element="SW6" pad="P$1"/>
-<wire x1="67.533409375" y1="48.1128875" x2="69.204521875" y2="49.784" width="0.254" layer="1"/>
-<wire x1="69.204521875" y1="49.784" x2="72.136" y2="49.784" width="0.254" layer="1"/>
-<wire x1="72.136" y1="49.784" x2="73.66" y2="48.26" width="0.254" layer="1"/>
-<wire x1="73.66" y1="48.26" x2="74.168" y2="48.26" width="0.254" layer="1"/>
-<wire x1="74.168" y1="48.26" x2="74.288953125" y2="48.139046875" width="0.254" layer="1"/>
-<wire x1="74.288953125" y1="48.139046875" x2="74.809046875" y2="48.139046875" width="0.254" layer="1"/>
+<wire x1="67.533409375" y1="48.1128875" x2="68.696521875" y2="49.276" width="0.254" layer="1"/>
+<wire x1="68.696521875" y1="49.276" x2="72.644" y2="49.276" width="0.254" layer="1"/>
+<wire x1="72.644" y1="49.276" x2="78.86095" y2="43.05905" width="0.254" layer="1"/>
+<wire x1="78.86095" y1="43.05905" x2="78.86095" y2="43.04695" width="0.254" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="U1" pad="15"/>
 <contactref element="SW7" pad="P$1"/>
-<wire x1="67.17985625" y1="48.466440625" x2="69.005415625" y2="50.292" width="0.254" layer="1"/>
-<wire x1="69.005415625" y1="50.292" x2="74.422" y2="50.292" width="0.254" layer="1"/>
-<wire x1="74.422" y1="50.292" x2="78.86095" y2="45.85305" width="0.254" layer="1"/>
-<wire x1="78.86095" y1="45.85305" x2="78.86095" y2="45.84095" width="0.254" layer="1"/>
+<wire x1="67.17985625" y1="48.466440625" x2="68.497415625" y2="49.784" width="0.254" layer="1"/>
+<wire x1="68.497415625" y1="49.784" x2="73.66" y2="49.784" width="0.254" layer="1"/>
+<wire x1="73.66" y1="49.784" x2="81.159046875" y2="42.284953125" width="0.254" layer="1"/>
+<wire x1="81.159046875" y1="42.284953125" x2="81.159046875" y2="41.027046875" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="17"/>
@@ -11667,23 +11665,13 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <via x="69.342" y="46.482" extent="1-16" drill="0.3556"/>
 <via x="66.548" y="43.942" extent="1-16" drill="0.3556"/>
 <via x="68.326" y="43.942" extent="1-16" drill="0.3556"/>
-<via x="70.866" y="47.244" extent="1-16" drill="0.3556"/>
-<via x="71.374" y="44.704" extent="1-16" drill="0.3556"/>
-<via x="73.66" y="43.942" extent="1-16" drill="0.3556"/>
-<via x="73.66" y="49.53" extent="1-16" drill="0.3556"/>
-<via x="76.2" y="46.736" extent="1-16" drill="0.3556"/>
-<via x="77.724" y="44.958" extent="1-16" drill="0.3556"/>
-<via x="80.264" y="44.196" extent="1-16" drill="0.3556"/>
-<via x="78.486" y="48.006" extent="1-16" drill="0.3556"/>
-<via x="80.01" y="46.99" extent="1-16" drill="0.3556"/>
-<via x="79.756" y="49.53" extent="1-16" drill="0.3556"/>
-<via x="77.724" y="49.784" extent="1-16" drill="0.3556"/>
-<via x="75.692" y="50.546" extent="1-16" drill="0.3556"/>
+<via x="72.898" y="47.752" extent="1-16" drill="0.3556"/>
+<via x="76.454" y="43.942" extent="1-16" drill="0.3556"/>
+<via x="78.994" y="46.228" extent="1-16" drill="0.3556"/>
+<via x="72.39" y="50.8" extent="1-16" drill="0.3556"/>
+<via x="69.85" y="50.8" extent="1-16" drill="0.3556"/>
+<via x="74.93" y="50.8" extent="1-16" drill="0.3556"/>
 <via x="82.042" y="49.276" extent="1-16" drill="0.3556"/>
-<via x="82.042" y="46.482" extent="1-16" drill="0.3556"/>
-<via x="82.042" y="45.212" extent="1-16" drill="0.3556"/>
-<via x="82.042" y="43.942" extent="1-16" drill="0.3556"/>
-<via x="82.042" y="42.672" extent="1-16" drill="0.3556"/>
 <via x="85.598" y="42.672" extent="1-16" drill="0.3556"/>
 <via x="85.598" y="43.942" extent="1-16" drill="0.3556"/>
 <via x="85.598" y="45.212" extent="1-16" drill="0.3556"/>
@@ -11728,7 +11716,6 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <via x="84.074" y="35.052" extent="1-16" drill="0.3556"/>
 <via x="85.598" y="33.02" extent="1-16" drill="0.3556"/>
 <via x="83.058" y="36.83" extent="1-16" drill="0.3556"/>
-<via x="80.01" y="34.29" extent="1-16" drill="0.3556"/>
 <via x="82.55" y="34.036" extent="1-16" drill="0.3556"/>
 <via x="82.804" y="32.004" extent="1-16" drill="0.3556"/>
 <via x="80.772" y="31.75" extent="1-16" drill="0.3556"/>
@@ -11740,16 +11727,12 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <via x="72.39" y="26.924" extent="1-16" drill="0.3556"/>
 <via x="72.39" y="31.496" extent="1-16" drill="0.3556"/>
 <via x="74.676" y="32.766" extent="1-16" drill="0.3556"/>
-<via x="73.406" y="34.036" extent="1-16" drill="0.3556"/>
 <via x="76.454" y="34.29" extent="1-16" drill="0.3556"/>
 <via x="77.978" y="32.258" extent="1-16" drill="0.3556"/>
 <via x="75.946" y="39.878" extent="1-16" drill="0.3556"/>
-<via x="76.962" y="37.846" extent="1-16" drill="0.3556"/>
 <via x="77.47" y="39.116" extent="1-16" drill="0.3556"/>
-<via x="76.454" y="42.672" extent="1-16" drill="0.3556"/>
 <via x="70.866" y="42.672" extent="1-16" drill="0.3556"/>
 <via x="70.866" y="40.132" extent="1-16" drill="0.3556"/>
-<via x="74.168" y="38.354" extent="1-16" drill="0.3556"/>
 <via x="72.39" y="37.846" extent="1-16" drill="0.3556"/>
 <via x="69.596" y="37.846" extent="1-16" drill="0.3556"/>
 <via x="67.31" y="37.846" extent="1-16" drill="0.3556"/>
@@ -11759,8 +11742,6 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <via x="61.976" y="32.766" extent="1-16" drill="0.3556"/>
 <via x="67.818" y="34.036" extent="1-16" drill="0.3556"/>
 <via x="69.342" y="34.29" extent="1-16" drill="0.3556"/>
-<via x="71.12" y="34.29" extent="1-16" drill="0.3556"/>
-<via x="77.724" y="34.29" extent="1-16" drill="0.3556"/>
 <via x="61.976" y="31.75" extent="1-16" drill="0.3556"/>
 <via x="69.85" y="33.02" extent="1-16" drill="0.3556"/>
 <via x="69.85" y="31.75" extent="1-16" drill="0.3556"/>
@@ -11779,7 +11760,7 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <via x="59.944" y="39.624" extent="1-16" drill="0.3556"/>
 <via x="63.754" y="37.338" extent="1-16" drill="0.3556"/>
 <via x="63.754" y="39.624" extent="1-16" drill="0.3556"/>
-<via x="67.564" y="39.878" extent="1-16" drill="0.3556"/>
+<via x="69.342" y="39.878" extent="1-16" drill="0.3556"/>
 <via x="65.024" y="42.672" extent="1-16" drill="0.3556"/>
 <via x="63.5" y="43.18" extent="1-16" drill="0.3556"/>
 <via x="59.69" y="43.18" extent="1-16" drill="0.3556"/>
@@ -11794,6 +11775,13 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <via x="64.516" y="27.94" extent="1-16" drill="0.3556"/>
 <wire x1="66.548" y1="45.466" x2="66.578815625" y2="45.496815625" width="0.8128" layer="1"/>
 <wire x1="66.578815625" y1="45.496815625" x2="66.578815625" y2="46.4511875" width="0.8128" layer="1"/>
+<via x="77.47" y="50.8" extent="1-16" drill="0.3556"/>
+<via x="80.01" y="50.8" extent="1-16" drill="0.3556"/>
+<via x="82.042" y="48.26" extent="1-16" drill="0.3556"/>
+<via x="82.042" y="47.244" extent="1-16" drill="0.3556"/>
+<via x="82.042" y="46.228" extent="1-16" drill="0.3556"/>
+<via x="82.042" y="43.942" extent="1-16" drill="0.3556"/>
+<via x="82.042" y="42.926" extent="1-16" drill="0.3556"/>
 </signal>
 <signal name="VBAT">
 <contactref element="U3" pad="10"/>
@@ -11803,9 +11791,9 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <wire x1="79.248" y1="35.56" x2="82.804" y2="39.116" width="0.8128" layer="16"/>
 <via x="82.804" y="39.116" extent="1-16" drill="0.3556"/>
 <wire x1="82.804" y1="39.116" x2="84.328" y2="40.64" width="0.8128" layer="1"/>
-<wire x1="67.564" y1="35.56" x2="71.882" y2="35.56" width="0.8128" layer="1"/>
-<via x="71.882" y="35.56" extent="1-16" drill="0.3556"/>
-<wire x1="71.882" y1="35.56" x2="79.248" y2="35.56" width="0.8128" layer="16"/>
+<wire x1="67.564" y1="35.56" x2="70.104" y2="35.56" width="0.8128" layer="1"/>
+<via x="70.104" y="35.56" extent="1-16" drill="0.3556"/>
+<wire x1="70.104" y1="35.56" x2="79.248" y2="35.56" width="0.8128" layer="16"/>
 <wire x1="84.328" y1="40.64" x2="84.328" y2="49.784" width="0.8128" layer="1"/>
 <wire x1="84.328" y1="49.784" x2="85.09" y2="50.546" width="0.8128" layer="1"/>
 <wire x1="85.09" y1="50.546" x2="85.09" y2="53.34" width="0.8128" layer="1"/>
@@ -11999,7 +11987,10 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <wire x1="65.278" y1="43.942" x2="65.278" y2="44.443265625" width="0.254" layer="1"/>
 <wire x1="65.278" y1="44.443265625" x2="65.62421875" y2="44.789484375" width="0.254" layer="1"/>
 <wire x1="65.786" y1="43.434" x2="65.786" y2="43.18" width="0.254" layer="1"/>
-<wire x1="65.786" y1="43.18" x2="70.104" y2="38.862" width="0.254" layer="1"/>
+<wire x1="65.786" y1="43.18" x2="67.056" y2="41.91" width="0.254" layer="1"/>
+<wire x1="67.056" y1="41.91" x2="67.056" y2="40.894" width="0.254" layer="1"/>
+<wire x1="67.056" y1="40.894" x2="69.088" y2="38.862" width="0.254" layer="1"/>
+<wire x1="69.088" y1="38.862" x2="70.104" y2="38.862" width="0.254" layer="1"/>
 <via x="75.692" y="33.274" extent="1-16" drill="0.3556"/>
 <wire x1="70.104" y1="38.862" x2="75.692" y2="33.274" width="0.254" layer="1"/>
 <wire x1="75.692" y1="33.274" x2="78.486" y2="30.48" width="0.254" layer="16"/>
