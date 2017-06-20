@@ -609,8 +609,8 @@
 <part name="U$1" library="dooba" deviceset="TB6612" device="SSOP24"/>
 <part name="J1" library="dooba" deviceset="TERMBLK_2" device="35"/>
 <part name="J2" library="dooba" deviceset="TERMBLK_2" device="35"/>
-<part name="P1" library="dooba" deviceset="PIN_5" device=""/>
-<part name="P2" library="dooba" deviceset="PIN_5" device=""/>
+<part name="BIN2-BIN1-GND-AIN1-AIN2" library="dooba" deviceset="PIN_5" device=""/>
+<part name="VM-VIN-GND-PWMA-PWMB" library="dooba" deviceset="PIN_5" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -632,8 +632,8 @@
 <instance part="U$1" gate="G$1" x="104.14" y="86.36"/>
 <instance part="J1" gate="J1" x="142.24" y="93.98"/>
 <instance part="J2" gate="J1" x="142.24" y="76.2"/>
-<instance part="P1" gate="P1" x="78.74" y="58.42" rot="R270"/>
-<instance part="P2" gate="P1" x="58.42" y="58.42" rot="R270"/>
+<instance part="BIN2-BIN1-GND-AIN1-AIN2" gate="P1" x="78.74" y="58.42" rot="R270"/>
+<instance part="VM-VIN-GND-PWMA-PWMB" gate="P1" x="58.42" y="58.42" rot="R270"/>
 <instance part="GND1" gate="1" x="99.06" y="58.42"/>
 <instance part="GND2" gate="1" x="73.66" y="71.12" rot="R180"/>
 <instance part="GND4" gate="1" x="53.34" y="71.12" rot="R180"/>
@@ -689,12 +689,12 @@
 <wire x1="88.9" y1="139.7" x2="88.9" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P1" gate="P1" pin="3"/>
+<pinref part="BIN2-BIN1-GND-AIN1-AIN2" gate="P1" pin="3"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="73.66" y1="68.58" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P2" gate="P1" pin="3"/>
+<pinref part="VM-VIN-GND-PWMA-PWMB" gate="P1" pin="3"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="53.34" y1="68.58" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
 </segment>
@@ -715,7 +715,7 @@
 <junction x="68.58" y="114.3"/>
 <pinref part="R1" gate="R1" pin="2"/>
 <wire x1="40.64" y1="101.6" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="P2" gate="P1" pin="2"/>
+<pinref part="VM-VIN-GND-PWMA-PWMB" gate="P1" pin="2"/>
 <wire x1="55.88" y1="66.04" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
 <junction x="55.88" y="114.3"/>
 </segment>
@@ -739,7 +739,7 @@
 <pinref part="C4" gate="C1" pin="1"/>
 <wire x1="88.9" y1="116.84" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
 <junction x="88.9" y="111.76"/>
-<pinref part="P2" gate="P1" pin="1"/>
+<pinref part="VM-VIN-GND-PWMA-PWMB" gate="P1" pin="1"/>
 <wire x1="58.42" y1="66.04" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -747,7 +747,7 @@
 <segment>
 <pinref part="U$1" gate="G$1" pin="PWMB"/>
 <wire x1="48.26" y1="81.28" x2="81.28" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="P2" gate="P1" pin="5"/>
+<pinref part="VM-VIN-GND-PWMA-PWMB" gate="P1" pin="5"/>
 <wire x1="48.26" y1="66.04" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -755,7 +755,7 @@
 <segment>
 <pinref part="U$1" gate="G$1" pin="AIN2"/>
 <wire x1="68.58" y1="93.98" x2="81.28" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="P1" gate="P1" pin="5"/>
+<pinref part="BIN2-BIN1-GND-AIN1-AIN2" gate="P1" pin="5"/>
 <wire x1="68.58" y1="93.98" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -811,7 +811,7 @@
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="P1" gate="P1" pin="4"/>
+<pinref part="BIN2-BIN1-GND-AIN1-AIN2" gate="P1" pin="4"/>
 <pinref part="U$1" gate="G$1" pin="AIN1"/>
 <wire x1="71.12" y1="66.04" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="96.52" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
@@ -819,7 +819,7 @@
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="P1" gate="P1" pin="2"/>
+<pinref part="BIN2-BIN1-GND-AIN1-AIN2" gate="P1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="BIN1"/>
 <wire x1="76.2" y1="66.04" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
@@ -827,7 +827,7 @@
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="P1" gate="P1" pin="1"/>
+<pinref part="BIN2-BIN1-GND-AIN1-AIN2" gate="P1" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="BIN2"/>
 <wire x1="78.74" y1="66.04" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
@@ -835,7 +835,7 @@
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="P2" gate="P1" pin="4"/>
+<pinref part="VM-VIN-GND-PWMA-PWMB" gate="P1" pin="4"/>
 <pinref part="U$1" gate="G$1" pin="PWMA"/>
 <wire x1="50.8" y1="66.04" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
