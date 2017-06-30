@@ -3128,6 +3128,65 @@
 <text x="-2.75" y="0.75" size="0.8128" layer="25">&gt;Name</text>
 <text x="-1.25" y="-1.5" size="0.8128" layer="27">&gt;Value</text>
 </package>
+<package name="I2C-OLED-0.91">
+<pad name="SDA" x="-17.78" y="3.81" drill="0.8"/>
+<pad name="SCL" x="-17.78" y="1.27" drill="0.8"/>
+<pad name="VCC" x="-17.78" y="-1.27" drill="0.8"/>
+<pad name="GND" x="-17.78" y="-3.81" drill="0.8"/>
+<wire x1="-19.558" y1="5.588" x2="19.558" y2="5.588" width="0.127" layer="21"/>
+<wire x1="19.558" y1="5.588" x2="19.558" y2="-5.588" width="0.127" layer="21"/>
+<wire x1="19.558" y1="-5.588" x2="-19.558" y2="-5.588" width="0.127" layer="21"/>
+<wire x1="-19.558" y1="-5.588" x2="-19.558" y2="5.588" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="3.81" x2="13.97" y2="3.81" width="0.127" layer="21"/>
+<wire x1="13.97" y1="3.81" x2="13.97" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="13.97" y1="-3.81" x2="-13.97" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-3.81" x2="-13.97" y2="3.81" width="0.127" layer="21"/>
+<text x="-8.128" y="0.762" size="1.27" layer="25">&gt;Name</text>
+<text x="-8.128" y="-2.286" size="1.27" layer="27">&gt;Value</text>
+</package>
+<package name="TACTSW-5WAY-7X7">
+<hole x="0" y="1.9" drill="0.75"/>
+<hole x="0" y="-1.9" drill="1.05"/>
+<wire x1="-4" y1="2.7" x2="-4" y2="-2.7" width="0.127" layer="21"/>
+<wire x1="-4" y1="-2.7" x2="-2.7" y2="-4" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="-4" x2="2.7" y2="-4" width="0.127" layer="21"/>
+<wire x1="2.7" y1="-4" x2="4" y2="-2.7" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.7" x2="4" y2="2.7" width="0.127" layer="21"/>
+<wire x1="4" y1="2.7" x2="2.7" y2="4" width="0.127" layer="21"/>
+<wire x1="2.7" y1="4" x2="-2.7" y2="4" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="4" x2="-4" y2="2.7" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.83980625" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<smd name="GND1" x="0" y="4.15" dx="2" dy="2" layer="1"/>
+<smd name="GND2" x="0" y="-4.15" dx="2" dy="2" layer="1"/>
+<smd name="1" x="-3.4" y="1.4" dx="1.1" dy="2" layer="1" rot="R90"/>
+<smd name="2" x="-3.4" y="0" dx="1.1" dy="2" layer="1" rot="R90"/>
+<smd name="3" x="-3.4" y="-1.4" dx="1.1" dy="2" layer="1" rot="R90"/>
+<smd name="4" x="3.4" y="1.4" dx="1.1" dy="2" layer="1" rot="R90"/>
+<smd name="5" x="3.4" y="0" dx="1.1" dy="2" layer="1" rot="R90"/>
+<smd name="6" x="3.4" y="-1.4" dx="1.1" dy="2" layer="1" rot="R90"/>
+<text x="-3.81" y="6.35" size="1.27" layer="25">&gt;Name</text>
+<text x="-3.81" y="-7.62" size="1.27" layer="27">&gt;Value</text>
+</package>
+<package name="TACTSW_MICRO3X6">
+<smd name="1" x="-4" y="0" dx="1.5" dy="2" layer="1"/>
+<smd name="2" x="4" y="0" dx="1.5" dy="2" layer="1"/>
+<wire x1="-5.588" y1="2.032" x2="-5.588" y2="-2.032" width="0.254" layer="21"/>
+<wire x1="-5.588" y1="-2.032" x2="5.588" y2="-2.032" width="0.254" layer="21"/>
+<wire x1="5.588" y1="-2.032" x2="5.588" y2="2.032" width="0.254" layer="21"/>
+<wire x1="5.588" y1="2.032" x2="-5.588" y2="2.032" width="0.254" layer="21"/>
+<wire x1="-2.794" y1="0" x2="-1.016" y2="0" width="0.254" layer="21"/>
+<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.254" layer="21"/>
+<wire x1="0.762" y1="0" x2="2.794" y2="0" width="0.254" layer="21"/>
+<circle x="0.254" y="1.27" radius="0.254" width="0.254" layer="21"/>
+<circle x="0.508" y="0" radius="0.254" width="0.254" layer="21"/>
+<text x="-5.08" y="2.286" size="1.27" layer="25">&gt;Name</text>
+<text x="1.778" y="-2.286" size="1.27" layer="27" rot="R180">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="STM32F030X-LQFP32">
@@ -4828,6 +4887,38 @@
 <wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
 <text x="-2.54" y="7.62" size="0.8128" layer="95">&gt;Name</text>
 <text x="-2.54" y="-5.08" size="0.8128" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="I2C-OLED-0.91">
+<pin name="SDA" x="-7.62" y="7.62" length="middle"/>
+<pin name="SCL" x="-7.62" y="2.54" length="middle"/>
+<pin name="VCC" x="-7.62" y="-2.54" length="middle"/>
+<pin name="GND" x="-7.62" y="-7.62" length="middle"/>
+<wire x1="-2.54" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<text x="-2.54" y="15.24" size="1.27" layer="95">&gt;Name</text>
+<text x="-2.54" y="12.7" size="1.27" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="TACTSW_5WAY">
+<pin name="GND1" x="0" y="17.78" length="middle" rot="R270"/>
+<pin name="GND2" x="0" y="-17.78" length="middle" rot="R90"/>
+<pin name="A" x="-17.78" y="2.54" length="middle"/>
+<pin name="CENTER" x="-17.78" y="0" length="middle"/>
+<pin name="C" x="-17.78" y="-2.54" length="middle"/>
+<pin name="B" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="COMMON" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="D" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="7.62" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.27" layer="95">&gt;Name</text>
+<text x="-10.16" y="5.08" size="1.27" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6590,6 +6681,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="MICRO3X6" package="TACTSW_MICRO3X6">
+<connects>
+<connect gate="B1" pin="1" pad="1"/>
+<connect gate="B1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="PROTOPIN_3" prefix="P">
@@ -6672,6 +6772,46 @@
 <connects>
 <connect gate="J1" pin="P$1" pad="P$1"/>
 <connect gate="J1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="I2C-OLED-0.91" prefix="OLED">
+<gates>
+<gate name="OLED1" symbol="I2C-OLED-0.91" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="I2C-OLED-0.91">
+<connects>
+<connect gate="OLED1" pin="GND" pad="GND"/>
+<connect gate="OLED1" pin="SCL" pad="SCL"/>
+<connect gate="OLED1" pin="SDA" pad="SDA"/>
+<connect gate="OLED1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TACTSW_5WAY" prefix="B">
+<gates>
+<gate name="G$1" symbol="TACTSW_5WAY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD-7X7" package="TACTSW-5WAY-7X7">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="B" pad="4"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="CENTER" pad="2"/>
+<connect gate="G$1" pin="COMMON" pad="5"/>
+<connect gate="G$1" pin="D" pad="6"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
 </connects>
 <technologies>
 <technology name=""/>
