@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -1044,10 +1045,7 @@
 <wire x1="195.58" y1="292.1" x2="195.58" y2="236.22" width="0.1524" layer="97"/>
 <wire x1="195.58" y1="236.22" x2="121.92" y2="236.22" width="0.1524" layer="97"/>
 <wire x1="121.92" y1="236.22" x2="121.92" y2="292.1" width="0.1524" layer="97"/>
-<text x="124.46" y="279.4" size="1.778" layer="97">Core Regulator
-Provides 3.3V to Core Logic blocks:
- - STM32F030
- - STA013</text>
+<text x="124.46" y="287.02" size="1.778" layer="97">Core 3.3V Regulator</text>
 <wire x1="121.92" y1="228.6" x2="121.92" y2="58.42" width="0.1524" layer="97"/>
 <wire x1="121.92" y1="58.42" x2="297.18" y2="58.42" width="0.1524" layer="97"/>
 <wire x1="297.18" y1="58.42" x2="297.18" y2="228.6" width="0.1524" layer="97"/>
@@ -1065,10 +1063,7 @@ Feeds Analog Audio to Headphone Amplifier</text>
 <wire x1="469.9" y1="302.26" x2="469.9" y2="246.38" width="0.1524" layer="97"/>
 <wire x1="469.9" y1="246.38" x2="396.24" y2="246.38" width="0.1524" layer="97"/>
 <wire x1="396.24" y1="246.38" x2="396.24" y2="302.26" width="0.1524" layer="97"/>
-<text x="398.78" y="289.56" size="1.778" layer="97">Audio Regulator
-Provides 5.0V to Audio blocks:
- - D/A Converter
- - Headphone Amp</text>
+<text x="398.78" y="297.18" size="1.778" layer="97">Audio 5.0V Regulator</text>
 <wire x1="396.24" y1="137.16" x2="551.18" y2="137.16" width="0.1524" layer="97"/>
 <wire x1="551.18" y1="137.16" x2="551.18" y2="58.42" width="0.1524" layer="97"/>
 <wire x1="551.18" y1="58.42" x2="396.24" y2="58.42" width="0.1524" layer="97"/>
