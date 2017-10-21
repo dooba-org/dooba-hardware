@@ -3667,6 +3667,17 @@
 <text x="-1.5" y="1.5" size="0.6096" layer="25">&gt;Name</text>
 <text x="-1.5" y="-2" size="0.6096" layer="27">&gt;Value</text>
 </package>
+<package name="Z3OC_VIB_MOTOR">
+<smd name="1" x="-0.5" y="1.85" dx="2.6" dy="1" layer="1"/>
+<smd name="2" x="-0.5" y="-1.85" dx="2.6" dy="1" layer="1"/>
+<smd name="NC" x="3.55" y="0" dx="4.4" dy="4.4" layer="1"/>
+<wire x1="-2" y1="3" x2="-2" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2" y1="-3" x2="11.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="11.5" y1="-3" x2="11.5" y2="3" width="0.127" layer="21"/>
+<wire x1="11.5" y1="3" x2="-2" y2="3" width="0.127" layer="21"/>
+<text x="7" y="1.5" size="0.6096" layer="25">&gt;Name</text>
+<text x="7" y="0.5" size="0.6096" layer="27">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="STM32F030X-LQFP32">
@@ -5805,6 +5816,27 @@
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
 <text x="-10.16" y="15.24" size="1.778" layer="95">&gt;Name</text>
 <text x="-10.16" y="12.7" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="Z3OC_VIB_MOTOR">
+<pin name="+" x="-7.62" y="2.54" length="middle"/>
+<pin name="-" x="-7.62" y="-2.54" length="middle"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="25.4" y2="0" width="0.254" layer="94"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="7.62" size="1.4224" layer="95">&gt;Name</text>
+<text x="-2.54" y="-7.62" size="1.4224" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -8213,6 +8245,22 @@
 <connect gate="U1" pin="SW" pad="5"/>
 <connect gate="U1" pin="VIN" pad="8"/>
 <connect gate="U1" pin="VOUT" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="Z3OC_VIB_MOTOR" prefix="M">
+<gates>
+<gate name="M1" symbol="Z3OC_VIB_MOTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="Z3OC_VIB_MOTOR">
+<connects>
+<connect gate="M1" pin="+" pad="2"/>
+<connect gate="M1" pin="-" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>

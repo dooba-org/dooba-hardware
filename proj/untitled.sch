@@ -1138,6 +1138,17 @@
 <text x="-1" y="2" size="0.4064" layer="25">&gt;Name</text>
 <text x="-1" y="1.5" size="0.4064" layer="27">&gt;Value</text>
 </package>
+<package name="Z3OC_VIB_MOTOR">
+<smd name="1" x="-0.5" y="1.85" dx="2.6" dy="1" layer="1"/>
+<smd name="2" x="-0.5" y="-1.85" dx="2.6" dy="1" layer="1"/>
+<smd name="NC" x="3.55" y="0" dx="4.4" dy="4.4" layer="1"/>
+<wire x1="-2" y1="3" x2="-2" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2" y1="-3" x2="11.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="11.5" y1="-3" x2="11.5" y2="3" width="0.127" layer="21"/>
+<wire x1="11.5" y1="3" x2="-2" y2="3" width="0.127" layer="21"/>
+<text x="7" y="1.5" size="0.6096" layer="25">&gt;Name</text>
+<text x="7" y="0.5" size="0.6096" layer="27">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DOOBA_IONODE">
@@ -1644,6 +1655,27 @@
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
 <text x="-5.08" y="10.16" size="1.6764" layer="95">&gt;Name</text>
 <text x="-5.08" y="7.62" size="1.6764" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="Z3OC_VIB_MOTOR">
+<pin name="+" x="-7.62" y="2.54" length="middle"/>
+<pin name="-" x="-7.62" y="-2.54" length="middle"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="25.4" y2="0" width="0.254" layer="94"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="7.62" size="1.4224" layer="95">&gt;Name</text>
+<text x="-2.54" y="-7.62" size="1.4224" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2340,6 +2372,22 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="Z3OC_VIB_MOTOR" prefix="M">
+<gates>
+<gate name="M1" symbol="Z3OC_VIB_MOTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="Z3OC_VIB_MOTOR">
+<connects>
+<connect gate="M1" pin="+" pad="2"/>
+<connect gate="M1" pin="-" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
@@ -2661,6 +2709,14 @@
 <part name="J6" library="dooba" deviceset="CONUFL001" device=""/>
 <part name="GND127" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND128" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="M1" library="dooba" deviceset="Z3OC_VIB_MOTOR" device=""/>
+<part name="U15" library="dooba" deviceset="LP3985" device="SOT23-5" value="2.7V 200mA"/>
+<part name="C54" library="dooba" deviceset="CAP" device="0805" value="1uF"/>
+<part name="C55" library="dooba" deviceset="CAP" device="0805" value="1uF"/>
+<part name="GND129" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND130" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND131" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND132" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2732,9 +2788,14 @@
 <text x="236.22" y="508" size="5.08" layer="97">Core Control (ioNode)</text>
 <text x="25.4" y="508" size="5.08" layer="97">Misc</text>
 <wire x1="15.24" y1="518.16" x2="160.02" y2="518.16" width="0.1524" layer="97"/>
-<wire x1="160.02" y1="518.16" x2="160.02" y2="358.14" width="0.1524" layer="97"/>
-<wire x1="160.02" y1="358.14" x2="15.24" y2="358.14" width="0.1524" layer="97"/>
-<wire x1="15.24" y1="358.14" x2="15.24" y2="518.16" width="0.1524" layer="97"/>
+<wire x1="160.02" y1="518.16" x2="160.02" y2="281.94" width="0.1524" layer="97"/>
+<wire x1="160.02" y1="281.94" x2="15.24" y2="281.94" width="0.1524" layer="97"/>
+<wire x1="15.24" y1="281.94" x2="15.24" y2="518.16" width="0.1524" layer="97"/>
+<wire x1="20.32" y1="358.14" x2="154.94" y2="358.14" width="0.1524" layer="97"/>
+<wire x1="154.94" y1="358.14" x2="154.94" y2="287.02" width="0.1524" layer="97"/>
+<wire x1="154.94" y1="287.02" x2="20.32" y2="287.02" width="0.1524" layer="97"/>
+<wire x1="20.32" y1="287.02" x2="20.32" y2="358.14" width="0.1524" layer="97"/>
+<text x="25.4" y="347.98" size="5.08" layer="97">Vibrator</text>
 </plain>
 <instances>
 <instance part="N1" gate="N1" x="322.58" y="406.4"/>
@@ -2980,6 +3041,14 @@
 <instance part="J6" gate="U1" x="744.22" y="784.86" rot="R270"/>
 <instance part="GND127" gate="1" x="744.22" y="800.1" rot="R180"/>
 <instance part="GND128" gate="1" x="744.22" y="769.62"/>
+<instance part="M1" gate="M1" x="129.54" y="322.58" rot="R90"/>
+<instance part="U15" gate="U1" x="91.44" y="307.34"/>
+<instance part="C54" gate="C1" x="73.66" y="325.12" rot="R270"/>
+<instance part="C55" gate="C1" x="109.22" y="325.12" rot="R270"/>
+<instance part="GND129" gate="1" x="71.12" y="307.34" rot="R270"/>
+<instance part="GND130" gate="1" x="73.66" y="340.36" rot="R180"/>
+<instance part="GND131" gate="1" x="109.22" y="340.36" rot="R180"/>
+<instance part="GND132" gate="1" x="132.08" y="309.88"/>
 </instances>
 <busses>
 </busses>
@@ -3997,6 +4066,26 @@
 <pinref part="GND128" gate="1" pin="GND"/>
 <wire x1="744.22" y1="772.16" x2="744.22" y2="774.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U15" gate="U1" pin="GND"/>
+<pinref part="GND129" gate="1" pin="GND"/>
+<wire x1="73.66" y1="307.34" x2="76.2" y2="307.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C54" gate="C1" pin="1"/>
+<pinref part="GND130" gate="1" pin="GND"/>
+<wire x1="73.66" y1="337.82" x2="73.66" y2="335.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C55" gate="C1" pin="1"/>
+<pinref part="GND131" gate="1" pin="GND"/>
+<wire x1="109.22" y1="337.82" x2="109.22" y2="335.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="M1" gate="M1" pin="-"/>
+<pinref part="GND132" gate="1" pin="GND"/>
+<wire x1="132.08" y1="312.42" x2="132.08" y2="314.96" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$28" class="0">
 <segment>
@@ -4545,6 +4634,14 @@
 <wire x1="66.04" y1="647.7" x2="66.04" y2="662.94" width="0.1524" layer="91"/>
 <junction x="66.04" y="662.94"/>
 </segment>
+<segment>
+<pinref part="U15" gate="U1" pin="VIN"/>
+<pinref part="C54" gate="C1" pin="2"/>
+<wire x1="76.2" y1="314.96" x2="73.66" y2="314.96" width="0.1524" layer="91"/>
+<junction x="73.66" y="314.96"/>
+<label x="-15.24" y="314.96" size="1.778" layer="95"/>
+<wire x1="73.66" y1="314.96" x2="-17.78" y2="314.96" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VIN" class="0">
 <segment>
@@ -4988,6 +5085,25 @@
 <pinref part="U1" gate="U1" pin="RF_ANT"/>
 <wire x1="734.06" y1="784.86" x2="675.64" y2="784.86" width="0.1524" layer="91"/>
 <wire x1="675.64" y1="784.86" x2="675.64" y2="764.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="2.7V" class="0">
+<segment>
+<pinref part="U15" gate="U1" pin="VOUT"/>
+<pinref part="C55" gate="C1" pin="2"/>
+<wire x1="106.68" y1="314.96" x2="109.22" y2="314.96" width="0.1524" layer="91"/>
+<pinref part="M1" gate="M1" pin="+"/>
+<wire x1="109.22" y1="314.96" x2="127" y2="314.96" width="0.1524" layer="91"/>
+<junction x="109.22" y="314.96"/>
+</segment>
+</net>
+<net name="VIBRATOR_EN" class="0">
+<segment>
+<pinref part="U15" gate="U1" pin="EN"/>
+<wire x1="76.2" y1="299.72" x2="63.5" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="299.72" x2="63.5" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="309.88" x2="-17.78" y2="309.88" width="0.1524" layer="91"/>
+<label x="-15.24" y="309.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
