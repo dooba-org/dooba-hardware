@@ -4672,15 +4672,12 @@
 <junction x="276.86" y="721.36"/>
 </segment>
 <segment>
-<pinref part="N1" gate="N1" pin="VUSB@2"/>
-<wire x1="302.26" y1="434.34" x2="292.1" y2="434.34" width="0.1524" layer="91"/>
 <pinref part="N1" gate="N1" pin="VIN@16"/>
 <wire x1="292.1" y1="434.34" x2="185.42" y2="434.34" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="368.3" x2="360.68" y2="368.3" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="368.3" x2="360.68" y2="447.04" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="447.04" x2="292.1" y2="447.04" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="447.04" x2="292.1" y2="434.34" width="0.1524" layer="91"/>
-<junction x="292.1" y="434.34"/>
 <label x="187.96" y="434.34" size="1.778" layer="95"/>
 </segment>
 <segment>
