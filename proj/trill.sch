@@ -2777,6 +2777,8 @@
 <part name="GND136" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BAT[+-]" library="dooba" deviceset="PIN_2" device=""/>
 <part name="GND133" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C56" library="dooba" deviceset="CAP" device="1210" value="100uF"/>
+<part name="GND137" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3116,6 +3118,8 @@
 <instance part="GND136" gate="1" x="43.18" y="284.48"/>
 <instance part="BAT[+-]" gate="P1" x="33.02" y="756.92" rot="R90"/>
 <instance part="GND133" gate="1" x="35.56" y="744.22"/>
+<instance part="C56" gate="C1" x="63.5" y="728.98" rot="R180"/>
+<instance part="GND137" gate="1" x="48.26" y="728.98" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -4173,6 +4177,11 @@
 <pinref part="GND133" gate="1" pin="GND"/>
 <wire x1="35.56" y1="749.3" x2="35.56" y2="746.76" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C56" gate="C1" pin="2"/>
+<pinref part="GND137" gate="1" pin="GND"/>
+<wire x1="50.8" y1="728.98" x2="53.34" y2="728.98" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$28" class="0">
 <segment>
@@ -4658,10 +4667,13 @@
 <pinref part="U11" gate="U1" pin="VOUT"/>
 <pinref part="C26" gate="C1" pin="2"/>
 <wire x1="73.66" y1="721.36" x2="76.2" y2="721.36" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="721.36" x2="73.66" y2="736.6" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="721.36" x2="73.66" y2="728.98" width="0.1524" layer="91"/>
 <junction x="73.66" y="721.36"/>
 <label x="-15.24" y="736.6" size="1.778" layer="95"/>
+<wire x1="73.66" y1="728.98" x2="73.66" y2="736.6" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="736.6" x2="-17.78" y2="736.6" width="0.1524" layer="91"/>
+<pinref part="C56" gate="C1" pin="1"/>
+<junction x="73.66" y="728.98"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J1" pin="VIN"/>
