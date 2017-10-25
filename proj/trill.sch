@@ -1714,6 +1714,19 @@
 <wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-5.08" x2="2.54" y2="0" width="0.254" layer="94"/>
 </symbol>
+<symbol name="DIODE">
+<wire x1="-5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="0" length="middle"/>
+<pin name="2" x="10.16" y="0" length="middle" rot="R180"/>
+<text x="-5.08" y="2.54" size="1.6764" layer="95">&gt;Name</text>
+<text x="-5.08" y="-5.08" size="1.6764" layer="96">&gt;Value</text>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DOOBA_IONODE" prefix="N">
@@ -2441,6 +2454,31 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="LED" prefix="D">
+<gates>
+<gate name="D1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0805" package="0805">
+<connects>
+<connect gate="D1" pin="1" pad="1"/>
+<connect gate="D1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402" package="0402">
+<connects>
+<connect gate="D1" pin="1" pad="1"/>
+<connect gate="D1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
@@ -2779,6 +2817,12 @@
 <part name="GND133" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C56" library="dooba" deviceset="CAP" device="1210" value="100uF"/>
 <part name="GND137" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="D1" library="dooba" deviceset="LED" device="0805" value="GREEN"/>
+<part name="D2" library="dooba" deviceset="LED" device="0805" value="ORANGE"/>
+<part name="R21" library="dooba" deviceset="RES" device="0805" value="1k"/>
+<part name="R24" library="dooba" deviceset="RES" device="0805" value="1k"/>
+<part name="GND138" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND139" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3120,6 +3164,12 @@
 <instance part="GND133" gate="1" x="35.56" y="744.22"/>
 <instance part="C56" gate="C1" x="63.5" y="728.98" rot="R180"/>
 <instance part="GND137" gate="1" x="48.26" y="728.98" rot="R270"/>
+<instance part="D1" gate="D1" x="414.02" y="393.7"/>
+<instance part="D2" gate="D1" x="414.02" y="383.54"/>
+<instance part="R21" gate="R1" x="391.16" y="393.7"/>
+<instance part="R24" gate="R1" x="391.16" y="383.54"/>
+<instance part="GND138" gate="1" x="429.26" y="393.7" rot="R90"/>
+<instance part="GND139" gate="1" x="429.26" y="383.54" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4182,6 +4232,16 @@
 <pinref part="GND137" gate="1" pin="GND"/>
 <wire x1="50.8" y1="728.98" x2="53.34" y2="728.98" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="D1" gate="D1" pin="2"/>
+<pinref part="GND138" gate="1" pin="GND"/>
+<wire x1="426.72" y1="393.7" x2="424.18" y2="393.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D2" gate="D1" pin="2"/>
+<pinref part="GND139" gate="1" pin="GND"/>
+<wire x1="426.72" y1="383.54" x2="424.18" y2="383.54" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$28" class="0">
 <segment>
@@ -5222,6 +5282,36 @@
 <pinref part="U16" gate="U1" pin="Y"/>
 <pinref part="U15" gate="U1" pin="EN"/>
 <wire x1="83.82" y1="304.8" x2="99.06" y2="304.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$63" class="0">
+<segment>
+<pinref part="D1" gate="D1" pin="1"/>
+<pinref part="R21" gate="R1" pin="2"/>
+<wire x1="403.86" y1="393.7" x2="401.32" y2="393.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$64" class="0">
+<segment>
+<pinref part="R24" gate="R1" pin="2"/>
+<pinref part="D2" gate="D1" pin="1"/>
+<wire x1="401.32" y1="383.54" x2="403.86" y2="383.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<pinref part="N1" gate="N1" pin="PD4"/>
+<pinref part="R24" gate="R1" pin="1"/>
+<wire x1="342.9" y1="383.54" x2="381" y2="383.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="N1" gate="N1" pin="PD5"/>
+<wire x1="342.9" y1="388.62" x2="375.92" y2="388.62" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="388.62" x2="375.92" y2="393.7" width="0.1524" layer="91"/>
+<pinref part="R21" gate="R1" pin="1"/>
+<wire x1="375.92" y1="393.7" x2="381" y2="393.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
