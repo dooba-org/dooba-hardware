@@ -581,6 +581,18 @@
 </polygon>
 <text x="-9.5" y="5" size="1.27" layer="25">&gt;Name</text>
 <text x="-9.5" y="2" size="1.27" layer="27">&gt;Value</text>
+<polygon width="0.127" layer="41">
+<vertex x="-10.7" y="8.6"/>
+<vertex x="-9.5" y="8.6"/>
+<vertex x="-9.5" y="7.4"/>
+<vertex x="-10.7" y="7.4"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="1.35" y="2.05"/>
+<vertex x="7.65" y="2.05"/>
+<vertex x="7.65" y="-4.25"/>
+<vertex x="1.35" y="-4.25"/>
+</polygon>
 </package>
 <package name="TO-263">
 <smd name="P$1" x="-3.4" y="-6.8" dx="1.02" dy="4.32" layer="1"/>
