@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1472,6 +1472,71 @@
 <wire x1="0" y1="-0.762" x2="0.254" y2="-1.016" width="0.127" layer="27"/>
 <wire x1="0" y1="0.762" x2="-0.254" y2="1.016" width="0.127" layer="27"/>
 </package>
+<package name="TACTSW_CK_PTS_830">
+<smd name="1" x="-1.95" y="1.2" dx="0.75" dy="0.7" layer="1" rot="R90"/>
+<smd name="2" x="1.95" y="1.2" dx="0.75" dy="0.7" layer="1" rot="R90"/>
+<smd name="3" x="-1.95" y="-1.2" dx="0.75" dy="0.7" layer="1" rot="R90"/>
+<smd name="4" x="1.95" y="-1.2" dx="0.75" dy="0.7" layer="1" rot="R90"/>
+<wire x1="-2.7" y1="2" x2="2.7" y2="2" width="0.127" layer="21"/>
+<wire x1="2.7" y1="2" x2="2.7" y2="-2" width="0.127" layer="21"/>
+<wire x1="2.7" y1="-2" x2="-2.7" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="-2" x2="-2.7" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="1.27" x2="0" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="1.27" x2="1.778" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-1.27" x2="0" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.27" x2="1.778" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.762" x2="-0.762" y2="0" width="0.127" layer="21"/>
+<circle x="0" y="0.254" radius="0.254" width="0.127" layer="21"/>
+<wire x1="0" y1="0.508" x2="0" y2="1.27" width="0.127" layer="21"/>
+<text x="-2.794" y="2.286" size="1.27" layer="25">&gt;Name</text>
+<text x="-2.794" y="-3.556" size="1.27" layer="27">&gt;Value</text>
+</package>
+<package name="B3SL-10XXP">
+<wire x1="-5" y1="3.5" x2="-5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-3.5" x2="5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="5" y1="-3.5" x2="5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="5" y1="3.5" x2="-5" y2="3.5" width="0.127" layer="21"/>
+<smd name="4" x="-3.5" y="2" dx="2" dy="1.7" layer="1"/>
+<smd name="3" x="3.5" y="2" dx="2" dy="1.7" layer="1"/>
+<smd name="2" x="-3.5" y="-2" dx="2" dy="1.7" layer="1"/>
+<smd name="1" x="3.5" y="-2" dx="2" dy="1.7" layer="1"/>
+<text x="3" y="-2.75" size="1.27" layer="25" rot="R90">&gt;Name</text>
+<text x="-2.25" y="-2.75" size="1.27" layer="27" rot="R90">&gt;Value</text>
+<wire x1="-2" y1="2" x2="0" y2="2" width="0.254" layer="21"/>
+<wire x1="0" y1="2" x2="2" y2="2" width="0.254" layer="21"/>
+<wire x1="-2" y1="-2" x2="0" y2="-2" width="0.254" layer="21"/>
+<wire x1="0" y1="-2" x2="2" y2="-2" width="0.254" layer="21"/>
+<wire x1="0" y1="2" x2="0" y2="1" width="0.254" layer="21"/>
+<wire x1="0" y1="1" x2="-1" y2="0" width="0.254" layer="21"/>
+<wire x1="0" y1="-0.5" x2="0" y2="-2" width="0.254" layer="21"/>
+<circle x="0" y="-0.25" radius="0.25" width="0.254" layer="21"/>
+<polygon width="0.254" layer="21">
+<vertex x="-5" y="3.5"/>
+<vertex x="-2" y="3.5"/>
+<vertex x="-5" y="0.5"/>
+</polygon>
+</package>
+<package name="SWITCH_6MM">
+<wire x1="-2.413" y1="1.27" x2="-2.413" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="-0.508" x2="-2.413" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="0.508" x2="-2.159" y2="-0.381" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="1.778" width="0.1524" layer="21"/>
+<circle x="-2.159" y="-2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="2.159" y="-2.032" radius="0.508" width="0.1524" layer="51"/>
+<circle x="2.159" y="2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="-2.159" y="2.159" radius="0.508" width="0.1524" layer="51"/>
+<pad name="1" x="-3.2512" y="2.2606" drill="1.016" shape="long"/>
+<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" shape="long"/>
+<pad name="2" x="3.2512" y="2.2606" drill="1.016" shape="long"/>
+<pad name="4" x="3.2512" y="-2.2606" drill="1.016" shape="long"/>
+<text x="-3.048" y="3.683" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.048" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.127" layer="21"/>
+<wire x1="3" y1="3" x2="3" y2="-3" width="0.127" layer="21"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="Z8400-PLCC">
@@ -1990,6 +2055,26 @@
 <text x="-5.08" y="2.54" size="1.6764" layer="95">&gt;Name</text>
 <text x="-5.08" y="-5.08" size="1.6764" layer="96">&gt;Value</text>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="TACTSW">
+<pin name="1" x="-15.24" y="5.08" length="middle"/>
+<pin name="2" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="3" x="-15.24" y="-5.08" length="middle"/>
+<pin name="4" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<text x="-12.7" y="11.43" size="1.27" layer="95">&gt;Name</text>
+<text x="-12.7" y="8.89" size="1.27" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2529,6 +2614,46 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="TACTSW" prefix="SW">
+<gates>
+<gate name="SW1" symbol="TACTSW" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CK_PTS_830" package="TACTSW_CK_PTS_830">
+<connects>
+<connect gate="SW1" pin="1" pad="1"/>
+<connect gate="SW1" pin="2" pad="2"/>
+<connect gate="SW1" pin="3" pad="3"/>
+<connect gate="SW1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B3SL-10XXP" package="B3SL-10XXP">
+<connects>
+<connect gate="SW1" pin="1" pad="1"/>
+<connect gate="SW1" pin="2" pad="2"/>
+<connect gate="SW1" pin="3" pad="3"/>
+<connect gate="SW1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TH6MM" package="SWITCH_6MM">
+<connects>
+<connect gate="SW1" pin="1" pad="1"/>
+<connect gate="SW1" pin="2" pad="2"/>
+<connect gate="SW1" pin="3" pad="3"/>
+<connect gate="SW1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
@@ -2629,6 +2754,7 @@
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="dooba" deviceset="RES" device="8MM" value="1k"/>
 <part name="R2" library="dooba" deviceset="RES" device="8MM" value="1k"/>
+<part name="SW1" library="dooba" deviceset="TACTSW" device="TH6MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -2699,6 +2825,7 @@
 <instance part="GND11" gate="1" x="421.64" y="152.4" rot="R90"/>
 <instance part="R1" gate="R1" x="383.54" y="162.56"/>
 <instance part="R2" gate="R1" x="383.54" y="152.4"/>
+<instance part="SW1" gate="SW1" x="769.62" y="170.18" rot="R180"/>
 </instances>
 <busses>
 <bus name="DATA[0..7]">
@@ -2888,6 +3015,11 @@
 <pinref part="D1" gate="D1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="416.56" y1="152.4" x2="419.1" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SW1" gate="SW1" pin="1"/>
+<wire x1="784.86" y1="165.1" x2="800.1" y2="165.1" width="0.1524" layer="91"/>
+<label x="789.94" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA1" class="0">
@@ -3735,6 +3867,11 @@
 <pinref part="P3" gate="P1" pin="4"/>
 <wire x1="711.2" y1="187.96" x2="739.14" y2="187.96" width="0.1524" layer="91"/>
 <label x="716.28" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SW1" gate="SW1" pin="3"/>
+<wire x1="784.86" y1="175.26" x2="800.1" y2="175.26" width="0.1524" layer="91"/>
+<label x="789.94" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
