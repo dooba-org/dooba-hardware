@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7867,6 +7867,7 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="0"/>
 <param name="checkStop" value="0"/>
@@ -7991,7 +7992,7 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <element name="U5" library="dooba" package="PLCC-S32--SOCKET" value="AT28C64BPLCC" x="33.02" y="11.938" rot="R90"/>
 <element name="U7" library="dooba" package="TO220V" value="7805TO220" x="86.36" y="52.578" rot="R270"/>
 <element name="U9" library="dooba" package="PDIP14" value="7400PDIP" x="57.15" y="54.61" rot="R270"/>
-<element name="X1" library="dooba" package="OSC127" value="OSC412.7" x="52.959" y="8.509" rot="R315"/>
+<element name="X1" library="dooba" package="OSC127" value="4.0Mhz" x="52.959" y="8.509" rot="R315"/>
 <element name="P1" library="dooba" package="PIN_16" value="ADDR" x="1.27" y="25.4" rot="R270"/>
 <element name="P2" library="dooba" package="PIN_8" value="DATA" x="10.16" y="1.27"/>
 <element name="P3" library="dooba" package="PIN_16" value="CTL" x="72.136" y="14.732" rot="R225"/>

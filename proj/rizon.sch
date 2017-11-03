@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2706,7 +2706,7 @@
 <part name="J1" library="dooba" deviceset="PWRJACK" device="5521"/>
 <part name="U7" library="dooba" deviceset="7805" device="TO220"/>
 <part name="S1" library="dooba" deviceset="SWITCH_SPDT2" device="EG1271"/>
-<part name="X1" library="dooba" deviceset="OSC4" device="12.7"/>
+<part name="X1" library="dooba" deviceset="OSC4" device="12.7" value="4.0Mhz"/>
 <part name="C1" library="dooba" deviceset="CAP_POLARIZED" device="RAD_5MM" value="100uF"/>
 <part name="C2" library="dooba" deviceset="CAP_POLARIZED" device="RAD_5MM" value="10uF"/>
 <part name="C3" library="dooba" deviceset="CAP_POLARIZED" device="RAD_5MM" value="100uF"/>
