@@ -7265,8 +7265,8 @@ Power Input: 7V 1A</text>
 <text x="-5.08" y="-1.27" size="1.27" layer="27">&gt;Value</text>
 </package>
 <package name="PIN_16">
-<pad name="1" x="-19.05" y="0" drill="0.8" diameter="1.4224"/>
-<pad name="2" x="-16.51" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="1" x="-19.05" y="0" drill="0.8"/>
+<pad name="2" x="-16.51" y="0" drill="0.8"/>
 <wire x1="-20.32" y1="-0.508" x2="-19.558" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-19.558" y1="-1.27" x2="-18.542" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-18.542" y1="-1.27" x2="-18.034" y2="-0.762" width="0.127" layer="21"/>
@@ -7285,7 +7285,7 @@ Power Input: 7V 1A</text>
 <wire x1="-20.32" y1="1.27" x2="-20.32" y2="0.889" width="0.127" layer="21"/>
 <wire x1="-20.32" y1="0.889" x2="-19.939" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-19.939" y1="1.27" x2="-20.32" y2="1.27" width="0.127" layer="21"/>
-<pad name="3" x="-13.97" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="3" x="-13.97" y="0" drill="0.8"/>
 <wire x1="-17.018" y1="-1.27" x2="-16.002" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-16.002" y1="-1.27" x2="-15.494" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-15.494" y1="-0.762" x2="-14.986" y2="-0.762" width="0.127" layer="21"/>
@@ -7298,7 +7298,7 @@ Power Input: 7V 1A</text>
 <wire x1="-16.002" y1="1.27" x2="-17.018" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-14.478" y1="-1.27" x2="-13.462" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-13.462" y1="1.27" x2="-14.478" y2="1.27" width="0.127" layer="21"/>
-<pad name="4" x="-11.43" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="4" x="-11.43" y="0" drill="0.8"/>
 <wire x1="-14.478" y1="-1.27" x2="-13.462" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-13.462" y1="-1.27" x2="-12.954" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-12.954" y1="-0.762" x2="-12.446" y2="-0.762" width="0.127" layer="21"/>
@@ -7313,7 +7313,7 @@ Power Input: 7V 1A</text>
 <wire x1="-10.922" y1="1.27" x2="-11.938" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-11.938" y1="-1.27" x2="-10.922" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-10.922" y1="1.27" x2="-11.938" y2="1.27" width="0.127" layer="21"/>
-<pad name="5" x="-8.89" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="5" x="-8.89" y="0" drill="0.8"/>
 <wire x1="-11.938" y1="-1.27" x2="-10.922" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-10.922" y1="-1.27" x2="-10.414" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-10.414" y1="-0.762" x2="-9.906" y2="-0.762" width="0.127" layer="21"/>
@@ -7330,7 +7330,7 @@ Power Input: 7V 1A</text>
 <wire x1="-8.382" y1="1.27" x2="-9.398" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-9.398" y1="-1.27" x2="-8.382" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-8.382" y1="1.27" x2="-9.398" y2="1.27" width="0.127" layer="21"/>
-<pad name="6" x="-6.35" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="6" x="-6.35" y="0" drill="0.8"/>
 <wire x1="-9.398" y1="-1.27" x2="-8.382" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-8.382" y1="-1.27" x2="-7.874" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-7.874" y1="-0.762" x2="-7.366" y2="-0.762" width="0.127" layer="21"/>
@@ -7347,7 +7347,7 @@ Power Input: 7V 1A</text>
 <wire x1="-5.842" y1="1.27" x2="-6.858" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-6.858" y1="-1.27" x2="-5.842" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-5.842" y1="1.27" x2="-6.858" y2="1.27" width="0.127" layer="21"/>
-<pad name="7" x="-3.81" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="7" x="-3.81" y="0" drill="0.8"/>
 <wire x1="-6.858" y1="-1.27" x2="-5.842" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-5.842" y1="-1.27" x2="-5.334" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-5.334" y1="-0.762" x2="-4.826" y2="-0.762" width="0.127" layer="21"/>
@@ -7364,7 +7364,7 @@ Power Input: 7V 1A</text>
 <wire x1="-3.302" y1="1.27" x2="-4.318" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-4.318" y1="-1.27" x2="-3.302" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-3.302" y1="1.27" x2="-4.318" y2="1.27" width="0.127" layer="21"/>
-<pad name="8" x="-1.27" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="8" x="-1.27" y="0" drill="0.8"/>
 <wire x1="-4.318" y1="-1.27" x2="-3.302" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-3.302" y1="-1.27" x2="-2.794" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-2.794" y1="-0.762" x2="-2.286" y2="-0.762" width="0.127" layer="21"/>
@@ -7375,7 +7375,7 @@ Power Input: 7V 1A</text>
 <wire x1="-2.286" y1="0.762" x2="-2.794" y2="0.762" width="0.127" layer="21"/>
 <wire x1="-2.794" y1="0.762" x2="-3.302" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-3.302" y1="1.27" x2="-4.318" y2="1.27" width="0.127" layer="21"/>
-<pad name="9" x="1.27" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="9" x="1.27" y="0" drill="0.8"/>
 <wire x1="-1.778" y1="-1.27" x2="-0.762" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="-0.762" x2="0.254" y2="-0.762" width="0.127" layer="21"/>
@@ -7386,7 +7386,7 @@ Power Input: 7V 1A</text>
 <wire x1="0.254" y1="0.762" x2="-0.254" y2="0.762" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="0.762" x2="-0.762" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-0.762" y1="1.27" x2="-1.778" y2="1.27" width="0.127" layer="21"/>
-<pad name="10" x="3.81" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="10" x="3.81" y="0" drill="0.8"/>
 <wire x1="0.762" y1="-1.27" x2="1.778" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="1.778" y1="-1.27" x2="2.286" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="2.286" y1="-0.762" x2="2.794" y2="-0.762" width="0.127" layer="21"/>
@@ -7399,7 +7399,7 @@ Power Input: 7V 1A</text>
 <wire x1="1.778" y1="1.27" x2="0.762" y2="1.27" width="0.127" layer="21"/>
 <wire x1="3.302" y1="-1.27" x2="4.318" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="4.318" y1="1.27" x2="3.302" y2="1.27" width="0.127" layer="21"/>
-<pad name="11" x="6.35" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="11" x="6.35" y="0" drill="0.8"/>
 <wire x1="3.302" y1="-1.27" x2="4.318" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="4.318" y1="-1.27" x2="4.826" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="4.826" y1="-0.762" x2="5.334" y2="-0.762" width="0.127" layer="21"/>
@@ -7414,7 +7414,7 @@ Power Input: 7V 1A</text>
 <wire x1="6.858" y1="1.27" x2="5.842" y2="1.27" width="0.127" layer="21"/>
 <wire x1="5.842" y1="-1.27" x2="6.858" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="6.858" y1="1.27" x2="5.842" y2="1.27" width="0.127" layer="21"/>
-<pad name="12" x="8.89" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="12" x="8.89" y="0" drill="0.8"/>
 <wire x1="5.842" y1="-1.27" x2="6.858" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="6.858" y1="-1.27" x2="7.366" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="7.366" y1="-0.762" x2="7.874" y2="-0.762" width="0.127" layer="21"/>
@@ -7431,7 +7431,7 @@ Power Input: 7V 1A</text>
 <wire x1="9.398" y1="1.27" x2="8.382" y2="1.27" width="0.127" layer="21"/>
 <wire x1="8.382" y1="-1.27" x2="9.398" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="9.398" y1="1.27" x2="8.382" y2="1.27" width="0.127" layer="21"/>
-<pad name="13" x="11.43" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="13" x="11.43" y="0" drill="0.8"/>
 <wire x1="8.382" y1="-1.27" x2="9.398" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="9.398" y1="-1.27" x2="9.906" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="9.906" y1="-0.762" x2="10.414" y2="-0.762" width="0.127" layer="21"/>
@@ -7448,7 +7448,7 @@ Power Input: 7V 1A</text>
 <wire x1="11.938" y1="1.27" x2="10.922" y2="1.27" width="0.127" layer="21"/>
 <wire x1="10.922" y1="-1.27" x2="11.938" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="11.938" y1="1.27" x2="10.922" y2="1.27" width="0.127" layer="21"/>
-<pad name="14" x="13.97" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="14" x="13.97" y="0" drill="0.8"/>
 <wire x1="10.922" y1="-1.27" x2="11.938" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="11.938" y1="-1.27" x2="12.446" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="12.446" y1="-0.762" x2="12.954" y2="-0.762" width="0.127" layer="21"/>
@@ -7465,7 +7465,7 @@ Power Input: 7V 1A</text>
 <wire x1="14.478" y1="1.27" x2="13.462" y2="1.27" width="0.127" layer="21"/>
 <wire x1="13.462" y1="-1.27" x2="14.478" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="14.478" y1="1.27" x2="13.462" y2="1.27" width="0.127" layer="21"/>
-<pad name="15" x="16.51" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="15" x="16.51" y="0" drill="0.8"/>
 <wire x1="13.462" y1="-1.27" x2="14.478" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="14.478" y1="-1.27" x2="14.986" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="14.986" y1="-0.762" x2="15.494" y2="-0.762" width="0.127" layer="21"/>
@@ -7485,7 +7485,7 @@ Power Input: 7V 1A</text>
 <wire x1="16.002" y1="-1.27" x2="17.018" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="17.018" y1="1.27" x2="16.002" y2="1.27" width="0.127" layer="21"/>
 <wire x1="20.32" y1="0.508" x2="20.32" y2="-0.508" width="0.127" layer="21"/>
-<pad name="16" x="19.05" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="16" x="19.05" y="0" drill="0.8"/>
 <wire x1="16.002" y1="-1.27" x2="17.018" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="17.018" y1="-1.27" x2="17.526" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="17.526" y1="-0.762" x2="18.034" y2="-0.762" width="0.127" layer="21"/>
@@ -7500,8 +7500,8 @@ Power Input: 7V 1A</text>
 <wire x1="19.558" y1="-1.27" x2="20.32" y2="-0.508" width="0.127" layer="21"/>
 </package>
 <package name="PIN_8">
-<pad name="1" x="-8.89" y="0" drill="0.8" diameter="1.4224"/>
-<pad name="2" x="-6.35" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="1" x="-8.89" y="0" drill="0.8"/>
+<pad name="2" x="-6.35" y="0" drill="0.8"/>
 <wire x1="-10.16" y1="-0.508" x2="-9.398" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-9.398" y1="-1.27" x2="-8.382" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-8.382" y1="-1.27" x2="-7.874" y2="-0.762" width="0.127" layer="21"/>
@@ -7520,7 +7520,7 @@ Power Input: 7V 1A</text>
 <wire x1="-10.16" y1="1.27" x2="-10.16" y2="0.889" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="0.889" x2="-9.779" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-9.779" y1="1.27" x2="-10.16" y2="1.27" width="0.127" layer="21"/>
-<pad name="3" x="-3.81" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="3" x="-3.81" y="0" drill="0.8"/>
 <wire x1="-6.858" y1="-1.27" x2="-5.842" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-5.842" y1="-1.27" x2="-5.334" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-5.334" y1="-0.762" x2="-4.826" y2="-0.762" width="0.127" layer="21"/>
@@ -7533,7 +7533,7 @@ Power Input: 7V 1A</text>
 <wire x1="-5.842" y1="1.27" x2="-6.858" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-4.318" y1="-1.27" x2="-3.302" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-3.302" y1="1.27" x2="-4.318" y2="1.27" width="0.127" layer="21"/>
-<pad name="4" x="-1.27" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="4" x="-1.27" y="0" drill="0.8"/>
 <wire x1="-4.318" y1="-1.27" x2="-3.302" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-3.302" y1="-1.27" x2="-2.794" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-2.794" y1="-0.762" x2="-2.286" y2="-0.762" width="0.127" layer="21"/>
@@ -7548,7 +7548,7 @@ Power Input: 7V 1A</text>
 <wire x1="-0.762" y1="1.27" x2="-1.778" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-1.778" y1="-1.27" x2="-0.762" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-0.762" y1="1.27" x2="-1.778" y2="1.27" width="0.127" layer="21"/>
-<pad name="5" x="1.27" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="5" x="1.27" y="0" drill="0.8"/>
 <wire x1="-1.778" y1="-1.27" x2="-0.762" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="-0.762" x2="0.254" y2="-0.762" width="0.127" layer="21"/>
@@ -7565,7 +7565,7 @@ Power Input: 7V 1A</text>
 <wire x1="1.778" y1="1.27" x2="0.762" y2="1.27" width="0.127" layer="21"/>
 <wire x1="0.762" y1="-1.27" x2="1.778" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="1.778" y1="1.27" x2="0.762" y2="1.27" width="0.127" layer="21"/>
-<pad name="6" x="3.81" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="6" x="3.81" y="0" drill="0.8"/>
 <wire x1="0.762" y1="-1.27" x2="1.778" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="1.778" y1="-1.27" x2="2.286" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="2.286" y1="-0.762" x2="2.794" y2="-0.762" width="0.127" layer="21"/>
@@ -7582,7 +7582,7 @@ Power Input: 7V 1A</text>
 <wire x1="4.318" y1="1.27" x2="3.302" y2="1.27" width="0.127" layer="21"/>
 <wire x1="3.302" y1="-1.27" x2="4.318" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="4.318" y1="1.27" x2="3.302" y2="1.27" width="0.127" layer="21"/>
-<pad name="7" x="6.35" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="7" x="6.35" y="0" drill="0.8"/>
 <wire x1="3.302" y1="-1.27" x2="4.318" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="4.318" y1="-1.27" x2="4.826" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="4.826" y1="-0.762" x2="5.334" y2="-0.762" width="0.127" layer="21"/>
@@ -7600,7 +7600,7 @@ Power Input: 7V 1A</text>
 <wire x1="5.842" y1="-1.27" x2="6.858" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="6.858" y1="1.27" x2="5.842" y2="1.27" width="0.127" layer="21"/>
 <wire x1="10.16" y1="0.508" x2="10.16" y2="-0.508" width="0.127" layer="21"/>
-<pad name="8" x="8.89" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="8" x="8.89" y="0" drill="0.8"/>
 <wire x1="5.842" y1="-1.27" x2="6.858" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="6.858" y1="-1.27" x2="7.366" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="7.366" y1="-0.762" x2="7.874" y2="-0.762" width="0.127" layer="21"/>
@@ -7615,8 +7615,8 @@ Power Input: 7V 1A</text>
 <wire x1="9.398" y1="-1.27" x2="10.16" y2="-0.508" width="0.127" layer="21"/>
 </package>
 <package name="PIN_4">
-<pad name="1" x="-3.81" y="0" drill="0.8" diameter="1.4224"/>
-<pad name="2" x="-1.27" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="1" x="-3.81" y="0" drill="0.8"/>
+<pad name="2" x="-1.27" y="0" drill="0.8"/>
 <wire x1="-5.08" y1="-0.508" x2="-4.318" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-4.318" y1="-1.27" x2="-3.302" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-3.302" y1="-1.27" x2="-2.794" y2="-0.762" width="0.127" layer="21"/>
@@ -7635,7 +7635,7 @@ Power Input: 7V 1A</text>
 <wire x1="-5.08" y1="1.27" x2="-5.08" y2="0.889" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="0.889" x2="-4.699" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-4.699" y1="1.27" x2="-5.08" y2="1.27" width="0.127" layer="21"/>
-<pad name="3" x="1.27" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="3" x="1.27" y="0" drill="0.8"/>
 <wire x1="-1.778" y1="-1.27" x2="-0.762" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="-0.762" x2="0.254" y2="-0.762" width="0.127" layer="21"/>
@@ -7649,7 +7649,7 @@ Power Input: 7V 1A</text>
 <wire x1="0.762" y1="-1.27" x2="1.778" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="1.778" y1="1.27" x2="0.762" y2="1.27" width="0.127" layer="21"/>
 <wire x1="5.08" y1="0.508" x2="5.08" y2="-0.508" width="0.127" layer="21"/>
-<pad name="4" x="3.81" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="4" x="3.81" y="0" drill="0.8"/>
 <wire x1="0.762" y1="-1.27" x2="1.778" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="1.778" y1="-1.27" x2="2.286" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="2.286" y1="-0.762" x2="2.794" y2="-0.762" width="0.127" layer="21"/>
@@ -7664,8 +7664,8 @@ Power Input: 7V 1A</text>
 <wire x1="4.318" y1="-1.27" x2="5.08" y2="-0.508" width="0.127" layer="21"/>
 </package>
 <package name="PIN_6">
-<pad name="1" x="-6.35" y="0" drill="0.8" diameter="1.4224"/>
-<pad name="2" x="-3.81" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="1" x="-6.35" y="0" drill="0.8"/>
+<pad name="2" x="-3.81" y="0" drill="0.8"/>
 <wire x1="-7.62" y1="-0.508" x2="-6.858" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-6.858" y1="-1.27" x2="-5.842" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-5.842" y1="-1.27" x2="-5.334" y2="-0.762" width="0.127" layer="21"/>
@@ -7684,7 +7684,7 @@ Power Input: 7V 1A</text>
 <wire x1="-7.62" y1="1.27" x2="-7.62" y2="0.889" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="0.889" x2="-7.239" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-7.239" y1="1.27" x2="-7.62" y2="1.27" width="0.127" layer="21"/>
-<pad name="3" x="-1.27" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="3" x="-1.27" y="0" drill="0.8"/>
 <wire x1="-4.318" y1="-1.27" x2="-3.302" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-3.302" y1="-1.27" x2="-2.794" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-2.794" y1="-0.762" x2="-2.286" y2="-0.762" width="0.127" layer="21"/>
@@ -7697,7 +7697,7 @@ Power Input: 7V 1A</text>
 <wire x1="-3.302" y1="1.27" x2="-4.318" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-1.778" y1="-1.27" x2="-0.762" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-0.762" y1="1.27" x2="-1.778" y2="1.27" width="0.127" layer="21"/>
-<pad name="4" x="1.27" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="4" x="1.27" y="0" drill="0.8"/>
 <wire x1="-1.778" y1="-1.27" x2="-0.762" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="-0.762" x2="0.254" y2="-0.762" width="0.127" layer="21"/>
@@ -7712,7 +7712,7 @@ Power Input: 7V 1A</text>
 <wire x1="1.778" y1="1.27" x2="0.762" y2="1.27" width="0.127" layer="21"/>
 <wire x1="0.762" y1="-1.27" x2="1.778" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="1.778" y1="1.27" x2="0.762" y2="1.27" width="0.127" layer="21"/>
-<pad name="5" x="3.81" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="5" x="3.81" y="0" drill="0.8"/>
 <wire x1="0.762" y1="-1.27" x2="1.778" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="1.778" y1="-1.27" x2="2.286" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="2.286" y1="-0.762" x2="2.794" y2="-0.762" width="0.127" layer="21"/>
@@ -7730,7 +7730,7 @@ Power Input: 7V 1A</text>
 <wire x1="3.302" y1="-1.27" x2="4.318" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="4.318" y1="1.27" x2="3.302" y2="1.27" width="0.127" layer="21"/>
 <wire x1="7.62" y1="0.508" x2="7.62" y2="-0.508" width="0.127" layer="21"/>
-<pad name="6" x="6.35" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="6" x="6.35" y="0" drill="0.8"/>
 <wire x1="3.302" y1="-1.27" x2="4.318" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="4.318" y1="-1.27" x2="4.826" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="4.826" y1="-0.762" x2="5.334" y2="-0.762" width="0.127" layer="21"/>
@@ -7986,7 +7986,7 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <element name="C9" library="dooba" package="CAP_DISC" value="100nF" x="8.89" y="50.8" rot="R270"/>
 <element name="J1" library="dooba" package="PWRJACK_5521" value="PWRJACK5521" x="70.612" y="68.58" rot="R180"/>
 <element name="S1" library="dooba" package="EG1271" value="SWITCH_SPDT2EG1271" x="81.28" y="64.262"/>
-<element name="U1" library="dooba" package="PLCC-S44-SOCKET" value="Z8400" x="63.5" y="24.638" rot="R45"/>
+<element name="U1" library="dooba" package="PLCC-S44-SOCKET" value="Z8400PLCC" x="63.5" y="24.638" rot="R45"/>
 <element name="U2" library="dooba" package="PDIP28-600" value="AS6C62256PDIP" x="30.48" y="46.228"/>
 <element name="U3" library="dooba" package="PDIP28-600" value="AS6C62256PDIP" x="30.48" y="64.008"/>
 <element name="U5" library="dooba" package="PLCC-S32--SOCKET" value="AT28C64BPLCC" x="33.02" y="11.938" rot="R90"/>

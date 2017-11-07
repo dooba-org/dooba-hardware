@@ -1468,6 +1468,186 @@
 <rectangle x1="1.905" y1="-10.414" x2="3.175" y2="-7.62" layer="21"/>
 <hole x="0" y="4.826" drill="3.302"/>
 </package>
+<package name="PLCC44">
+<description>&lt;b&gt;Plastic J-Lead Chip Carrier&lt;/b&gt;</description>
+<wire x1="8.7" y1="8.7" x2="-6.465" y2="8.7" width="0.2032" layer="51"/>
+<wire x1="-8.7" y1="6.465" x2="-8.7" y2="-8.7" width="0.2032" layer="51"/>
+<wire x1="-8.7" y1="-8.7" x2="8.7" y2="-8.7" width="0.2032" layer="51"/>
+<wire x1="8.7" y1="-8.7" x2="8.7" y2="8.7" width="0.2032" layer="51"/>
+<wire x1="-6.465" y1="8.7" x2="-8.7" y2="6.465" width="0.2032" layer="51"/>
+<wire x1="-8.255" y1="6.909" x2="-6.909" y2="8.255" width="0.2032" layer="21"/>
+<wire x1="-8.687" y1="-6.909" x2="-8.687" y2="-8.687" width="0.2032" layer="21"/>
+<wire x1="-8.687" y1="-8.687" x2="-6.883" y2="-8.687" width="0.2032" layer="21"/>
+<wire x1="6.883" y1="-8.687" x2="8.687" y2="-8.687" width="0.2032" layer="21"/>
+<wire x1="8.687" y1="-8.687" x2="8.687" y2="-6.909" width="0.2032" layer="21"/>
+<wire x1="8.687" y1="6.858" x2="8.687" y2="8.687" width="0.2032" layer="21"/>
+<wire x1="8.687" y1="8.687" x2="6.934" y2="8.687" width="0.2032" layer="21"/>
+<circle x="-5.08" y="5.0599" radius="0.3" width="0.6096" layer="21"/>
+<smd name="1" x="0" y="8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="2" x="-1.27" y="8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-2.54" y="8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-3.81" y="8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="-5.08" y="8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="-6.35" y="8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-8.1" y="6.35" dx="2.2" dy="0.6" layer="1"/>
+<smd name="8" x="-8.1" y="5.08" dx="2.2" dy="0.6" layer="1"/>
+<smd name="9" x="-8.1" y="3.81" dx="2.2" dy="0.6" layer="1"/>
+<smd name="10" x="-8.1" y="2.54" dx="2.2" dy="0.6" layer="1"/>
+<smd name="11" x="-8.1" y="1.27" dx="2.2" dy="0.6" layer="1"/>
+<smd name="12" x="-8.1" y="0" dx="2.2" dy="0.6" layer="1"/>
+<smd name="13" x="-8.1" y="-1.27" dx="2.2" dy="0.6" layer="1"/>
+<smd name="14" x="-8.1" y="-2.54" dx="2.2" dy="0.6" layer="1"/>
+<smd name="15" x="-8.1" y="-3.81" dx="2.2" dy="0.6" layer="1"/>
+<smd name="16" x="-8.1" y="-5.08" dx="2.2" dy="0.6" layer="1"/>
+<smd name="17" x="-8.1" y="-6.35" dx="2.2" dy="0.6" layer="1"/>
+<smd name="18" x="-6.35" y="-8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="19" x="-5.08" y="-8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="20" x="-3.81" y="-8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="21" x="-2.54" y="-8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="22" x="-1.27" y="-8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="23" x="0" y="-8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="24" x="1.27" y="-8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="25" x="2.54" y="-8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="26" x="3.81" y="-8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="27" x="5.08" y="-8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="28" x="6.35" y="-8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="29" x="8.1" y="-6.35" dx="2.2" dy="0.6" layer="1"/>
+<smd name="30" x="8.1" y="-5.08" dx="2.2" dy="0.6" layer="1"/>
+<smd name="31" x="8.1" y="-3.81" dx="2.2" dy="0.6" layer="1"/>
+<smd name="32" x="8.1" y="-2.54" dx="2.2" dy="0.6" layer="1"/>
+<smd name="33" x="8.1" y="-1.27" dx="2.2" dy="0.6" layer="1"/>
+<smd name="34" x="8.1" y="0" dx="2.2" dy="0.6" layer="1"/>
+<smd name="35" x="8.1" y="1.27" dx="2.2" dy="0.6" layer="1"/>
+<smd name="36" x="8.1" y="2.54" dx="2.2" dy="0.6" layer="1"/>
+<smd name="37" x="8.1" y="3.81" dx="2.2" dy="0.6" layer="1"/>
+<smd name="38" x="8.1" y="5.08" dx="2.2" dy="0.6" layer="1"/>
+<smd name="39" x="8.1" y="6.35" dx="2.2" dy="0.6" layer="1"/>
+<smd name="40" x="6.35" y="8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="41" x="5.08" y="8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="42" x="3.81" y="8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="43" x="2.54" y="8.1" dx="0.6" dy="2.2" layer="1"/>
+<smd name="44" x="1.27" y="8.1" dx="0.6" dy="2.2" layer="1"/>
+<text x="-4.475" y="0.635" size="1.778" layer="25">&gt;NAME</text>
+<text x="-4.445" y="-2.4051" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="SO16">
+<smd name="P$1" x="-4.445" y="-3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$2" x="-3.175" y="-3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$3" x="-1.905" y="-3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$4" x="-0.635" y="-3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$5" x="0.635" y="-3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$6" x="1.905" y="-3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$7" x="3.175" y="-3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$8" x="4.445" y="-3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$9" x="4.445" y="3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$10" x="3.175" y="3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$11" x="1.905" y="3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$12" x="0.635" y="3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$13" x="-0.635" y="3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$14" x="-1.905" y="3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$15" x="-3.175" y="3.81" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$16" x="-4.445" y="3.81" dx="0.55" dy="1.4" layer="1"/>
+<wire x1="-5.2" y1="2.67" x2="5.2" y2="2.67" width="0.127" layer="21"/>
+<wire x1="5.2" y1="2.67" x2="5.2" y2="-2.67" width="0.127" layer="21"/>
+<wire x1="5.2" y1="-2.67" x2="-5.2" y2="-2.67" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="-2.67" x2="-5.2" y2="2.67" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-5.2" y="-2.67"/>
+<vertex x="-5.2" y="-0.47"/>
+<vertex x="-3" y="-2.67"/>
+</polygon>
+<text x="-3.99" y="1.16" size="1.016" layer="25" ratio="13">&gt;Name</text>
+<text x="-3.99" y="-0.39" size="1.016" layer="27" ratio="13">&gt;Value</text>
+</package>
+<package name="SOIC16">
+<smd name="P$1" x="-4.445" y="-2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$2" x="-3.175" y="-2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$3" x="-1.905" y="-2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$4" x="-0.635" y="-2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$5" x="0.635" y="-2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$6" x="1.905" y="-2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$7" x="3.175" y="-2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$8" x="4.445" y="-2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$9" x="4.445" y="2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$10" x="3.175" y="2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$11" x="1.905" y="2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$12" x="0.635" y="2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$13" x="-0.635" y="2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$14" x="-1.905" y="2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$15" x="-3.175" y="2.7" dx="0.55" dy="1.4" layer="1"/>
+<smd name="P$16" x="-4.445" y="2.7" dx="0.55" dy="1.4" layer="1"/>
+<wire x1="-5.2" y1="1.58" x2="5.2" y2="1.58" width="0.127" layer="21"/>
+<wire x1="5.2" y1="1.58" x2="5.2" y2="-1.58" width="0.127" layer="21"/>
+<wire x1="5.2" y1="-1.58" x2="-5.2" y2="-1.58" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="-1.58" x2="-5.2" y2="1.58" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-5.2" y="-1.58"/>
+<vertex x="-5.2" y="0.15"/>
+<vertex x="-3.47" y="-1.58"/>
+</polygon>
+<text x="-3.67" y="0.2" size="1.016" layer="25" ratio="13">&gt;Name</text>
+<text x="-3.67" y="-1.2" size="1.016" layer="27" ratio="13">&gt;Value</text>
+</package>
+<package name="SO14">
+<smd name="P$1" x="-3.81" y="-3.81" dx="0.55" dy="1.5" layer="1"/>
+<smd name="P$2" x="-2.54" y="-3.81" dx="0.55" dy="1.5" layer="1"/>
+<smd name="P$3" x="-1.27" y="-3.81" dx="0.55" dy="1.5" layer="1"/>
+<smd name="P$4" x="0" y="-3.81" dx="0.55" dy="1.5" layer="1"/>
+<smd name="P$5" x="1.27" y="-3.81" dx="0.55" dy="1.5" layer="1"/>
+<smd name="P$6" x="2.54" y="-3.81" dx="0.55" dy="1.5" layer="1"/>
+<smd name="P$7" x="3.81" y="-3.81" dx="0.55" dy="1.5" layer="1"/>
+<smd name="P$8" x="3.81" y="3.81" dx="0.55" dy="1.5" layer="1" rot="R180"/>
+<smd name="P$9" x="2.54" y="3.81" dx="0.55" dy="1.5" layer="1" rot="R180"/>
+<smd name="P$10" x="1.27" y="3.81" dx="0.55" dy="1.5" layer="1" rot="R180"/>
+<smd name="P$11" x="0" y="3.81" dx="0.55" dy="1.5" layer="1" rot="R180"/>
+<smd name="P$12" x="-1.27" y="3.81" dx="0.55" dy="1.5" layer="1" rot="R180"/>
+<smd name="P$13" x="-2.54" y="3.81" dx="0.55" dy="1.5" layer="1" rot="R180"/>
+<smd name="P$14" x="-3.81" y="3.81" dx="0.55" dy="1.5" layer="1" rot="R180"/>
+<wire x1="-4.5" y1="2.58" x2="-4.5" y2="-2.58" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-2.58" x2="4.5" y2="-2.58" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-2.58" x2="4.5" y2="2.58" width="0.127" layer="21"/>
+<wire x1="4.5" y1="2.58" x2="-4.5" y2="2.58" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-4.5" y="-2.58"/>
+<vertex x="-4.5" y="-0.85"/>
+<vertex x="-2.77" y="-2.58"/>
+</polygon>
+<text x="-3.5" y="0.5" size="0.8128" layer="25">&gt;Name</text>
+<text x="-3.5" y="-1" size="0.8128" layer="27">&gt;Value</text>
+</package>
+<package name="SO20">
+<smd name="P$1" x="-5.715" y="-4.65" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$2" x="-4.445" y="-4.65" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$3" x="-3.175" y="-4.65" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$4" x="-1.905" y="-4.65" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$5" x="-0.635" y="-4.65" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$6" x="0.635" y="-4.65" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$7" x="1.905" y="-4.65" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$8" x="3.175" y="-4.65" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$9" x="4.445" y="-4.65" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$10" x="5.715" y="-4.65" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$11" x="5.715" y="4.65" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="P$12" x="4.445" y="4.65" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="P$13" x="3.175" y="4.65" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="P$14" x="1.905" y="4.65" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="P$15" x="0.635" y="4.65" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="P$16" x="-0.635" y="4.65" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="P$17" x="-1.905" y="4.65" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="P$18" x="-3.175" y="4.65" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="P$19" x="-4.445" y="4.65" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="P$20" x="-5.715" y="4.65" dx="2" dy="0.6" layer="1" rot="R270"/>
+<wire x1="-6.985" y1="3.175" x2="6.985" y2="3.175" width="0.127" layer="21"/>
+<wire x1="6.985" y1="3.175" x2="6.985" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="6.985" y1="-3.175" x2="-6.985" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-6.985" y1="-3.175" x2="-6.985" y2="3.175" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-6.985" y="-0.635"/>
+<vertex x="-4.445" y="-3.175"/>
+<vertex x="-6.985" y="-3.175"/>
+</polygon>
+<text x="-5.08" y="1.27" size="1.27" layer="25">&gt;Name</text>
+<text x="-5.08" y="-1.27" size="1.27" layer="27">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DOOBA_RIZON">
@@ -2024,6 +2204,53 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="PLCC-SMD" package="PLCC44">
+<connects>
+<connect gate="U1" pin="!ADS" pad="28"/>
+<connect gate="U1" pin="!BAUDOUT" pad="17"/>
+<connect gate="U1" pin="!CS2" pad="16"/>
+<connect gate="U1" pin="!CTS" pad="40"/>
+<connect gate="U1" pin="!DCD" pad="42"/>
+<connect gate="U1" pin="!DSR" pad="41"/>
+<connect gate="U1" pin="!DTR" pad="37"/>
+<connect gate="U1" pin="!OUT1" pad="38"/>
+<connect gate="U1" pin="!OUT2" pad="35"/>
+<connect gate="U1" pin="!RD" pad="24"/>
+<connect gate="U1" pin="!RI" pad="43"/>
+<connect gate="U1" pin="!RTS" pad="36"/>
+<connect gate="U1" pin="!RXRDY" pad="32"/>
+<connect gate="U1" pin="!TXRDY" pad="27"/>
+<connect gate="U1" pin="!WR" pad="20"/>
+<connect gate="U1" pin="A0" pad="31"/>
+<connect gate="U1" pin="A1" pad="30"/>
+<connect gate="U1" pin="A2" pad="29"/>
+<connect gate="U1" pin="CS0" pad="14"/>
+<connect gate="U1" pin="CS1" pad="15"/>
+<connect gate="U1" pin="D0" pad="2"/>
+<connect gate="U1" pin="D1" pad="3"/>
+<connect gate="U1" pin="D2" pad="4"/>
+<connect gate="U1" pin="D3" pad="5"/>
+<connect gate="U1" pin="D4" pad="6"/>
+<connect gate="U1" pin="D5" pad="7"/>
+<connect gate="U1" pin="D6" pad="8"/>
+<connect gate="U1" pin="D7" pad="9"/>
+<connect gate="U1" pin="DDIS" pad="26"/>
+<connect gate="U1" pin="GND" pad="22"/>
+<connect gate="U1" pin="INTR" pad="33"/>
+<connect gate="U1" pin="MR" pad="39"/>
+<connect gate="U1" pin="RCLK" pad="10"/>
+<connect gate="U1" pin="RD" pad="25"/>
+<connect gate="U1" pin="SIN" pad="11"/>
+<connect gate="U1" pin="SOUT" pad="13"/>
+<connect gate="U1" pin="VCC" pad="44"/>
+<connect gate="U1" pin="WR" pad="21"/>
+<connect gate="U1" pin="XIN" pad="18"/>
+<connect gate="U1" pin="XOUT" pad="19"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="7805" prefix="U">
@@ -2194,6 +2421,29 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="NS" package="SO16">
+<connects>
+<connect gate="U1" pin="C1+" pad="P$1"/>
+<connect gate="U1" pin="C1-" pad="P$3"/>
+<connect gate="U1" pin="C2+" pad="P$4"/>
+<connect gate="U1" pin="C2-" pad="P$5"/>
+<connect gate="U1" pin="GND" pad="P$15"/>
+<connect gate="U1" pin="R1IN" pad="P$13"/>
+<connect gate="U1" pin="R1OUT" pad="P$12"/>
+<connect gate="U1" pin="R2IN" pad="P$8"/>
+<connect gate="U1" pin="R2OUT" pad="P$9"/>
+<connect gate="U1" pin="T1IN" pad="P$11"/>
+<connect gate="U1" pin="T1OUT" pad="P$14"/>
+<connect gate="U1" pin="T2IN" pad="P$10"/>
+<connect gate="U1" pin="T2OUT" pad="P$7"/>
+<connect gate="U1" pin="VCC" pad="P$16"/>
+<connect gate="U1" pin="VS+" pad="P$2"/>
+<connect gate="U1" pin="VS-" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="74138" prefix="U">
@@ -2202,6 +2452,29 @@
 </gates>
 <devices>
 <device name="PDIP" package="PDIP16">
+<connects>
+<connect gate="U1" pin="!G2A" pad="P$4"/>
+<connect gate="U1" pin="!G2B" pad="P$5"/>
+<connect gate="U1" pin="A" pad="P$1"/>
+<connect gate="U1" pin="B" pad="P$2"/>
+<connect gate="U1" pin="C" pad="P$3"/>
+<connect gate="U1" pin="G1" pad="P$6"/>
+<connect gate="U1" pin="GND" pad="P$8"/>
+<connect gate="U1" pin="VCC" pad="P$16"/>
+<connect gate="U1" pin="Y0" pad="P$15"/>
+<connect gate="U1" pin="Y1" pad="P$14"/>
+<connect gate="U1" pin="Y2" pad="P$13"/>
+<connect gate="U1" pin="Y3" pad="P$12"/>
+<connect gate="U1" pin="Y4" pad="P$11"/>
+<connect gate="U1" pin="Y5" pad="P$10"/>
+<connect gate="U1" pin="Y6" pad="P$9"/>
+<connect gate="U1" pin="Y7" pad="P$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOIC" package="SOIC16">
 <connects>
 <connect gate="U1" pin="!G2A" pad="P$4"/>
 <connect gate="U1" pin="!G2B" pad="P$5"/>
@@ -2296,6 +2569,27 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="SOIC" package="SO14">
+<connects>
+<connect gate="U1" pin="1A" pad="P$1"/>
+<connect gate="U1" pin="1B" pad="P$2"/>
+<connect gate="U1" pin="1Y" pad="P$3"/>
+<connect gate="U1" pin="2A" pad="P$4"/>
+<connect gate="U1" pin="2B" pad="P$5"/>
+<connect gate="U1" pin="2Y" pad="P$6"/>
+<connect gate="U1" pin="3A" pad="P$9"/>
+<connect gate="U1" pin="3B" pad="P$10"/>
+<connect gate="U1" pin="3Y" pad="P$8"/>
+<connect gate="U1" pin="4A" pad="P$12"/>
+<connect gate="U1" pin="4B" pad="P$13"/>
+<connect gate="U1" pin="4Y" pad="P$11"/>
+<connect gate="U1" pin="GND" pad="P$7"/>
+<connect gate="U1" pin="VCC" pad="P$14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="7400" prefix="U">
@@ -2345,6 +2639,27 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="SOIC" package="SO14">
+<connects>
+<connect gate="U1" pin="1A" pad="P$1"/>
+<connect gate="U1" pin="1B" pad="P$2"/>
+<connect gate="U1" pin="1Y" pad="P$3"/>
+<connect gate="U1" pin="2A" pad="P$4"/>
+<connect gate="U1" pin="2B" pad="P$5"/>
+<connect gate="U1" pin="2Y" pad="P$6"/>
+<connect gate="U1" pin="3A" pad="P$9"/>
+<connect gate="U1" pin="3B" pad="P$10"/>
+<connect gate="U1" pin="3Y" pad="P$8"/>
+<connect gate="U1" pin="4A" pad="P$12"/>
+<connect gate="U1" pin="4B" pad="P$13"/>
+<connect gate="U1" pin="4Y" pad="P$11"/>
+<connect gate="U1" pin="GND" pad="P$7"/>
+<connect gate="U1" pin="VCC" pad="P$14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="74590" prefix="U">
@@ -2353,6 +2668,29 @@
 </gates>
 <devices>
 <device name="PDIP" package="PDIP16">
+<connects>
+<connect gate="U1" pin="!CCKEN" pad="P$12"/>
+<connect gate="U1" pin="!CCLR" pad="P$10"/>
+<connect gate="U1" pin="!OE" pad="P$14"/>
+<connect gate="U1" pin="!RCO" pad="P$9"/>
+<connect gate="U1" pin="CCLK" pad="P$11"/>
+<connect gate="U1" pin="GND" pad="P$8"/>
+<connect gate="U1" pin="Q0" pad="P$15"/>
+<connect gate="U1" pin="Q1" pad="P$1"/>
+<connect gate="U1" pin="Q2" pad="P$2"/>
+<connect gate="U1" pin="Q3" pad="P$3"/>
+<connect gate="U1" pin="Q4" pad="P$4"/>
+<connect gate="U1" pin="Q5" pad="P$5"/>
+<connect gate="U1" pin="Q6" pad="P$6"/>
+<connect gate="U1" pin="Q7" pad="P$7"/>
+<connect gate="U1" pin="RCLK" pad="P$13"/>
+<connect gate="U1" pin="VCC" pad="P$16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOIC" package="SOIC16">
 <connects>
 <connect gate="U1" pin="!CCKEN" pad="P$12"/>
 <connect gate="U1" pin="!CCLR" pad="P$10"/>
@@ -2410,6 +2748,33 @@
 </technologies>
 </device>
 <device name="PDIP" package="PDIP20">
+<connects>
+<connect gate="U1" pin="!MR" pad="P$1"/>
+<connect gate="U1" pin="CP" pad="P$11"/>
+<connect gate="U1" pin="D0" pad="P$3"/>
+<connect gate="U1" pin="D1" pad="P$4"/>
+<connect gate="U1" pin="D2" pad="P$7"/>
+<connect gate="U1" pin="D3" pad="P$8"/>
+<connect gate="U1" pin="D4" pad="P$13"/>
+<connect gate="U1" pin="D5" pad="P$14"/>
+<connect gate="U1" pin="D6" pad="P$17"/>
+<connect gate="U1" pin="D7" pad="P$18"/>
+<connect gate="U1" pin="GND" pad="P$10"/>
+<connect gate="U1" pin="Q0" pad="P$2"/>
+<connect gate="U1" pin="Q1" pad="P$5"/>
+<connect gate="U1" pin="Q2" pad="P$6"/>
+<connect gate="U1" pin="Q3" pad="P$9"/>
+<connect gate="U1" pin="Q4" pad="P$12"/>
+<connect gate="U1" pin="Q5" pad="P$15"/>
+<connect gate="U1" pin="Q6" pad="P$16"/>
+<connect gate="U1" pin="Q7" pad="P$19"/>
+<connect gate="U1" pin="VCC" pad="P$20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DW" package="SO20">
 <connects>
 <connect gate="U1" pin="!MR" pad="P$1"/>
 <connect gate="U1" pin="CP" pad="P$11"/>
