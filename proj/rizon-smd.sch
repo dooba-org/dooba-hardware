@@ -5118,8 +5118,6 @@
 <wire x1="1178.56" y1="78.74" x2="1143" y2="78.74" width="0.1524" layer="91"/>
 <label x="1145.54" y="78.74" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="INT_TIMER" class="0">
 <segment>
 <pinref part="U10" gate="U1" pin="2B"/>
 <wire x1="1033.78" y1="147.32" x2="990.6" y2="147.32" width="0.1524" layer="91"/>

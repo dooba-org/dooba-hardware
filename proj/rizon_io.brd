@@ -8832,7 +8832,7 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <via x="59.182" y="69.85" extent="1-16" drill="0.35"/>
 <via x="60.96" y="71.247" extent="1-16" drill="0.35"/>
 <via x="59.182" y="67.056" extent="1-16" drill="0.35"/>
-<via x="62.738" y="67.056" extent="1-16" drill="0.35"/>
+<via x="62.865" y="67.31" extent="1-16" drill="0.35"/>
 <via x="61.595" y="64.262" extent="1-16" drill="0.35"/>
 <via x="61.087" y="66.04" extent="1-16" drill="0.35"/>
 <via x="61.849" y="58.166" extent="1-16" drill="0.35"/>
@@ -9481,9 +9481,12 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 </signal>
 <signal name="TIMER_OUT">
 <contactref element="U6" pad="P$7"/>
-</signal>
-<signal name="INT_TIMER">
 <contactref element="U2" pad="P$5"/>
+<wire x1="38.1" y1="71.12" x2="38.1" y2="69.723" width="0.254" layer="1"/>
+<wire x1="39.37" y1="68.453" x2="38.1" y2="69.723" width="0.254" layer="1"/>
+<wire x1="64.77" y1="64.77" x2="64.135" y2="64.77" width="0.254" layer="1"/>
+<wire x1="64.135" y1="64.77" x2="60.452" y2="68.453" width="0.254" layer="1"/>
+<wire x1="60.452" y1="68.453" x2="39.37" y2="68.453" width="0.254" layer="1"/>
 </signal>
 <signal name="INT_DEV">
 <contactref element="U2" pad="P$6"/>
@@ -9539,10 +9542,10 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <contactref element="U2" pad="P$8"/>
 <contactref element="U4" pad="P$9"/>
 <contactref element="U4" pad="P$10"/>
-<wire x1="57.15" y1="69.85" x2="58.42" y2="68.58" width="0.254" layer="1"/>
-<wire x1="76.2" y1="68.58" x2="78.74" y2="71.12" width="0.254" layer="1"/>
-<wire x1="58.42" y1="68.58" x2="76.2" y2="68.58" width="0.254" layer="1"/>
 <wire x1="78.74" y1="71.12" x2="81.28" y2="71.12" width="0.254" layer="1"/>
+<wire x1="57.15" y1="69.85" x2="58.1406" y2="68.8594" width="0.254" layer="1"/>
+<wire x1="76.4794" y1="68.8594" x2="78.74" y2="71.12" width="0.254" layer="1"/>
+<wire x1="58.1406" y1="68.8594" x2="76.4794" y2="68.8594" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="C11" pad="P$2"/>

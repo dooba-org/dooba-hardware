@@ -4184,8 +4184,6 @@
 <wire x1="520.7" y1="-106.68" x2="485.14" y2="-106.68" width="0.1524" layer="91"/>
 <label x="487.68" y="-106.68" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="INT_TIMER" class="0">
 <segment>
 <pinref part="U2" gate="U1" pin="2B"/>
 <wire x1="375.92" y1="-38.1" x2="332.74" y2="-38.1" width="0.1524" layer="91"/>
