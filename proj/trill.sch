@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4595,8 +4595,8 @@
 <wire x1="284.48" y1="627.38" x2="266.7" y2="627.38" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="627.38" x2="266.7" y2="690.88" width="0.1524" layer="91"/>
 <pinref part="U3" gate="U1" pin="SDA"/>
-<wire x1="266.7" y1="690.88" x2="266.7" y2="711.2" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="711.2" x2="266.7" y2="769.62" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="690.88" x2="266.7" y2="701.04" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="701.04" x2="266.7" y2="769.62" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="769.62" x2="368.3" y2="769.62" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="769.62" x2="368.3" y2="762" width="0.1524" layer="91"/>
 <pinref part="U5" gate="U1" pin="SDA"/>
@@ -4606,9 +4606,9 @@
 <pinref part="J3" gate="J1" pin="DATA"/>
 <wire x1="292.1" y1="690.88" x2="266.7" y2="690.88" width="0.1524" layer="91"/>
 <junction x="266.7" y="690.88"/>
-<wire x1="185.42" y1="711.2" x2="266.7" y2="711.2" width="0.1524" layer="91"/>
-<junction x="266.7" y="711.2"/>
-<label x="187.96" y="711.2" size="1.778" layer="95"/>
+<wire x1="185.42" y1="701.04" x2="266.7" y2="701.04" width="0.1524" layer="91"/>
+<junction x="266.7" y="701.04"/>
+<label x="187.96" y="701.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="N1" gate="N1" pin="PC1/SDA"/>
@@ -4640,8 +4640,7 @@
 <wire x1="284.48" y1="622.3" x2="269.24" y2="622.3" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="622.3" x2="269.24" y2="695.96" width="0.1524" layer="91"/>
 <pinref part="U3" gate="U1" pin="SCL"/>
-<wire x1="269.24" y1="695.96" x2="269.24" y2="706.12" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="706.12" x2="269.24" y2="767.08" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="695.96" x2="269.24" y2="767.08" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="767.08" x2="363.22" y2="767.08" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="767.08" x2="363.22" y2="762" width="0.1524" layer="91"/>
 <pinref part="U5" gate="U1" pin="SCL"/>
@@ -4651,9 +4650,9 @@
 <pinref part="J3" gate="J1" pin="CLK"/>
 <wire x1="292.1" y1="695.96" x2="269.24" y2="695.96" width="0.1524" layer="91"/>
 <junction x="269.24" y="695.96"/>
-<wire x1="185.42" y1="706.12" x2="269.24" y2="706.12" width="0.1524" layer="91"/>
-<junction x="269.24" y="706.12"/>
-<label x="187.96" y="706.12" size="1.778" layer="95"/>
+<wire x1="185.42" y1="695.96" x2="269.24" y2="695.96" width="0.1524" layer="91"/>
+<junction x="269.24" y="695.96"/>
+<label x="187.96" y="695.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="N1" gate="N1" pin="PC0/SCL"/>
@@ -5330,6 +5329,18 @@
 <pinref part="U3" gate="U1" pin="GP6"/>
 <wire x1="355.6" y1="716.28" x2="368.3" y2="716.28" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="716.28" x2="368.3" y2="726.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="OLED_RST" class="0">
+<segment>
+<pinref part="J3" gate="J1" pin="RST"/>
+<wire x1="292.1" y1="706.12" x2="185.42" y2="706.12" width="0.1524" layer="91"/>
+<label x="187.96" y="706.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="N1" gate="N1" pin="PA6/ADC6"/>
+<wire x1="302.26" y1="424.18" x2="185.42" y2="424.18" width="0.1524" layer="91"/>
+<label x="187.96" y="424.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

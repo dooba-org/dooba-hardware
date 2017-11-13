@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -6295,6 +6295,7 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="0"/>
 <param name="checkStop" value="0"/>
@@ -7162,7 +7163,7 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <via x="14.859" y="77.851" extent="1-16" drill="0.3048"/>
 <via x="9.271" y="77.343" extent="1-16" drill="0.3048"/>
 <via x="11.557" y="76.708" extent="1-16" drill="0.3048"/>
-<via x="18.288" y="79.883" extent="1-16" drill="0.3048"/>
+<via x="18.796" y="79.883" extent="1-16" drill="0.3048"/>
 <via x="6.985" y="82.423" extent="1-16" drill="0.3048"/>
 <via x="11.176" y="82.677" extent="1-16" drill="0.3048"/>
 <via x="0.889" y="79.756" extent="1-16" drill="0.3048"/>
@@ -7180,9 +7181,9 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <via x="4.445" y="57.912" extent="1-16" drill="0.3048"/>
 <via x="7.747" y="57.912" extent="1-16" drill="0.3048"/>
 <via x="7.747" y="60.452" extent="1-16" drill="0.3048"/>
-<via x="10.922" y="74.295" extent="1-16" drill="0.3048"/>
+<via x="11.049" y="73.66" extent="1-16" drill="0.3048"/>
 <via x="15.113" y="74.295" extent="1-16" drill="0.3048"/>
-<via x="10.922" y="69.723" extent="1-16" drill="0.3048"/>
+<via x="11.176" y="70.104" extent="1-16" drill="0.3048"/>
 <via x="12.319" y="65.024" extent="1-16" drill="0.3048"/>
 <via x="14.224" y="63.119" extent="1-16" drill="0.3048"/>
 <via x="15.113" y="66.675" extent="1-16" drill="0.3048"/>
@@ -7222,7 +7223,7 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <via x="37.592" y="68.961" extent="1-16" drill="0.3048"/>
 <via x="41.783" y="66.675" extent="1-16" drill="0.3048"/>
 <via x="41.783" y="70.612" extent="1-16" drill="0.3048"/>
-<via x="10.922" y="62.865" extent="1-16" drill="0.3048"/>
+<via x="11.049" y="62.865" extent="1-16" drill="0.3048"/>
 <via x="11.938" y="62.103" extent="1-16" drill="0.3048"/>
 <via x="12.827" y="60.325" extent="1-16" drill="0.3048"/>
 <via x="14.986" y="60.325" extent="1-16" drill="0.3048"/>
@@ -7240,7 +7241,6 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <via x="9.398" y="57.15" extent="1-16" drill="0.3048"/>
 <via x="9.398" y="54.483" extent="1-16" drill="0.3048"/>
 <via x="11.303" y="55.245" extent="1-16" drill="0.3048"/>
-<via x="11.176" y="53.594" extent="1-16" drill="0.3048"/>
 <via x="13.716" y="53.848" extent="1-16" drill="0.3048"/>
 <via x="18.796" y="53.848" extent="1-16" drill="0.3048"/>
 <via x="21.336" y="53.848" extent="1-16" drill="0.3048"/>
@@ -8800,6 +8800,22 @@ Made to fit most PCB fabs (at least DirtyPCBs &amp; OSH Park)</description>
 <wire x1="31.242" y1="48.514" x2="32.068" y2="49.34" width="0.1524" layer="1"/>
 <wire x1="32.068" y1="49.34" x2="32.068" y2="49.53" width="0.1524" layer="1"/>
 <wire x1="15.09958125" y1="45.355" x2="18.97358125" y2="41.481" width="0.1524" layer="16"/>
+</signal>
+<signal name="OLED_RST">
+<contactref element="J3" pad="RST"/>
+<contactref element="N1" pad="4"/>
+<wire x1="20.828" y1="85.598" x2="20.0914" y2="84.8614" width="0.1524" layer="1"/>
+<wire x1="20.0914" y1="84.8614" x2="20.0914" y2="84.61505625" width="0.1524" layer="1"/>
+<wire x1="20.0914" y1="84.61505625" x2="17.4498" y2="81.97345625" width="0.1524" layer="1"/>
+<wire x1="17.4498" y1="79.3242" x2="17.907" y2="78.867" width="0.1524" layer="1"/>
+<via x="17.907" y="78.867" extent="1-16" drill="0.35"/>
+<wire x1="17.4498" y1="81.97345625" x2="17.4498" y2="79.3242" width="0.1524" layer="1"/>
+<wire x1="17.907" y1="78.867" x2="17.653" y2="78.867" width="0.1524" layer="16"/>
+<wire x1="17.653" y1="78.867" x2="15.24" y2="76.454" width="0.1524" layer="16"/>
+<via x="15.24" y="76.454" extent="1-16" drill="0.35"/>
+<wire x1="15.24" y1="76.454" x2="10.3378" y2="71.5518" width="0.1524" layer="1"/>
+<wire x1="10.3378" y1="54.6862" x2="12.446" y2="52.578" width="0.1524" layer="1"/>
+<wire x1="10.3378" y1="71.5518" x2="10.3378" y2="54.6862" width="0.1524" layer="1"/>
 </signal>
 </signals>
 </board>
