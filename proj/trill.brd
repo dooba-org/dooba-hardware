@@ -6195,8 +6195,8 @@
 <text x="7" y="0.5" size="0.6096" layer="27">&gt;Value</text>
 </package>
 <package name="PIN_2">
-<pad name="1" x="-1.27" y="0" drill="0.8" diameter="1.4224"/>
-<pad name="2" x="1.27" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="1" x="-1.27" y="0" drill="0.8"/>
+<pad name="2" x="1.27" y="0" drill="0.8"/>
 <wire x1="-2.54" y1="-0.508" x2="-1.778" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-1.778" y1="-1.27" x2="-0.762" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-0.762" width="0.127" layer="21"/>
