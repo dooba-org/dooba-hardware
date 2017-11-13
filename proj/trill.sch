@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1162,8 +1162,8 @@
 <text x="7" y="0.5" size="0.6096" layer="27">&gt;Value</text>
 </package>
 <package name="PIN_2">
-<pad name="1" x="-1.27" y="0" drill="0.8" diameter="1.4224"/>
-<pad name="2" x="1.27" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="1" x="-1.27" y="0" drill="0.8"/>
+<pad name="2" x="1.27" y="0" drill="0.8"/>
 <wire x1="-2.54" y1="-0.508" x2="-1.778" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-1.778" y1="-1.27" x2="-0.762" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-0.762" width="0.127" layer="21"/>
@@ -1185,6 +1185,93 @@
 <wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.889" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="0.889" x2="-2.159" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-2.159" y1="1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
+</package>
+<package name="RES8MM">
+<pad name="P$1" x="-4" y="0" drill="1"/>
+<pad name="P$2" x="4" y="0" drill="1"/>
+<wire x1="-2.794" y1="0" x2="-1.778" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="0.762" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="0.762" x2="1.778" y2="0.762" width="0.127" layer="21"/>
+<wire x1="1.778" y1="0.762" x2="1.778" y2="0" width="0.127" layer="21"/>
+<wire x1="1.778" y1="0" x2="2.794" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-0.762" x2="1.778" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="1.778" y1="-0.762" x2="1.778" y2="0" width="0.127" layer="21"/>
+<text x="-2.794" y="1.016" size="0.8128" layer="25">&gt;Name</text>
+<text x="-2.794" y="-1.778" size="0.8128" layer="27">&gt;Value</text>
+</package>
+<package name="RES_STRAIGHT">
+<pad name="P$1" x="-1.27" y="0" drill="1"/>
+<pad name="P$2" x="1.27" y="0" drill="1"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="0.508" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0.508" x2="-1.778" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="1.27" x2="1.778" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.778" y1="1.27" x2="2.54" y2="0.508" width="0.127" layer="21"/>
+<wire x1="2.54" y1="0.508" x2="2.54" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-0.508" x2="1.778" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.778" y1="-1.27" x2="-1.778" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-1.27" x2="-2.54" y2="-0.508" width="0.127" layer="21"/>
+<text x="-2.032" y="1.524" size="0.8128" layer="25">&gt;Name</text>
+<text x="-2.032" y="-2.286" size="0.8128" layer="27">&gt;Value</text>
+<wire x1="0" y1="0.762" x2="0" y2="0.508" width="0.127" layer="27"/>
+<wire x1="0" y1="0.508" x2="0.254" y2="0.508" width="0.127" layer="27"/>
+<wire x1="0.254" y1="0.508" x2="0.254" y2="-0.508" width="0.127" layer="27"/>
+<wire x1="0.254" y1="-0.508" x2="0" y2="-0.508" width="0.127" layer="27"/>
+<wire x1="0" y1="-0.508" x2="-0.254" y2="-0.508" width="0.127" layer="27"/>
+<wire x1="-0.254" y1="-0.508" x2="-0.254" y2="0.508" width="0.127" layer="27"/>
+<wire x1="-0.254" y1="0.508" x2="0" y2="0.508" width="0.127" layer="27"/>
+<wire x1="0" y1="-0.508" x2="0" y2="-0.762" width="0.127" layer="27"/>
+<wire x1="0" y1="-0.762" x2="0.254" y2="-1.016" width="0.127" layer="27"/>
+<wire x1="0" y1="0.762" x2="-0.254" y2="1.016" width="0.127" layer="27"/>
+</package>
+<package name="CAP_DISC">
+<pad name="P$1" x="-1.27" y="0" drill="1"/>
+<pad name="P$2" x="1.27" y="0" drill="1"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="0.508" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0.508" x2="-1.778" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="1.27" x2="1.778" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.778" y1="1.27" x2="2.54" y2="0.508" width="0.127" layer="21"/>
+<wire x1="2.54" y1="0.508" x2="2.54" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-0.508" x2="1.778" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.778" y1="-1.27" x2="-1.778" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-1.27" x2="-2.54" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.762" x2="-0.254" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0.762" x2="0.254" y2="-0.762" width="0.127" layer="21"/>
+<text x="-2.032" y="1.524" size="0.8128" layer="25">&gt;Name</text>
+<text x="-2.032" y="-2.286" size="0.8128" layer="27">&gt;Value</text>
+</package>
+<package name="CAP_508">
+<pad name="P$1" x="-2.54" y="0" drill="1"/>
+<pad name="P$2" x="2.54" y="0" drill="1"/>
+<wire x1="-3.81" y1="-0.762" x2="-3.81" y2="0.762" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="0.762" x2="-3.048" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-3.048" y1="1.524" x2="3.048" y2="1.524" width="0.127" layer="21"/>
+<wire x1="3.048" y1="1.524" x2="3.81" y2="0.762" width="0.127" layer="21"/>
+<wire x1="3.81" y1="0.762" x2="3.81" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-0.762" x2="3.048" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="3.048" y1="-1.524" x2="-3.048" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-3.048" y1="-1.524" x2="-3.81" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.762" x2="-0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0.762" x2="0.254" y2="0" width="0.127" layer="21"/>
+<text x="-3.302" y="1.778" size="0.8128" layer="25">&gt;Name</text>
+<text x="-3.302" y="-2.54" size="0.8128" layer="27">&gt;Value</text>
+<wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="0" x2="-0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0" x2="1.524" y2="0" width="0.127" layer="21"/>
+</package>
+<package name="LED5MM">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+5 mm, round</description>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205"/>
+<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -2041,6 +2128,24 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="DISC" package="CAP_DISC">
+<connects>
+<connect gate="C1" pin="1" pad="P$1"/>
+<connect gate="C1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="508" package="CAP_508">
+<connects>
+<connect gate="C1" pin="1" pad="P$1"/>
+<connect gate="C1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RES" prefix="R">
@@ -2061,6 +2166,24 @@
 <connects>
 <connect gate="R1" pin="1" pad="1"/>
 <connect gate="R1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="8MM" package="RES8MM">
+<connects>
+<connect gate="R1" pin="1" pad="P$1"/>
+<connect gate="R1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="STRAIGHT" package="RES_STRAIGHT">
+<connects>
+<connect gate="R1" pin="1" pad="P$1"/>
+<connect gate="R1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2484,6 +2607,15 @@
 <connects>
 <connect gate="D1" pin="1" pad="1"/>
 <connect gate="D1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5MM" package="LED5MM">
+<connects>
+<connect gate="D1" pin="1" pad="A"/>
+<connect gate="D1" pin="2" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
