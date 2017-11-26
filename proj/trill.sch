@@ -4412,22 +4412,21 @@
 </net>
 <net name="GSM_PWR_KEY" class="0">
 <segment>
-<wire x1="571.5" y1="739.14" x2="467.36" y2="739.14" width="0.1524" layer="91"/>
-<label x="469.9" y="739.14" size="1.778" layer="95"/>
-<pinref part="U6" gate="U1" pin="B7"/>
+<pinref part="U1" gate="U1" pin="PWRKEY"/>
+<wire x1="635" y1="744.22" x2="629.92" y2="744.22" width="0.1524" layer="91"/>
+<wire x1="629.92" y1="744.22" x2="614.68" y2="759.46" width="0.1524" layer="91"/>
+<wire x1="614.68" y1="759.46" x2="568.96" y2="759.46" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="759.46" x2="558.8" y2="749.3" width="0.1524" layer="91"/>
+<wire x1="558.8" y1="749.3" x2="467.36" y2="749.3" width="0.1524" layer="91"/>
+<label x="469.9" y="749.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="N1" gate="N1" pin="PA1/ADC1"/>
-<wire x1="302.26" y1="398.78" x2="185.42" y2="398.78" width="0.1524" layer="91"/>
-<label x="187.96" y="398.78" size="1.778" layer="95"/>
+<pinref part="N1" gate="N1" pin="PA5/ADC5"/>
+<wire x1="302.26" y1="419.1" x2="185.42" y2="419.1" width="0.1524" layer="91"/>
+<label x="187.96" y="419.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GSM_RXD" class="0">
-<segment>
-<wire x1="571.5" y1="723.9" x2="467.36" y2="723.9" width="0.1524" layer="91"/>
-<label x="469.9" y="723.9" size="1.778" layer="95"/>
-<pinref part="U6" gate="U1" pin="B4"/>
-</segment>
 <segment>
 <pinref part="N1" gate="N1" pin="PD3/TXD1"/>
 <wire x1="342.9" y1="378.46" x2="368.3" y2="378.46" width="0.1524" layer="91"/>
@@ -4437,13 +4436,13 @@
 <wire x1="284.48" y1="449.58" x2="185.42" y2="449.58" width="0.1524" layer="91"/>
 <label x="187.96" y="449.58" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="GSM_TXD" class="0">
 <segment>
 <wire x1="571.5" y1="728.98" x2="467.36" y2="728.98" width="0.1524" layer="91"/>
 <label x="469.9" y="728.98" size="1.778" layer="95"/>
 <pinref part="U6" gate="U1" pin="B5"/>
 </segment>
+</net>
+<net name="GSM_TXD" class="0">
 <segment>
 <pinref part="N1" gate="N1" pin="PD2/RXD1"/>
 <wire x1="342.9" y1="373.38" x2="370.84" y2="373.38" width="0.1524" layer="91"/>
@@ -4453,17 +4452,22 @@
 <wire x1="281.94" y1="454.66" x2="185.42" y2="454.66" width="0.1524" layer="91"/>
 <label x="187.96" y="454.66" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="GSM_RING" class="0">
 <segment>
 <wire x1="571.5" y1="734.06" x2="467.36" y2="734.06" width="0.1524" layer="91"/>
 <label x="469.9" y="734.06" size="1.778" layer="95"/>
 <pinref part="U6" gate="U1" pin="B6"/>
 </segment>
+</net>
+<net name="GSM_RING" class="0">
 <segment>
 <pinref part="N1" gate="N1" pin="PA2/ADC2"/>
 <wire x1="302.26" y1="403.86" x2="185.42" y2="403.86" width="0.1524" layer="91"/>
 <label x="187.96" y="403.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U6" gate="U1" pin="B7"/>
+<wire x1="571.5" y1="739.14" x2="467.36" y2="739.14" width="0.1524" layer="91"/>
+<label x="469.9" y="739.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -4476,40 +4480,31 @@
 <wire x1="660.4" y1="769.62" x2="660.4" y2="764.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="U1" gate="U1" pin="PWRKEY"/>
-<wire x1="635" y1="744.22" x2="619.76" y2="744.22" width="0.1524" layer="91"/>
-<pinref part="U6" gate="U1" pin="A7"/>
-<wire x1="619.76" y1="744.22" x2="614.68" y2="739.14" width="0.1524" layer="91"/>
-<wire x1="614.68" y1="739.14" x2="612.14" y2="739.14" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="RI"/>
 <wire x1="635" y1="736.6" x2="617.22" y2="736.6" width="0.1524" layer="91"/>
-<pinref part="U6" gate="U1" pin="A6"/>
-<wire x1="617.22" y1="736.6" x2="614.68" y2="734.06" width="0.1524" layer="91"/>
-<wire x1="614.68" y1="734.06" x2="612.14" y2="734.06" width="0.1524" layer="91"/>
+<pinref part="U6" gate="U1" pin="A7"/>
+<wire x1="612.14" y1="739.14" x2="614.68" y2="739.14" width="0.1524" layer="91"/>
+<wire x1="614.68" y1="739.14" x2="617.22" y2="736.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="TXD"/>
-<wire x1="635" y1="723.9" x2="619.76" y2="723.9" width="0.1524" layer="91"/>
-<pinref part="U6" gate="U1" pin="A5"/>
-<wire x1="619.76" y1="723.9" x2="614.68" y2="728.98" width="0.1524" layer="91"/>
-<wire x1="614.68" y1="728.98" x2="612.14" y2="728.98" width="0.1524" layer="91"/>
+<wire x1="635" y1="723.9" x2="624.84" y2="723.9" width="0.1524" layer="91"/>
+<pinref part="U6" gate="U1" pin="A6"/>
+<wire x1="612.14" y1="734.06" x2="614.68" y2="734.06" width="0.1524" layer="91"/>
+<wire x1="614.68" y1="734.06" x2="624.84" y2="723.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="RXD"/>
-<wire x1="635" y1="721.36" x2="617.22" y2="721.36" width="0.1524" layer="91"/>
-<pinref part="U6" gate="U1" pin="A4"/>
-<wire x1="617.22" y1="721.36" x2="614.68" y2="723.9" width="0.1524" layer="91"/>
-<wire x1="614.68" y1="723.9" x2="612.14" y2="723.9" width="0.1524" layer="91"/>
+<wire x1="635" y1="721.36" x2="624.84" y2="721.36" width="0.1524" layer="91"/>
+<pinref part="U6" gate="U1" pin="A5"/>
+<wire x1="612.14" y1="728.98" x2="617.22" y2="728.98" width="0.1524" layer="91"/>
+<wire x1="617.22" y1="728.98" x2="624.84" y2="721.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -4524,6 +4519,9 @@
 <junction x="571.5" y="713.74"/>
 <pinref part="R1" gate="R1" pin="2"/>
 <junction x="571.5" y="703.58"/>
+<pinref part="U6" gate="U1" pin="B4"/>
+<wire x1="571.5" y1="723.9" x2="571.5" y2="718.82" width="0.1524" layer="91"/>
+<junction x="571.5" y="718.82"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -4538,6 +4536,9 @@
 <junction x="612.14" y="713.74"/>
 <pinref part="R2" gate="R1" pin="2"/>
 <junction x="612.14" y="703.58"/>
+<pinref part="U6" gate="U1" pin="A4"/>
+<wire x1="612.14" y1="723.9" x2="612.14" y2="718.82" width="0.1524" layer="91"/>
+<junction x="612.14" y="718.82"/>
 </segment>
 </net>
 <net name="N$31" class="0">
